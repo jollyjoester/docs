@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-06 11:59+0000\n"
-"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
+"PO-Revision-Date: 2016-05-11 02:59+0000\n"
+"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3964,7 +3964,7 @@ msgid ""
 "calling ``camera.getPicture``. Applies only when the value of "
 "``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` and the "
 "``Camera.destinationType`` equals ``Camera.DestinationType.FILE_URI``."
-msgstr "``camera.getPicture``を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。\\ ``Camera.sourceType``の値と``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が``Camera.DestinationType.FILE_URI``と等しい場合のみ有効です。"
+msgstr "``camera.getPicture`` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。 ``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
 
 #: ../doc/reference/cordova_3.5/compass/index.rst:2
 #: ../doc/reference/cordova_4.1/compass/index.rst:23
@@ -8892,7 +8892,7 @@ msgid ""
 "``Array`` of ``String`` values. The array features names starting from "
 "either the first month in the year or the first day of the week, depending "
 "on the option selected."
-msgstr "曜日の名 ( 群 ) または月の名 ( 群 ) を入れた配列を格納した ``properties`` オブジェクトが、パラメーターとして、``successCallback`` に渡されます。このオブジェクトの ``value`` プロパティーに、``文字列`` 形式の値が入った ``配列`` が格納されています。この配列には、月名 ( 群、その年の最初の月から始まる )、または、曜日名 ( 群、週の最初の曜日から始まる ) のいずれかが入っています。どちらが入るかは、オプション設定に依ります。"
+msgstr "曜日の名 ( 群 ) または月の名 ( 群 ) を入れた配列を格納した ``properties`` オブジェクトが、パラメーターとして、``successCallback`` に渡されます。このオブジェクトの ``value`` プロパティーに、``文字列`` 形式の値が入った ``配列`` が格納されています。この配列には、月名 ( 群、その年の最初の月から始まる )、または、曜日名 ( 群、週の最初の曜日から始まる ) のいずれかが入っています。どちらが入るかは、オプション設定によります。"
 
 #: ../doc/reference/cordova_3.5/globalization/index.rst:184
 msgid ""
@@ -11191,7 +11191,7 @@ msgid ""
 " ``documents/tmp`` directory. This can be accessed via the ``File`` API "
 "using ``LocalFileSystem.TEMPORARY``. Any subdirectory specified at record "
 "time must already exist."
-msgstr "フルパス ( full path ) を指定しない場合、アプリの ``documents/tmp`` ディレクトリーに、録音ファイルが置かれます。このファイルへのアクセスには、``ファイル`` API を使用します ( ``LocalFileSystem.TEMPORARY`` を使用 )。録音時にサブディレクトリーを使用する場合には、事前に作成しておく必要があります。"
+msgstr "フルパス ( full path ) を指定しない場合、アプリの ``documents/tmp`` ディレクトリーに、録音ファイルが置かれます。このファイルへのアクセスには、``ファイル操作`` API ( File API ) を使用します ( ``LocalFileSystem.TEMPORARY`` を使用 )。録音時にサブディレクトリーを使用する場合には、事前に作成しておく必要があります。"
 
 #: ../doc/reference/cordova_3.5/media/index.rst:453
 #: ../doc/reference/cordova_4.1/media/index.rst:500
@@ -13378,7 +13378,7 @@ msgid ""
 " value of ``Camera.sourceType`` equals ``Camera.PictureSourceType.CAMERA`` "
 "and the ``Camera.destinationType`` equals "
 "``Camera.DestinationType.FILE_URI``."
-msgstr ""
+msgstr "``camera.getPicture`` を呼び出した後に取得し、一時的なストレージに保存されている処理前の画像ファイルを削除します。``Camera.sourceType`` の値と ``Camera.PictureSourceType.CAMERA`` が等しく、また、``Camera.destinationType`` が ``Camera.DestinationType.FILE_URI`` と等しい場合のみ有効です。"
 
 #: ../doc/reference/cordova_5.2/camera/index.rst:173
 msgid "camera.onError : function"
@@ -14736,7 +14736,7 @@ msgstr "このプラグインは、http://www.w3.org/TR/FileAPI/ ( File API ) �
 msgid ""
 "It also implements the FileWriter spec: http://dev.w3.org/2009/dap/file-"
 "system/file-writer.html"
-msgstr "http://dev.w3.org/2009/dap/file-system/file-writer.html ( File API: Writer ) "
+msgstr "[ File API: Writer ] http://dev.w3.org/2009/dap/file-system/file-writer.html"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:75
 msgid ""
@@ -14760,7 +14760,7 @@ msgstr "Windows\\*"
 msgid ""
 "\\* *These platforms do not support ``FileReader.readAsArrayBuffer`` or "
 "``FileWriter.write(blob)``.*"
-msgstr ""
+msgstr "\\* *の付いたプラットフォームでは、``FileReader.readAsArrayBuffer`` と ``FileWriter.write(blob)`` は使用できません。*"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:103
 msgid ""
@@ -14843,7 +14843,7 @@ msgid ""
 "Listing asset directories is really slow on Android. You can speed it up "
 "though, by adding ``src/android/build-extras.gradle`` to the root of your "
 "android project (also requires cordova-android 4.0.0 or greater)."
-msgstr ""
+msgstr "Android の asset ディレクトリー内に置かれたファイル ( 群 ) の一覧を取得する処理は、時間がかかることは周知のとおりですが、Android プロジェクトのルートに ``src/android/build-extras.gradle`` を追加で置けば、この処理時間を短縮できます ( Android 向け Cordova の 4.0.0 以上が必要 )。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:194
 msgid "The following data paths are supported:"
@@ -15170,7 +15170,7 @@ msgid ""
 " Layouts <#file-system-layouts>`__ and `Configuring the Plugin "
 "<#configuring-the-plugin-optional>`__ for more details about available fs "
 "roots."
-msgstr ""
+msgstr "**注意**: 使用できるファイルシステムのルートに関しては、「 `ファイルの保存場所 <#where-to-store-files>`__ 」、「 `ファイルシステムの一覧 ( 外部サイト ) <https://www.npmjs.com/package/cordova-plugin-file#file-system-layouts>`__ 」、「 `プラグインの設定 <#configuring-the-plugin-optional>`__ 」 をご確認ください。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:353
 msgid ""
@@ -15193,18 +15193,18 @@ msgstr "**注意**: この方法を使用する場合には、次の Content Sec
 msgid ""
 "Add ``cdvfile:`` scheme to ``Content-Security-Policy`` meta tag of the index"
 " page, e.g.:"
-msgstr ""
+msgstr "index ページの ``Content-Security-Policy`` の meta タグに、``cdvfile:`` スキームを追加します。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:366
 msgid ""
 "``<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' "
 "data: gap:``\\ **cdvfile:**\\ ``https://ssl.gstatic.com 'unsafe-eval'; "
 "style-src 'self' 'unsafe-inline'; media-src *\">``"
-msgstr ""
+msgstr "``<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' data: gap:``\\ **cdvfile:**\\ ``https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *\">``"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:368
 msgid "Add ``<access origin=\"cdvfile://*\" />`` to ``config.xml``."
-msgstr ""
+msgstr "``<access origin=\"cdvfile://*\" />`` を ``config.xml`` に追加します。"
 
 #: ../doc/reference/cordova_5.2/file/index.rst:371
 msgid "**Converting cdvfile:// to native path**"
@@ -15312,7 +15312,7 @@ msgstr "selector に ``date and time`` を設定すると、「 完全な日付�
 msgid ""
 "The returned value may be not completely aligned with ICU depending on a "
 "user locale."
-msgstr "ユーザーのロケールにも依りますが、戻り値は、ICU の仕様とは、若干異なります。"
+msgstr "ユーザーのロケールにもよりますが、戻り値は、ICU の仕様とは、若干異なります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:297
 #: ../doc/reference/cordova_5.2/globalization/index.rst:612
@@ -15359,7 +15359,7 @@ msgstr "月の配列の場合には、13 個の要素が格納されています
 msgid ""
 "The returned array may be not completely aligned with ICU depending on a "
 "user locale."
-msgstr "ユーザーのロケールにも依りますが、戻り値 ( 配列 ) は、ICU の仕様とは、若干異なる場合もあります。"
+msgstr "ユーザーのロケールにもよりますが、戻り値 ( 配列 ) は、ICU の仕様とは、若干異なる場合もあります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:461
 #: ../doc/reference/cordova_5.2/globalization/index.rst:468
@@ -15397,7 +15397,7 @@ msgstr "``dst_offset`` プロパティーは使用できません。常に、0 �
 msgid ""
 "The pattern may be not completely aligned with ICU depending on a user "
 "locale."
-msgstr "ユーザーのロケールにも依りますが、pattern は、ICU の仕様とは、若干異なります。"
+msgstr "ユーザーのロケールにもよりますが、pattern は、ICU の仕様とは、若干異なります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:558
 msgid "The 'pattern' property is not supported and returns empty string."
@@ -15460,13 +15460,13 @@ msgid ""
 "The inbound ``dateString`` parameter should be formed in compliance with a "
 "pattern returned by getDatePattern. This pattern may be not completely "
 "aligned with ICU depending on a user locale."
-msgstr "getDatePattern が返す pattern と ``dateString`` パラメーターの内容は適合する必要があります。ユーザーのロケールにも依りますが、この返される pattern は、ICU の仕様とは、若干異なります。"
+msgstr "getDatePattern が返す pattern と ``dateString`` パラメーターの内容は適合する必要があります。ユーザーのロケールにもよりますが、この返される pattern は、ICU の仕様とは、若干異なります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:917
 msgid ""
 "Inbound string should be aligned with ``dateToString`` output format and may"
 " not completely aligned with ICU depending on a user locale."
-msgstr "パラメーターに使用される文字列の値は、``dateToString`` の実行結果の形式と適合する必要があります。ユーザーのロケールにも依りますが、ICU の仕様とは、若干異なります。"
+msgstr "パラメーターに使用される文字列の値は、``dateToString`` の実行結果の形式と適合する必要があります。ユーザーのロケールにもよりますが、ICU の仕様とは、若干異なります。"
 
 #: ../doc/reference/cordova_5.2/globalization/index.rst:973
 msgid "In case of ``percent`` type the returned value is not divided by 100."
@@ -15632,7 +15632,7 @@ msgid ""
 "Firefox stores captured images in IndexedDB storage (see File plugin "
 "documentation), and due to this the only way to show captured image is to "
 "read it and show using its DataURL."
-msgstr "Chrome・Opera では、キャプチャーしたファイルの保存先の URL を使用して、画像を表示することができます。Firefox では、キャプチャーした画像を IndexedDB のストレージ内に保存するため ( 『 ファイル操作 プラグイン/ File プラグイン 』 の解説を参照のこと )、キャプチャーした画像を表示する場合には、読み込み処理と表示処理 ( DataURL を使用 ) が必要になります。"
+msgstr "Chrome・Opera では、キャプチャーしたファイルの保存先の URL を使用して、画像を表示することができます。Firefox では、キャプチャーした画像を IndexedDB のストレージ内に保存するため ( 『 ファイル操作 プラグイン/ File Plugin 』 の解説を参照のこと )、キャプチャーした画像を表示する場合には、読み込み処理と表示処理 ( DataURL を使用 ) が必要になります。"
 
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:369
 msgid ""
@@ -15652,7 +15652,7 @@ msgstr "**duration** プロパティーは無視されます。よって、録�
 msgid ""
 "The **limit** property is ignored. Only one video is recorded per "
 "invocation."
-msgstr "**limit** パラメーターは無視されます。1 回の実行につき、1 回のビデオ録画のみ行います。"
+msgstr "**limit** プロパティーは無視されます。1 回の実行につき、1 回のビデオ録画のみ行います。"
 
 #: ../doc/reference/cordova_5.2/media-capture/index.rst:406
 msgid ""
@@ -15927,7 +15927,7 @@ msgstr "このプラグインを使用する場合には、Monaca クラウド I
 
 #: ../doc/reference/cordova_5.2/vibration/index.rst:72
 msgid "navigator.vibrate, navigator.notification.vibrate:"
-msgstr "navigator.vibrate, navigator.notification.vibrate:"
+msgstr "navigator.vibrate と navigator.notification.vibrate"
 
 #: ../doc/reference/cordova_5.2/vibration/index.rst:80
 #: ../doc/reference/cordova_5.2/vibration/index.rst:86
@@ -15938,7 +15938,7 @@ msgstr "Windows (Windows Phone 8.1 devices only)"
 msgid ""
 "navigator.notification.vibrateWithPattern, "
 "navigator.notification.cancelVibration:"
-msgstr "navigator.notification.vibrateWithPattern, navigator.notification.cancelVibration:"
+msgstr "navigator.notification.vibrateWithPattern と navigator.notification.cancelVibration"
 
 #: ../doc/reference/cordova_5.2/vibration/index.rst:93
 msgid "vibrate (recommended)"
@@ -16178,7 +16178,7 @@ msgid ""
 "permission, simply define ``<access origin>`` and CSP (Content Security "
 "Policy). Without any ``<access>`` tags, only requests to ``file://`` URLs "
 "are allowed."
-msgstr "JavaScript から ネイティブ側へのブリッジ越し ( Cordova 側の処理をネイティブ側でフックする場合 ) に送信されるネットワーク リクエスト ( 画像、XHR など ) に関して、どのリクエストを許可するか制御できます。また、ページ上に読み込むコンテンツ ( 画像、CSS、JavaScript ) に対しても、パーミッションを設定できます。こちらの設定する場合には、``<access origin>`` と コンテンツ セキュリティー ポリシー ( Content Security Policy / CSP ) の両方を設定します。``<access>`` タグを設定しない場合、``file://`` 形式の URL へのリクエストのみ許可されます。"
+msgstr "JavaScript から ネイティブ側へのブリッジ越し ( Cordova 側の処理をネイティブ側でフックする場合 ) に送信されるネットワーク リクエスト ( 画像、XHR など ) に関して、どのリクエストを許可するか制御できます。また、ページ上に読み込むコンテンツ ( 画像、CSS、JavaScript ) に対しても、パーミッションを設定できます。こちらの設定をする場合には、``<access origin>`` と コンテンツ セキュリティー ポリシー ( Content Security Policy / CSP ) の両方を設定します。``<access>`` タグを設定しない場合、``file://`` 形式の URL へのリクエストのみ許可されます。"
 
 #: ../doc/reference/cordova_5.2/whitelist/index.rst:163
 msgid ""

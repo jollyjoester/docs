@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monaca Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-05-06 04:13+0000\n"
-"Last-Translator: Masakazu Watabe <watabe08@gmail.com>\n"
+"PO-Revision-Date: 2016-05-11 06:52+0000\n"
+"Last-Translator: fabbygoh <fabbygoh@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/monaca/monaca-docs/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6411,7 +6411,7 @@ msgstr ":ref:`monaca_preview`"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:22
 msgid "serves a single project to browser."
-msgstr "ブラウザー上で、プロジェクトを 1 つ実行します。"
+msgstr "ブラウザー上で、プロジェクトを実行します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:23
 msgid ":ref:`monaca_multiserve`"
@@ -6764,7 +6764,7 @@ msgstr "monaca preview"
 msgid ""
 "Serves a single project to browser. Use this command when you want to run "
 "your project on the browser."
-msgstr "ブラウザー上でプロジェクトを 1 つ実行します。ブラウザー上でプロジェクトを実行する場合には、このコマンドを使用します。"
+msgstr "ブラウザー上でプロジェクトを実行します。次のコマンドを使用します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:307
 msgid ":dfn:`$ monaca preview [option]`"
@@ -6782,7 +6782,7 @@ msgid ""
 "to connect to. It also starts broadcasting messages to tell debuggers in the"
 " local network to connect to it. When a debugger has connected, all file "
 "changes will be sent to it."
-msgstr "Monaca デバッガー上へ、1 つのプロジェクトを送信します。端末上 ( Monaca デバッガー ) で、プロジェクトをデバッグするときに、このコマンドを使用します。ローカルで行った、ファイルの修正は、端末上に、即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、ローカルネットワーク上に存在するデバッガーに対して、接続するか確認するメッセージも送信されます。デバッガーの接続後、ファイルシステム内に修正箇所があれば、デバッガー側に送信され、最新内容が反映されます。"
+msgstr "Monaca デバッガー上へ、プロジェクトを 1 つ送信します。端末上 ( Monaca デバッガー ) で、プロジェクトをデバッグするときに、このコマンドを使用します。ローカルで行った、ファイルの修正は、端末上に、即反映されます。このコマンドを実行すると、Web サーバーが起動され、Monaca デバッガーからの接続を待ち受けます。また、同時に、ローカルネットワーク上に存在するデバッガーに対して、接続するか確認するメッセージも送信されます。デバッガーの接続後、ファイルシステム内に修正箇所があれば、デバッガー側に送信され、最新内容が反映されます。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:320
 msgid ":dfn:`$ monaca debug [option]`"
@@ -6870,7 +6870,7 @@ msgstr "このコマンドの使用時には、ローカル PC 上に置かれ�
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:389
 msgid ""
 "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
-msgstr "``monaca multiserve`` 処理を停止させるには、 :guilabel:`Ctrl+C` を押します。"
+msgstr "``monaca multiserve`` の処理を停止させるには、 :guilabel:`Ctrl+C` を押します。"
 
 #: ../doc/manual/development/monaca_cli/cli_commands.rst:399
 msgid "monaca remote build"
@@ -7262,6 +7262,182 @@ msgstr "Monaca CLI を使用した、Monaca アプリのデバッグ"
 #: ../doc/manual/development/monaca_vs/pairing_debugging.rst:84
 msgid "Please refer to :ref:`debugger_with_local_tools`."
 msgstr ":ref:`debugger_with_local_tools` をご確認ください。"
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:3
+msgid "Creating Monaca Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:5
+msgid "There are two ways to create Monaca projects such as:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:7
+msgid ""
+":ref:`ide_new_project`: creating a new project based on templates and sample"
+" applications."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:8
+msgid ""
+":ref:`ide_import_project`: importing a valid project as a Monaca project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:13
+msgid "Creating a New Monaca Project"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:15
+msgid ""
+"Monaca provides a wide variety of templates and sample applications for you "
+"to start your Monaca projects."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:20
+msgid "Template based Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:22
+msgid "Currently, the available templates are as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:24
+msgid "Onsen UI without Framework:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:26
+msgid "Onsen UI V2 JS Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:27
+msgid "Onsen UI V2 JS Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:28
+msgid "Onsen UI V2 JS Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:29
+msgid "Onsen UI V2 JS Splitter"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:30
+msgid "Onsen UI V1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:31
+msgid "Onsen UI V1 Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:32
+msgid "Onsen UI V1 Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:33
+msgid "Onsen UI V1 Sliding Menu"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:34
+msgid "Onsen UI V1 Windows Universal"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:36
+msgid "Onsen UI with Angular 1:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:38
+msgid "Onsen UI V2 Angular 1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:39
+msgid "Onsen UI V2 Angular 1 Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:40
+msgid "Onsen UI V2 Angular 1 Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:41
+msgid "Onsen UI V2 Angular 1 Splitter"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:43
+msgid ""
+"Onsen UI with Angular 2: Monaca Cloud IDE cannot support this framework type"
+" since it requires to transpile the source code to JavaScript. Therefore, "
+"you need to setup the local environment with Monaca CLI, our command line "
+"tool. For the installation and usage, please visit :ref:`Monaca CLI Docs "
+"<monaca_cli_index>` for more details."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:45
+msgid ""
+"Onsen UI with React: Monaca Cloud IDE cannot support this framework type "
+"since it requires to transpile the source code to JavaScript. Therefore, you"
+" need to setup the local environment with Monaca CLI, our command line tool."
+" For the installation and usage, please visit :ref:`Monaca CLI Docs "
+"<monaca_cli_index>` for more details."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:47
+msgid "Ionic:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:49
+msgid "Ionic V1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:50
+msgid "Ionic V1 Sidemenu"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:51
+msgid "Ionic V1 Tabs"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:53
+msgid "JavaScript without Framework:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:55
+msgid "Blank"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:61
+msgid "Sample Application based Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:63
+msgid "Currently, the available sample applications are as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:65
+msgid "Hello World"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:66
+msgid "Onsen UI V2 Todo"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:67
+msgid "Break The Bricks"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:68
+msgid "Nifty mBaaS Blank"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:69
+msgid "Omikuji Fortune Teller"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:70
+msgid "JavaScript without Framework"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:76
+#: ../doc/manual/development/monaca_localkit/overview.rst:104
+msgid "Importing a Project"
+msgstr "プロジェクトのインポート"
 
 #: ../doc/manual/development/monaca_ide/editor.rst:5
 msgid "Editor Shortcuts"
@@ -9619,10 +9795,6 @@ msgid ""
 "If the project is created successfully, the new project will be shown in the"
 " project list."
 msgstr "プロジェクトの作成後、プロジェクト一覧上に、作成したプロジェクトが表示されていることを確認します。"
-
-#: ../doc/manual/development/monaca_localkit/overview.rst:104
-msgid "Importing a Project"
-msgstr "プロジェクトのインポート"
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:106
 msgid "There are two types of projects you can import into Monaca Localkit:"

@@ -5781,6 +5781,167 @@ msgstr ""
 msgid "Please refer to :ref:`debugger_with_local_tools`."
 msgstr ""
 
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:3
+msgid "Creating Monaca Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:5
+msgid "There are two ways to create Monaca projects such as:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:7
+msgid ":ref:`ide_new_project`: creating a new project based on templates and sample applications."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:8
+msgid ":ref:`ide_import_project`: importing a valid project as a Monaca project."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:13
+msgid "Creating a New Monaca Project"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:15
+msgid "Monaca provides a wide variety of templates and sample applications for you to start your Monaca projects."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:20
+msgid "Template based Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:22
+msgid "Currently, the available templates are as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:24
+msgid "Onsen UI without Framework:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:26
+msgid "Onsen UI V2 JS Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:27
+msgid "Onsen UI V2 JS Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:28
+msgid "Onsen UI V2 JS Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:29
+msgid "Onsen UI V2 JS Splitter"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:30
+msgid "Onsen UI V1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:31
+msgid "Onsen UI V1 Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:32
+msgid "Onsen UI V1 Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:33
+msgid "Onsen UI V1 Sliding Menu"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:34
+msgid "Onsen UI V1 Windows Universal"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:36
+msgid "Onsen UI with Angular 1:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:38
+msgid "Onsen UI V2 Angular 1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:39
+msgid "Onsen UI V2 Angular 1 Navigation"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:40
+msgid "Onsen UI V2 Angular 1 Tabbar"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:41
+msgid "Onsen UI V2 Angular 1 Splitter"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:43
+msgid "Onsen UI with Angular 2: Monaca Cloud IDE cannot support this framework type since it requires to transpile the source code to JavaScript. Therefore, you need to setup the local environment with Monaca CLI, our command line tool. For the installation and usage, please visit :ref:`Monaca CLI Docs <monaca_cli_index>` for more details."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:45
+msgid "Onsen UI with React: Monaca Cloud IDE cannot support this framework type since it requires to transpile the source code to JavaScript. Therefore, you need to setup the local environment with Monaca CLI, our command line tool. For the installation and usage, please visit :ref:`Monaca CLI Docs <monaca_cli_index>` for more details."
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:47
+msgid "Ionic:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:49
+msgid "Ionic V1 Minimum"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:50
+msgid "Ionic V1 Sidemenu"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:51
+msgid "Ionic V1 Tabs"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:53
+msgid "JavaScript without Framework:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:55
+msgid "Blank"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:61
+msgid "Sample Application based Projects"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:63
+msgid "Currently, the available sample applications are as follows:"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:65
+msgid "Hello World"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:66
+msgid "Onsen UI V2 Todo"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:67
+msgid "Break The Bricks"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:68
+msgid "Nifty mBaaS Blank"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:69
+msgid "Omikuji Fortune Teller"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:70
+msgid "JavaScript without Framework"
+msgstr ""
+
+#: ../doc/manual/development/monaca_ide/creating_monaca_project.rst:76
+#: ../doc/manual/development/monaca_localkit/overview.rst:104
+msgid "Importing a Project"
+msgstr ""
+
 #: ../doc/manual/development/monaca_ide/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr ""
@@ -7774,10 +7935,6 @@ msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:98
 msgid "If the project is created successfully, the new project will be shown in the project list."
-msgstr ""
-
-#: ../doc/manual/development/monaca_localkit/overview.rst:104
-msgid "Importing a Project"
 msgstr ""
 
 #: ../doc/manual/development/monaca_localkit/overview.rst:106
