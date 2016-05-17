@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Plain Project Skeleton</title>
+    <script type="text/javascript" src="plugins/plugin-loader.js"></script>
+    <script type="text/javascript">
+        monaca.viewport({width: 320});
+        document.ontouchmove = function () { event.preventDefault(); }
+
+        function onSubmit() {
+            window.localStorage.setItem(document.getElementById("todo-title").value, document.getElementById("todo-body").value);
+            location.href="index.html";
+        }
+    </script>
+    <link href="css/developer-style.css" rel="stylesheet" media="screen" type="text/css" />
+   </head>
+  <body>
+    <div id="topbar">
+        <div id="leftnav">
+        	<a href="index.html"><img alt="home" src="images/home.png" /></a>
+        </div>
+        <div id="title">TODOを追加</div>
+    </div>
+    <div id="content">
+    	<ul class="pageitem">
+    		<li class="textbox">
+                <span class="header">TODOを追加する</span>
+                件名と内容を記述して登録を行います。
+            </li>
+    	</ul>
+    	<form method="post">
+    		<ul class="pageitem">
+    			<li class="smallfield">
+                    <span class="name">件名</span><input id="todo-title" placeholder="入力してください" type="text" />
+    			</li>
+    			<li class="textbox">
+                    <textarea id="todo-body" name="TextArea" rows="10" style="width: 95%; border: none;"></textarea>
+                </li>
+            	<li class="button">
+        			<input type="button" value="保存" onclick="onSubmit()" />
+            	</li>
+    		</ul>
+    		</fieldset>
+        </form>
+    </div>
+  </body>
+  </html>

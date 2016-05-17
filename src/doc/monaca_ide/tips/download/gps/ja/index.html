@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+  <html>
+   <head>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript" charset="utf-8" src="components/loader.js"></script>
+    <script type="text/javascript" charset="utf-8">
+   
+     document.addEventListener("deviceready", function(){
+   
+     var onSuccess = function(position){
+      document.getElementById("show_position").innerHTML = 
+       "経度：" + position.coords.longitude + "\n" +
+       "緯度：" + position.coords.latitude;
+     };
+   
+     var onError = function(message){
+      alert("現在位置を取得できませんでした。");
+     };
+   
+     var option = {
+      frequency: 5000,
+      timeout: 6000
+     };
+   
+     navigator.geolocation.getCurrentPosition(onSuccess, onError, option);
+   
+   });
+   
+    </script>
+   </head>
+   <body>
+    <div id="show_position"></div>
+   </body>
+  </html>

@@ -1,0 +1,135 @@
+ <!DOCTYPE HTML>
+  <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Plain Project Skeleton</title>
+
+        <style type="text/css">
+            body {
+                background-image : url("images/omikuji-bg.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size : 100% 100%;
+                background-attachment : fixed;
+                margin : 0;
+                padding : 0;
+            }
+
+            #hako {
+                width : 100%;
+                text-align : center;
+                margin : 10% 0px;
+                height : 80%;
+                position : fixed;
+                left : 0;
+                top : 0;
+            }
+
+            #bottombar {
+                position : absolute;
+                left : 0px;
+                bottom : 30px;
+                width : 100%;
+            text-align : center;
+            }
+
+        </style>
+
+         <script type="text/javascript" src="components/loader.js"></script>
+         <script type="text/javascript">
+
+         //変数に音源となるファイルの名前を指定します。この変数はMediaオブジェクトを生成する際に使用します。
+         var src1 = "koukaon1.mp3";
+         var src2 = "koukaon2.mp3";
+         var src3 = "koukaon3.mp3";
+
+         //Mediaオブジェクトを利用するためにここで変数宣言しておきます。この段階では「null」、すなわち中に何もない空の状態で宣言しておきます。
+         var media1 = null;
+         var media2 = null;
+         var media3 = null;
+
+
+                 //Androidでは絶対パスを指定する必要があるため、そのパスを取得するための関数です。
+         function getPath(){
+             var str = location.pathname;
+             var i = str.lastIndexOf('/');
+             return str.substring(0,i+1);
+         }
+
+                 //PhoneGapの読み込みが完了した際の「deviceready」イベント発生時にonDeviceReady()関数を呼び出すイベントを設定します。
+         document.addEventListener("deviceready", onDeviceReady, false);
+
+
+         function onDeviceReady(){
+
+               //PhoneGapの読み込みが完了した際に「PhoneGapの読み込みが完了しました」と通知を出しています
+               alert("PhoneGapの読み込みが完了しました");
+
+                           /*効果音を再生するための「オブジェクト」を生成してそれぞれ変数から利用できるようにします。
+                           第１引数のurl指定を「getPath() + src」とすることで音源となるファイルへのパスを示すとともに
+                           第2、第３引数で再生成功•再生失敗時のコールバック関数を定義しています。*/
+               media1 = new Media(getPath() + src1, onSuccess, onError);
+               media2 = new Media(getPath() + src2, onSuccess, onError);
+               media3 = new Media(getPath() + src3, onSuccess, onError);
+
+        }
+
+             if (typeof Windows != "undefined") {
+                 // Windowsストアアプリでalert関数を使用するための記述
+                 window.alert = function(s) {
+                     new Windows.UI.Popups.MessageDialog(s).showAsync();
+                 }
+             }
+             function omikuji (){
+
+                 var dice = Math.floor(Math.random() * 3);
+
+                 var image_name;
+
+                 if (dice == 0) {
+                     image_name = "omikuji-daikichi.png";
+                                         //おみくじの結果が「大吉」の場合の効果音を再生します。
+                     media1.play();
+                 } else if  (dice == 1) {
+                     image_name = "omikuji-chuukichi.png";
+                                         //おみくじの結果が「中吉」の場合の効果音を再生します。
+                     media2.play();
+                 } else {
+                     image_name = "omikuji-hei.png";
+                                         //おみくじの結果が「平」の場合の効果音を再生します。
+                     media3.play();
+                 }
+
+                 document.getElementById("saisyo").setAttribute("style", "display : none;");
+                 document.getElementById("kekka").src = "images/" + image_name;
+                 document.getElementById("kekka").setAttribute("style", "display : inline;");
+                 document.getElementById("button").src = "images/omikuji-btn-yarinaosu.png";
+
+                 alert('おみくじが出ました！さて結果は?');
+             }
+
+         //Mediaオブジェクトを生成する際の第２引数に設定した音声再生成功時のコールバック関数です
+         function onSuccess() {
+              console.log("playAudio():Audio Success");
+         }
+
+         //Mediaオブジェクトを生成する際の第３引数に設定した音声再生失敗時のコールバック関数です
+         function onError(error) {
+            alert('code: '    + error.code    + '\n' +
+                  'message: ' + error.message + '\n');
+         }
+
+         </script>
+    </head>
+    <body>
+
+        <div id="hako">
+            <img src="images/omikuji-box.png" width="160" id="saisyo" />
+            <img src="" width="230" id="kekka" style="display : none;"/>
+        </div>
+        <div id="bottombar">
+            <img src="images/omikuji-btn-hajimeru.png" onclick="omikuji()" width="160" id="button">
+        </div>
+
+    </body>
+  </html>

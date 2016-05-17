@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+    <html>
+      <head>
+       <meta charset="utf-8"> 
+        <script type="text/javascript" src="components/loader.js"></script>
+        <script type="text/javascript" charset="utf-8">
+
+        document.addEventListener("deviceready", onDeviceReady, false);
+        
+        //This function is used to specify an absolute path of an mp3 file to be played in a project on Android.
+        function getPath() {
+            var str = location.pathname;
+            var i = str.lastIndexOf('/');
+            return str.substring(0,i+1);
+        }
+        
+        function onDeviceReady() {
+            window.alert("Loading PhoneGap is completed");
+        }
+
+        var media = null;
+        var mediaTimer = null;
+
+        function playAudio() {
+
+            var src = 'sample.mp3';
+
+            media = new Media (getPath() + src , onSuccess, onError);
+
+            //Play the audio. You can set number of the replaying time here.
+            media.play({numberOfLoops:"infinite"});
+
+            if (mediaTimer == null) {
+
+                mediaTimer = setInterval(function() {
+
+                    // Return a current playback position
+                    media.getCurrentPosition(
+
+                        //A Callback function if it's success
+                        function(position) {
+                            if (position > -1) {
+                                setAudioPosition((position) + " sec");
+                                             
+                                        //If the playback stops at "-0.001" position, replay the audio.
+                                        if(position == -0.001){
+
+                                            media.play({numberOfLoops:"infinite"});
+            
+                                        }
+                            }
+                        },
+                        //A callback function in case of failure
+                        function(e) {
+
+                            console.log("Error getting pos=" + e);
+                            setAudioPosition("Error: " + e);
+
+                        }
+                    );
+                }, 1000);
+            }
+        }
+
+        function pauseAudio() {
+
+            if (media) {
+                media.pause();
+            }
+        }
+
+        function stopAudio() {
+
+            if (media) {
+                media.stop();
+            }
+
+            clearInterval(mediaTimer);
+            mediaTimer = null;
+        }
+
+          //A success callback function displaying a success message.
+          function onSuccess() {
+              console.log("playAudio():Audio Success");
+          }
+
+          //A callback function in case of failure
+          function onError(error) {
+              alert('code: '    + error.code    + '\n' + 
+                    'message: ' + error.message + '\n');
+          }
+
+          //Set the position of audio playback
+          function setAudioPosition(position) {
+              document.getElementById('audio_position').innerHTML = position;
+          }
+
+          </script>
+        </head>
+      <body>
+      <h1>Play music with PhoneGap</h1>
+        <a href="#" class="btn large" onclick="playAudio();">Play the music</a><br/><br/><br/>
+
+        <a href="#" class="btn large" onclick="pauseAudio();">Pause the music</a><br/><br/><br/>
+
+        <a href="#" class="btn large" onclick="stopAudio();">Stop the music</a><br/><br/><br/>
+
+        <p id="audio_position"></p><br/>
+      </body>
+    </html>  

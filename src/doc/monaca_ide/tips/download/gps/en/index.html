@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+  <html>
+   <head>
+    <script type="text/javascript" charset="utf-8" src="components/loader.js"></script>
+    <script type="text/javascript" charset="utf-8">
+   
+     document.addEventListener("deviceready", function(){
+   
+     var onSuccess = function(position){
+      document.getElementById("show_position").innerHTML = 
+       "Longitude:" + position.coords.longitude + "\n" +
+       "Latitude:" + position.coords.latitude;
+     };
+   
+     var onError = function(message){
+      alert("Failed to get the current position.");
+     };
+   
+     var option = {
+      frequency: 5000,
+      timeout: 6000
+     };
+   
+     navigator.geolocation.getCurrentPosition(onSuccess, onError, option);
+   
+   });
+   
+    </script>
+   </head>
+   <body>
+    <div id="show_position"></div>
+   </body>
+  </html>

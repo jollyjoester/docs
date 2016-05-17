@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="components/loader.js"></script>
+        <script type="text/javascript" >
+            function getPhoto () {            
+                navigator.camera.getPicture(onSuccess, onFail, 
+                    { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
+
+                function onSuccess (imageURI) {
+                        document.getElementById('image').src = imageURI;
+                    }
+                }
+
+                function onFail (message) {
+                    alert('エラーが発生しました: ' + message);
+                }
+            
+        </script>
+  </head>
+  <body>
+    <h1>カメラで画像を撮影します(FILE_URI)</h1>
+      <input type="button" onclick="getPhoto()" value="ファイルURIを渡して画像を表示します"><br/>
+      <img src="" id="image" width="150" height="150"> 
+  </body>
+  </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script type="text/javascript" src="components/loader.js"></script>
+    <script type="text/javascript">
+    
+    document.addEventListener ("deviceready", onDeviceReady, false);
+
+    //PhoneGapの読み込みが完了した時に実行される関数
+    function onDeviceReady () {
+        window.alert ('PhoneGapの読み込みが完了し、Cameraを使う準備が整いました');
+    }
+
+    function snapPicture () {
+        navigator.camera.getPicture (onSuccess, onFail, 
+            { quality: 50, destinationType: Camera.DestinationType.DATA_URL});
+
+
+        //成功した際に呼ばれるコールバック関数
+        function onSuccess (imageData) {
+            var image = document.getElementById ('picture');
+            image.src = "data:image/jpeg;base64," + imageData;
+        }
+
+        //失敗した場合に呼ばれるコールバック関数
+        function onFail (message) {
+            alert ('エラーです: ' + message);
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <input type="button" onclick="snapPicture()" value="写真を撮影します"></br/></br/>
+    <img id="picture" src="" width="150" height="150">
+  </body>
+  </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+  <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+          <title>Plain Project Skeleton</title>
+          <script type="text/javascript" src="plugins/plugin-loader.js"></script>
+          <script type="text/javascript">
+          
+		   monaca.viewport({width: 320});
+                          
+          </script>
+          <link href="css/developer-style.css" rel="stylesheet" media="screen" type="text/css" />
+      </head>
+      <body class="list" onLoad="listTodo();">
+          <div id="topbar">
+              <div id="title">TODO管理</div>
+              <div id="rightbutton">
+                  <a href="javasacript:void()" onclick="clearTodo()">クリア</a>
+              </div>
+          </div>
+          <div id="content">
+              <ul id="todo-list">
+                  <li>
+                      <a href="add.html"><span class="name">TODO追加</span><span class="arrow"></span></a>
+                  </li>
+              </ul>
+          </div>
+      </body>
+  </html>

@@ -1,0 +1,884 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-, Asial Corporation
+# This file is distributed under the same license as the Monaca package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monaca 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../doc/monaca_cli/build_publish.rst:5
+msgid "Remote Building and Publishing"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:11
+msgid "Remote Building"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:13
+msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:15
+msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:16
+msgid "Building configuration: configure necessary information regarding application and build for each platform."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:17
+msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:20
+msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:22
+msgid "Please refer to the following documentation on how to build your app according to each platform:"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:24
+msgid ":doc:`../../build/ios/index`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:25
+msgid ":doc:`../../build/build_android`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:26
+msgid ":doc:`../../build/build_winrt`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:27
+msgid ":doc:`../../build/build_chrome_app`."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:31
+msgid "Publishing"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:34
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:36
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:39
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:41
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:44
+msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:49
+#: ../doc/monaca_cli/overview.rst:100
+#: ../doc/monaca_cli/pairing_debugging.rst:91
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:51
+#: ../doc/monaca_cli/overview.rst:102
+#: ../doc/monaca_cli/pairing_debugging.rst:93
+msgid ":doc:`../../../quick_start/cli/index`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:52
+#: ../doc/monaca_cli/pairing_debugging.rst:95
+msgid ":doc:`overview`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:53
+#: ../doc/monaca_cli/overview.rst:103
+#: ../doc/monaca_cli/pairing_debugging.rst:94
+msgid ":doc:`cli_commands`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:54
+#: ../doc/monaca_cli/overview.rst:104
+msgid ":doc:`pairing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_cli/build_publish.rst:55
+msgid ":ref:`troubleshoot_pair`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:5
+msgid "Monaca CLI Commands"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:12
+msgid "Commands"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:12
+msgid "Description"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:14
+msgid ":ref:`monaca_login`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:14
+msgid "signs in to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:15
+msgid ":ref:`monaca_create`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:15
+msgid "creates a new Monaca project locally from a template."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:16
+msgid ":ref:`monaca_clone`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:16
+msgid "clones a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:17
+msgid ":ref:`monaca_import`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:17
+msgid "imports a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:18
+msgid ":ref:`monaca_upload`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:18
+msgid "uploads a project to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:19
+msgid ":ref:`monaca_download`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:19
+msgid "downloads a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:20
+msgid ":ref:`monaca_plugin`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:20
+msgid "manages installed plugins of a project."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:21
+msgid ":ref:`monaca_debug`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:21
+msgid "serves a single project to Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:22
+msgid ":ref:`monaca_preview`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:22
+msgid "serves a single project to browser."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:23
+msgid ":ref:`monaca_multiserve`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:23
+msgid "serves multiple projects to Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:24
+msgid ":ref:`monaca_remote_build`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:24
+msgid "builds a project remotely on Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:25
+msgid ":ref:`monaca_proxy`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:25
+msgid "configures proxy to use when connecting to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:26
+msgid ":ref:`monaca_logout`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:26
+msgid "signs out from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:34
+msgid "monaca login"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:36
+msgid "Signs in to the Monaca Cloud. You will be prompted to input your Monaca account information (username and password)."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:38
+msgid ":dfn:`$ monaca login`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:48
+#: ../doc/monaca_cli/cli_commands.rst:103
+#: ../doc/monaca_cli/cli_commands.rst:138
+#: ../doc/monaca_cli/cli_commands.rst:172
+#: ../doc/monaca_cli/cli_commands.rst:219
+#: ../doc/monaca_cli/cli_commands.rst:260
+#: ../doc/monaca_cli/cli_commands.rst:294
+#: ../doc/monaca_cli/cli_commands.rst:334
+#: ../doc/monaca_cli/cli_commands.rst:387
+#: ../doc/monaca_cli/cli_commands.rst:433
+#: ../doc/monaca_cli/cli_commands.rst:472
+#: ../doc/monaca_cli/cli_commands.rst:499
+msgid "Example"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:41
+msgid "Here is an example when you login to Monaca Cloud with Monaca CLI:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:59
+msgid "monaca create"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:61
+msgid "Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:63
+msgid ":dfn:`$ monaca create path [name]`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:69
+#: ../doc/monaca_cli/cli_commands.rst:463
+msgid "Parameters"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:67
+msgid "``path``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:67
+msgid "location where you want to store your project files"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:68
+msgid "``name``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:68
+msgid "project name"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:72
+msgid "The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/MyProject\" folder:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:113
+msgid "monaca clone"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:115
+msgid "Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:117
+msgid "If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:119
+msgid ":dfn:`$ monaca clone`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:123
+msgid "Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/CloneRssProject\" folder on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:148
+msgid "monaca import"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:150
+msgid "Imports a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to import into a specified directory on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:152
+msgid "If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:154
+msgid ":dfn:`$ monaca import`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:157
+msgid "Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/ImportRssProject\" folder on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:182
+msgid "monaca upload"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:184
+msgid "Uploads the current project to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:186
+msgid "This command works differently for different types of projects:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:188
+msgid "new/imported project: this command will upload this whole project as a new project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:189
+msgid "cloned project: this command will overwrite the same project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:192
+msgid ":dfn:`$ monaca upload`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:201
+#: ../doc/monaca_cli/cli_commands.rst:243
+#: ../doc/monaca_cli/cli_commands.rst:283
+msgid "Options"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:196
+#: ../doc/monaca_cli/cli_commands.rst:239
+msgid "``--delete``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:196
+msgid "deletes those files on Monaca cloud which are not existed locally."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:197
+#: ../doc/monaca_cli/cli_commands.rst:240
+msgid "``--force``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:197
+#: ../doc/monaca_cli/cli_commands.rst:240
+msgid "doesn't ask user for permission to continue."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:198
+#: ../doc/monaca_cli/cli_commands.rst:241
+msgid "``--dry-run``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:198
+msgid "simulates the upload operation and provides details of which files will be uploaded. There is no actual upload operation is done."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:204
+msgid "Navigate to your project folder. Then, type ``monaca upload`` command with various options and see how it works."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:229
+msgid "monaca download"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:231
+msgid "Downloads updates/changes (of the synced project) made in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:233
+msgid "This command will overwrite the changes into the local project. If your local project is not existed in Monaca Cloud, you can't use this command."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:235
+msgid ":dfn:`$ monaca download`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:239
+msgid "deletes those files locally which are not existed on Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:241
+msgid "simulates the download operation and provides details of which files will be downloaded. There is no actual download operation is done."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:246
+msgid "Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:270
+msgid "monaca plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:272
+msgid "Manages plugins of a project such as adding new plugins, listing and removing installed plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:275
+msgid ":dfn:`$ monaca plugin [options]`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:279
+msgid "``add <plugin>``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:279
+msgid "adds a plugin."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:280
+msgid "``rm <plugin>``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:280
+msgid "removes a plugin."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:281
+msgid "``ls|list``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:281
+msgid "lists currently installed plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:282
+msgid "``search <query>``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:282
+msgid "searches the plugin directory."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:286
+#: ../doc/monaca_cli/cli_commands.rst:466
+msgid "Navigate to your project folder and type the command below:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:303
+msgid "monaca preview"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:305
+msgid "Serves a single project to browser. Use this command when you want to run your project on the browser."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:307
+msgid ":dfn:`$ monaca preview [option]`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:316
+msgid "monaca debug"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:318
+msgid "Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:320
+msgid ":dfn:`$ monaca debug [option]`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:325
+#: ../doc/monaca_cli/cli_commands.rst:423
+msgid "Options:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:324
+msgid "``--port``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:324
+msgid "HTTP port to listen to (default value is 8001)"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:328
+msgid "Navigate to your project folder and use ``monaca debug`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:336
+msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:338
+msgid "When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:345
+msgid "Pairing Dialog"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:351
+msgid "Network Connection Notification"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:363
+msgid "monaca multiserve"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:365
+msgid "Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:373
+msgid ":dfn:`$ monaca multiserve paths`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:378
+msgid "Parameters:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:377
+msgid "``paths``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:377
+msgid "a list of project directories"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:381
+msgid "Try to use this command with a list of projects you have on your local PC. In this example, we are serving 3 projects (SlidingMenu, ImportRssProject and CloneRssProject) which are under \"MyProjectFolder/\" to Monaca Debugger. You should see a list of these projects in your debugger if the pairing is successful."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:389
+msgid "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:399
+msgid "monaca remote build"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:401
+msgid "Builds the project on Monaca Cloud. If your project is not existed in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project is alreayd existed in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:403
+msgid "Please refer to :ref:`build_index` for more information on how to:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:405
+msgid "config build settings for each platform"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:406
+msgid "types of build"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:407
+msgid "build the application for each platform"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:408
+msgid "get/install the built apps."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:410
+msgid ":dfn:`$ monaca remote build [options]`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:414
+msgid "``--platform``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:414
+msgid "builds for specific platform. It can be: ``ios``, ``android`` or ``windows``."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:415
+msgid "``--build-type``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:415
+msgid "chooses the build type. It can be:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:417
+msgid "``debug`` (for iOS, Android and Windows. It is default option.)"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:418
+msgid "``test`` (for iOS only)"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:419
+msgid "``release`` (for iOS, Android and Chrome Apps)"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:421
+msgid "``--android_webview``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:421
+msgid "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:422
+msgid "``--android_arch``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:422
+msgid "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:426
+msgid "Navigate to your project folder and try to use this command with different options:"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:435
+msgid "If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below)."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:453
+msgid "monaca proxy"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:455
+msgid "Configures proxy to use when connecting to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:457
+msgid ":dfn:`$ monaca proxy <command>`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:461
+msgid "``set <URL:PORT_NUMBER>``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:461
+msgid "sets a proxy server."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:462
+msgid "``rm``"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:462
+msgid "removes a proxy server."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:482
+msgid "monaca logout"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:484
+msgid "Signs out from Monaca Cloud and removes stored login token."
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:486
+msgid ":dfn:`$ monaca logout`"
+msgstr ""
+
+#: ../doc/monaca_cli/cli_commands.rst:489
+msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
+msgstr ""
+
+#: ../doc/monaca_cli/index.rst:5
+msgid "CLI"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:5
+msgid "Monaca CLI Overview"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:11
+msgid "Introduction"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:13
+msgid "Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:15
+msgid "create new local projects, import or clone existing projects in Monaca Cloud into your local PC"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:16
+msgid "debug your app with inspector integration"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:17
+msgid "remote build your projects without any setups locally."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:21
+msgid "Getting Started"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:26
+msgid "Step 1: Installation"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:28
+msgid "You are required to have `Node.js <https://nodejs.org/>`_ installed on your PC in order to use Monaca CLI. After that, you can install Monaca CLI using ``npm`` command."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:30
+msgid "Use the following command to install Monaca CLI:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:36
+msgid "On some systems you may have to prefix the command with sudo because of permissions:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:43
+msgid "In order to check the currently installed Monaca CLI's version, use ``monaca`` command. Moreover, if you want to update Monaca CLI, just re-install it using the above command."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:47
+msgid "Step 2: Creating a New Project and Run on Browser"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:49
+msgid "you can also :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:51
+msgid "Create a new project by using the command below:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:57
+msgid "Choose a project template. Please see the example below:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:71
+msgid "Run on the browser."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:81
+msgid "Step 3: Connecting to Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:83
+msgid "Use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:89
+msgid "Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. This message will only be displayed if it's the first time you are connecting to the device. After this, your application should be running on your Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:91
+msgid "Before connecting Monaca Debugger to the local PC, please pay attention to the following points:"
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:93
+msgid "Monaca Debugger and the local PC have to connect to the same WiFi network."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:94
+#: ../doc/monaca_cli/pairing_debugging.rst:14
+msgid "Use the same Monaca account for either Monaca Debugger and the local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:95
+#: ../doc/monaca_cli/pairing_debugging.rst:15
+msgid "Disable the local PC's firewall."
+msgstr ""
+
+#: ../doc/monaca_cli/overview.rst:105
+#: ../doc/monaca_cli/pairing_debugging.rst:96
+msgid ":doc:`build_publish`"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:5
+msgid "Pairing and Debugging"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:9
+msgid "In order to debug Monaca app with Monaca CLI, you need to pair your host PC (running Monaca CLI) with your device (running Monaca Debugger) first."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:11
+msgid "Before connecting Monaca Debugger to your local PC, please pay attention to the following points:"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:13
+msgid "Monaca Debugger and the local PC have to connect to the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:21
+msgid "Start Pairing"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:23
+msgid "Launch Monaca Debugger app on your device and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca CLI."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:25
+msgid "In the command window on your PC, navigate to your project folder and use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:31
+msgid "Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. After this, your application should be running on your Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:39
+msgid "If your pairing is successful, your local project’s name will appear under Local Projects in in Monaca Debugger. However, if you fail the pairing, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:49
+msgid "Stop Pairing"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:51
+msgid "There are two ways to stop the pairing:"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:54
+msgid "From the PC"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:56
+msgid "In the same command window on your PC which you are running :ref:`monaca_debug` command, please use the following command to stop the pairing/break the debug process between your PC and Monaca Debugger:"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:64
+msgid "From Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:66
+msgid "click on the toggle menu on the top-left corner and go to :guilabel:`Local Computers` button."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:68
+msgid "Then, the connected PC will be shown. Click on the \"Information\" icon of the connected PC (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:76
+msgid "The information of the connected PC will be shown here. Click :guilabel:`Unpair this computer` button to disconnect from the selected PC. Once you unpair, you can't debug your local Monaca projects with this debugger anymore unless you pair it again."
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:84
+msgid "Debugging Monaca Apps with Monaca CLI"
+msgstr ""
+
+#: ../doc/monaca_cli/pairing_debugging.rst:86
+msgid "Please refer to :ref:`debugger_with_local_tools`."
+msgstr ""
+

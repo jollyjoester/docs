@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="components/loader.js"></script>
+    <script type="text/javascript" >
+      function getPhoto () {            
+        navigator.camera.getPhotoicture(onSuccess, onFail, 
+          { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
+
+        function onSuccess (imageURI) {document.getElementById('image').src = imageURI;}
+      }
+
+      function onFail (message) {
+          alert('An error Occured: ' + message);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Take a picture with the Camera(FILE_URI)</h1>
+    <input type="button" onclick="getPhoto()" value="Display an image by passing the file URI"><br>
+    <img src="" id="image" width="150" height="150" /> 
+  </body>
+  </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="components/loader.js"></script>
+    <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady () {
+       window.alert ('PhoneGapの読み込みが完了しました');
+    }
+
+
+    function onSuccess (imageURI) {
+      
+      
+        var largeImage = document.getElementById ('picture');
+      
+        largeImage.style.display = 'block';
+        largeImage.src = imageURI;
+    }
+
+    function getPhoto () {
+        
+      //sourceTypeにnavigator.camera.PictureSourceType.SAVEDPHOTOALBUMを指定します
+    navigator.camera.getPicture(onSuccess, onFail, 
+        { quality: 50,destinationType: Camera.DestinationType.FILE_URI,
+            sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM });
+    }
+
+    function onFail (message) {
+        alert('エラーが発生しました: ' + message);
+    }
+
+    </script>
+  </head>
+  <body>
+    <h1>デバイスのフォトアルバムから画像を取得します</h1>
+    <input type="button" onclick="getPhoto()"; value="フォトアルバムから画像を取得する"><br/>
+    <img style="display:none;" id="picture" src="" width="150" height="150" />
+  </body>
+  </html>

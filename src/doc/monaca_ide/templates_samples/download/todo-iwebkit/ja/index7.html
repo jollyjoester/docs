@@ -1,0 +1,8 @@
+function clearTodo() {
+                navigator.notification.confirm("すべて消去してもよろしいですか？", function(buttonIndex) {
+                    if (buttonIndex == 1) {
+                        window.localStorage.clear();
+                        location.href = "index.html";
+                    }
+                }, "TODOの全消去", "はい,いいえ" );
+            }

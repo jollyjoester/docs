@@ -1,0 +1,490 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-, Asial Corporation
+# This file is distributed under the same license as the Monaca package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monaca 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../doc/monaca_localkit/build_publish.rst:5
+msgid "Remote Building and Publishing"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:15
+msgid "Remote Building"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:17
+msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:19
+msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:20
+msgid "Building configuration: configure necessary information regarding application and build for each platform."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:21
+msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:24
+msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:26
+msgid "Please refer to the following documentation on how to build your app according to each platform:"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:28
+msgid ":doc:`../../build/ios/index`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:29
+msgid ":doc:`../../build/build_android`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:30
+msgid ":doc:`../../build/build_winrt`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:31
+msgid ":doc:`../../build/build_chrome_app`."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:35
+msgid "Publishing"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:38
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:40
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:43
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:45
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:48
+msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:53
+#: ../doc/monaca_localkit/overview.rst:225
+#: ../doc/monaca_localkit/pairing_debugging.rst:73
+#: ../doc/monaca_localkit/troubleshooting.rst:66
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:55
+#: ../doc/monaca_localkit/overview.rst:227
+#: ../doc/monaca_localkit/pairing_debugging.rst:75
+#: ../doc/monaca_localkit/troubleshooting.rst:68
+msgid ":doc:`../../../quick_start/localkit/index`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:56
+#: ../doc/monaca_localkit/pairing_debugging.rst:76
+#: ../doc/monaca_localkit/troubleshooting.rst:69
+msgid ":doc:`overview`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:57
+#: ../doc/monaca_localkit/overview.rst:228
+#: ../doc/monaca_localkit/troubleshooting.rst:70
+msgid ":doc:`pairing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_localkit/build_publish.rst:58
+#: ../doc/monaca_localkit/overview.rst:230
+#: ../doc/monaca_localkit/pairing_debugging.rst:78
+msgid ":doc:`troubleshooting`"
+msgstr ""
+
+#: ../doc/monaca_localkit/index.rst:5
+msgid "Localkit"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:5
+msgid "Monaca Localkit Overview"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:9
+msgid "Introduction"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:11
+msgid "Monaca Localkit is a tool to support local development environment for Monaca apps. You can use it with various development tools including editors, source code management system, task runner and so on. Monaca Localkit allows you to develop offline with a faster synchronization with Monaca debugger."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:13
+msgid "Monaca Localkit can accelerate your app development process because it provides the following functions:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:15
+msgid "create and import Cordova project: You can create a new project based on templates provided by Monaca. Moreover, you can import either Monaca project from Monaca Cloud IDE or existing Cordova project."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:17
+msgid "live reload of project: By pairing with Monaca Debugger, you can run your project instantly on your device. All changes made to the source code of the project will be updated immediately after those changes are saved."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:19
+msgid "integrate with Chrome DevTools: By connecting your device (running Monaca Debugger) to the host PC (running Monaca Localkit) via USB cable, you can debug your app using Chrome DevTools. With the DevTools, you can set breakpoint and perform JavaScript debugging and app inspection."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:21
+msgid "remote build: Monaca Localkit allows you to build your app for various platforms with the support from Monaca server."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:24
+msgid "Please remember that the projects you have in :ref:`Monaca Cloud IDE<monaca_ide_index>` and Monaca Localkit are not synchronized. They are completely seperated. However, you can :ref:`import projects from Monaca Cloud IDE to Monaca Localkit<localkit_import>`."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:27
+msgid "You are required to have a valid plan in order to use Monaca Localkit. Otherwise, Monaca Localkit will run in an evaluation mode for 30 days after the first login. Please refer to `Pricing <https://monaca.mobi/en/pricing?type=2>`_ for more details of each Monaca plan."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:29
+msgid "Please note that :ref:`Backend <monaca_backend_index>` as well as :ref:`push_notification_index` are currently not available in Monaca Localkit yet."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:32
+msgid "Installation and Setup"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:34
+msgid "Before getting started, you need to install Monaca Localkit on the computer and :ref:`monaca_debugger_index` on the device(s)."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:44
+msgid "Download the latest version of Monaca Localkit `here <https://monaca.io/localkit.html>`_. Please refer to `GitHub release page <https://github.com/monaca/Localkit/releases>`_ for change logs."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:45
+msgid "Install Monaca Debugger as described in :ref:`Debugger Installation<debugger_installation_index>`."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:49
+msgid "Usage"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:52
+msgid "Starting Monaca Localkit"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:54
+msgid "Open Monaca Localkit and then sign in using Monaca account."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:62
+msgid "After a successful login, Monaca Localkit dashboard will appear."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:74
+msgid "Creating a New Project"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:76
+msgid "You can create a new project based on templates provided by Monaca."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:78
+msgid "From Monaca Localkit dashboard, click on :guilabel:`+` button. Then, click :guilabel:`Create` button."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:86
+msgid "Fill in the necessary information such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:88
+#: ../doc/monaca_localkit/overview.rst:141
+msgid "Project Name: create a name to represent your new project which will be shown in the project list."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:89
+#: ../doc/monaca_localkit/overview.rst:130
+#: ../doc/monaca_localkit/overview.rst:140
+msgid "Working Directory: specify a directory where you want to keep your project files."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:90
+msgid "Select Template: choose a template for your new project. Please use :guilabel:`Preview` button to see how each template looks like."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:98
+msgid "If the project is created successfully, the new project will be shown in the project list."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:104
+msgid "Importing a Project"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:106
+msgid "There are two types of projects you can import into Monaca Localkit:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:108
+msgid "From Cloud IDE: projects you have in your Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:110
+msgid "From Local Cordova Project: Cordova projects you have on your PC. There some limitations while importing Cordova projects such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:112
+msgid "App icons and splash images may not be imported. They can be configured on Build Config screen."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:113
+msgid "The scripts in hooks directory are ignored."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:114
+msgid "Platform specific codes including Cordova are not imported. Monaca will use its own Cordova and surrounded libraries."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:117
+msgid "In order to import a project into Monaca Localkit, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:119
+msgid "From Monaca Localkit dashboard, click on :guilabel:`+` button on the top right corner of the left panel. Then, click :guilabel:`Import` button. Then, choose which option you want to import Monaca project."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:127
+msgid "If you choose :guilabel:`From Cloud IDE` option, fill in the necessary information such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:129
+msgid "Select Project: select a project from a list of all projects you have in Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:138
+msgid "On the other hand, if you choose :guilabel:`From Local Cordova Project` option, fill in the necessary information such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:149
+msgid "After that, the new project will be shown in the project list."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:154
+msgid "Adding Editor Program for Local Projects"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:156
+msgid "Monaca Localkit provides an \"Open in\" feature which is used to open your local project files in different ways such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:158
+msgid "Finder/File Explorer: This will reveal the selected project's folder in Finder (for Mac) or File Explorer (for Windows)."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:159
+msgid "Terminal/Command Prompt: This will open the selected project's folder in Terminal (for Mac) or Command Prompt for (Windows)."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:160
+msgid "Other editor programs: You can also add any preferred editors to open your local project files from Monaca Localkit."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:162
+msgid "In order to add an editor program to Monaca Localkit, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:164
+msgid "In Monaca Localkit, select a project."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:166
+msgid "Click :guilabel:`Open in...` button and select :guilabel:`Add More Program...`."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:174
+msgid "Then, Add Editor Application dialog will appear. Fill in the necessary information related to the editor program such as:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:176
+msgid "Application Path: browse the editor execution file (``.app`` file for Mac or ``.exe`` file for Windows)."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:177
+msgid "Application Name: name the selected editor program. It will be shown in the list of programs when you click :guilabel:`Open in...`."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:178
+msgid "Command-line Arguments: [optional] applicable arguments for the selected editor program."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:186
+msgid "Click :guilabel:`OK`. Now, the new editor program should appear in the \"Open in\" list as shown below:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:197
+msgid "Preference Dialog"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:199
+msgid "From Monaca Localkit menu, go to :guilabel:`Preferences` (for Mac) or go to :menuselection:`File --> Preferences` (for Windows)."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:207
+msgid "In this Preferences dialog, you can do the following settings:"
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:209
+msgid "Working Directory: specify a default location to store your local projects."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:210
+msgid "Listening Port: specify a port number to be used when pairing Monaca Localkit with Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:211
+msgid "Proxy Server: specify a proxy server."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:212
+msgid "Log Output: specify where you want to store a log file."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:220
+msgid "Save the settings."
+msgstr ""
+
+#: ../doc/monaca_localkit/overview.rst:229
+#: ../doc/monaca_localkit/pairing_debugging.rst:77
+#: ../doc/monaca_localkit/troubleshooting.rst:71
+msgid ":doc:`build_publish`"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:5
+msgid "Pairing and Debugging"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:11
+msgid "In order to debug Monaca app with Monaca Localkit, you need to pair your host PC (running Monaca Localkit) with your device (running Monaca Debugger) first."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:13
+msgid "Make sure your host PC and your mobile device are in the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:16
+msgid "Start Pairing"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:18
+msgid "Log in to Monaca Localkit on your host PC."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:20
+msgid "Use the same account to log in to Monaca Debugger on your mobile device."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:22
+msgid "Once logged in, Monaca Debugger should be able to detect the host PC as shown below. Then, click :guilabel:`Pair` button to start the pairing. However, if Monaca Debugger is unable to detect the host PC automatically, please refer to :ref:`Troubleshoot the Pairing<troubleshoot_pair>`."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:30
+msgid "If the pairing is successful, the debugger will be shown under \"Debuggers\" tab in Monaca Localkit."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:38
+msgid "Moreover, when the debugger is successfully connected to Monaca Localkit, a local projects list will be shown in Monaca Debugger as shown below:"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:48
+msgid "Stop Pairing"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:50
+msgid "From Monaca Debugger, click on the toggle menu on the top-left corner and go to :guilabel:`Local Computers` button."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:52
+msgid "Then, the connected PC will be shown. Click on the \"Information\" icon of the connected PC (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:60
+msgid "The information of the connected PC will be shown here. Click :guilabel:`Unpair this computer` button to disconnect from the selected PC. Once you unpair, you can't debug your local Monaca projects with this debugger anymore unless you pair it again."
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:66
+msgid "Debugging Monaca Apps with Monaca Localkit"
+msgstr ""
+
+#: ../doc/monaca_localkit/pairing_debugging.rst:68
+msgid "Please refer to :ref:`debugger_with_local_tools`."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:5
+msgid "Troubleshooting Guide"
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:11
+msgid "In this page, we will describe how to solve some known issues related to Monaca Localkit."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:14
+msgid "Installation in Windows"
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:16
+msgid "When installing Monaca Localkit in Windows, the following screen might show up preventing you from installing the Localkit."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:24
+msgid "In order to solve this problem, click :guilabel:`More Info` button. Then, click on :guilabel:`Run Anyway` button."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:33
+msgid "Installation in Mac OS X"
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:35
+msgid "When installing Monaca Localkit in Mac OS X, the following screen might show up preventing you from installing the Localkit."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:43
+msgid "In order to solve this problem, do as follows:"
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:45
+msgid "Open :guilabel:`System Preferences` and go to :guilabel:`Security & Privacy`."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:47
+msgid "Click :guilabel:`Open Anyway` button."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:55
+msgid "Now, try installing the app again. It should work this time."
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:59
+msgid "Removing Monaca Localkit (for Windows)"
+msgstr ""
+
+#: ../doc/monaca_localkit/troubleshooting.rst:61
+msgid "While uninstalling Monaca Localkit, you might not be able to remove its remaining files. In this case, please remove them manually from Program Files folder."
+msgstr ""
+

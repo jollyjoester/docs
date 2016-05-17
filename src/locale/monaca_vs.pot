@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-, Asial Corporation
+# This file is distributed under the same license as the Monaca package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monaca 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../doc/monaca_vs/build_publish.rst:5
+msgid "Remote Building and Publishing"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:11
+msgid "Remote Building"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:13
+msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:15
+msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:16
+msgid "Building configuration: configure necessary information regarding application and build for each platform."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:17
+msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:20
+msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:22
+msgid "Please refer to the following documentation on how to build your app according to each platform:"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:24
+msgid ":doc:`../../build/ios/index`"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:25
+msgid ":doc:`../../build/build_android`"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:26
+msgid ":doc:`../../build/build_winrt`"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:27
+msgid ":doc:`../../build/build_chrome_app`."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:31
+msgid "Publishing"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:34
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:36
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:39
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:41
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:44
+msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:49
+#: ../doc/monaca_vs/overview.rst:264
+#: ../doc/monaca_vs/pairing_debugging.rst:89
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:51
+#: ../doc/monaca_vs/overview.rst:266
+#: ../doc/monaca_vs/pairing_debugging.rst:91
+msgid ":doc:`../../../quick_start/monaca_vs/index`"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:52
+#: ../doc/monaca_vs/pairing_debugging.rst:92
+msgid ":doc:`overview`"
+msgstr ""
+
+#: ../doc/monaca_vs/build_publish.rst:53
+#: ../doc/monaca_vs/overview.rst:268
+msgid ":doc:`pairing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_vs/index.rst:4
+msgid "Monaca for VS"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:3
+msgid "Monaca for Visual Studio Overview"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:9
+msgid "Monaca for Visual Studio is an extension which allows you to develop Monaca applications using Microsoft Visual Studio IDE. Several features found in Monaca Cloud IDE are included in this extension. Therefore, app development with Monaca for Visual Studio is very similar to the app development on Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:20
+msgid "Prerequisites"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:22
+msgid "In order to use Monaca for Visual Studio, you need:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:24
+msgid "Microsoft Visual Studio 2015 Community Edition, Professional Edition or higher editions."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:25
+msgid "a valid plan subscription. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:30
+msgid "Installing Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:32
+msgid "It is necessary to install :ref:`tools for Apache Corodva <install_tools_for_apache_cordova>` in Visual Studio in order to run Monaca for Visual Studio properly."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:34
+msgid "There are two ways to install Monaca for Visual Studio such as:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:36
+msgid ":ref:`install_from_vs`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:37
+msgid ":ref:`install_from_web`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:42
+msgid "Installing from Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:44
+#: ../doc/monaca_vs/overview.rst:146
+msgid "From Visual Studio menu, go to :menuselection:`Tools --> Extensions and Updates`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:46
+msgid "Then, go to :menuselection:`Online --> Visual Studio Gallery`. Next, input ``monaca`` in a search box on the top-right corner."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:48
+msgid "Select ``Monaca for Visual Studio 2015`` and click :guilabel:`Download`. Wait until the download is finished, then install it."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:56
+msgid "If you want to have Onsen UI templates within Visual Studio, please download and install ``Onsen UI Templates for Visual Studio 2015``."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:58
+msgid "When the installation is completed, restart Visual Studio. Then, :guilabel:`MONACA` menu can be found in the Visual Studio menu."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:71
+msgid "Installing from Web"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:73
+msgid "Download Monaca for Visual Studion extension `here <https://visualstudiogallery.msdn.microsoft.com/21a7a495-5a24-4eab-a519-2f6e6d176049>`_."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:75
+msgid "Open the downloaded file and follow the installation instruction."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:77
+msgid "Restart Visual Studio if it is opened during installation. Then, :guilabel:`MONACA` menu can be found in Visual Studio menu."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:83
+msgid "Installing Tools for Apache Cordova"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:85
+msgid "From Visual Studio menu, go to :menuselection:`File --> New --> Project`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:87
+msgid "Then, go to :menuselection:`Installed --> Templates --> JavaScript --> Apache Cordova Apps`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:89
+msgid "Select ``Install Tools for Apache Cordova Update 7`` and click :guilabel:`OK`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:97
+msgid "Click :guilabel:`Install`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:105
+msgid "Please close Visual Studio before the update begins. Otherwise, the following dialog asking you to close the Visual Studio will appear."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:113
+msgid "Click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:122
+msgid "Click :guilabel:`Update`. It will take sometimes until the installation completes. Please wait."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:134
+msgid "Uninstalling Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:136
+msgid "To completely uninstall Monaca for Visual Studio, you need to perform the following steps:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:138
+msgid ":ref:`uninstall_from_vs`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:139
+msgid ":ref:`uninstall_from_pc`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:144
+msgid "Uninstalling from Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:148
+msgid "Then, go to :menuselection:`Installed --> Tools`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:150
+msgid "Select ``Monaca`` and click :guilabel:`Uninstall`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:162
+msgid "Uninstalling from Windows PC"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:164
+msgid "Go to :menuselection:`Control Panel --> Programs --> Uninstall a program`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:166
+msgid "Select ``Monaca for Visual Studio`` and click :guilabel:`Uninstall`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:171
+msgid "Monaca Panel Features"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:173
+msgid "Once Monaca is successfully installed and added into Visual Studio IDE, please log in with a valid Monaca account."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:183
+msgid "Run in Device"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:185
+msgid "This function is available when at least one :ref:`monaca_debugger_index` is connected to the host PC (running Visual Studio). It will run the current project in Monaca Debugger. Please refer to :ref:`How to Connect Monaca Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:191
+msgid "Monaca Debugger is not Connected"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:197
+msgid "Monaca Debugger is Connected"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:203
+msgid "Build Settings"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:205
+msgid "Just like in Monaca Cloud IDE, this function will open a Build Settings window which allows you to configure project settings as well as build settings such as:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:207
+msgid ":ref:`Cordova Plugins<cordova_plugins_setting>`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:208
+msgid ":ref:`js_css`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:209
+msgid ":ref:`service_integration_index`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:210
+msgid ":ref:`Android App and Build Settings<building_for_android>`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:211
+msgid ":ref:`iOS App and Build Settings<building_for_ios>`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:212
+msgid ":ref:`Windows App Settings<building_for_win8>`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:213
+msgid ":ref:`Chrome Apps Settings<building_for_chrome_app>`"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:224
+msgid "Build"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:226
+msgid "This function will open a Build window which allows you to build your project for 4 different platforms as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:235
+msgid "Preferences"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:237
+msgid "While trying to pair/connect Monaca Debugger with the PC hosting Monaca within Visual Studio, you might need to configure HTTP Server Port and Proxy Server. Please refer to :ref:`troubleshooting the Pairing<troubleshoot_pair>` on when this function is needed."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:239
+msgid "You can find this function by going to :menuselection:`MONACA --> Preferences`."
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:247
+msgid "There are two ways to define the proxy server address as follows:"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:249
+msgid "Proxy Server with basic authentication"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:255
+msgid "Proxy Server without basic authentication"
+msgstr ""
+
+#: ../doc/monaca_vs/overview.rst:267
+#: ../doc/monaca_vs/pairing_debugging.rst:93
+msgid ":doc:`build_publish`"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:5
+msgid "Pairing and Debugging"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:12
+msgid "In order to debug Monaca app with Monaca for Visual Studio, you need to pair your host PC (running Monaca for Visual Studio) with your device (running Monaca Debugger) first."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:14
+msgid "Make sure your host PC and your mobile device are in the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:19
+msgid "Start Pairing"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:21
+msgid "Launch Monaca Debugger app and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca within Visual Studio IDE."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:29
+msgid "Pair the Monaca Debugger with the PC hosting Monaca for Visual Studio. Once logged in, Monaca Debugger should be able to detect the host PC as shown below. Then, click :guilabel:`Pair` button to start the pairing."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:37
+msgid "If your pairing is success, a project list will appear in Monaca Debugger and the connected debugger will appear in the Monaca panel (see a screenshot below as an example). However, if Monaca Debugger is unable to detect the host PC automatically, please refer to :ref:`troubleshooting the Pairing<troubleshoot_pair>`."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:43
+msgid "Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:49
+msgid "Monaca Panel within Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:53
+msgid "In order to run your project in Monaca Debugger, you can just click on the project name in the debugger or click :guilabel:`Run in Device` button in Monaca panel within Visual Studio. Then, your project should be running in the debugger as shown below:"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:63
+msgid "Stop Pairing"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:65
+msgid "From Monaca Debugger, click on the toggle menu on the top-left corner and go to :guilabel:`Local Computers` button."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:67
+msgid "Then, the connected PC will be shown. Click on the \"Information\" icon of the connected PC (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:75
+msgid "The information of the connected PC will be shown here. Click :guilabel:`Unpair this computer` button to disconnect from the selected PC. Once you unpair, you can't debug your local Monaca projects with this debugger anymore unless you pair it again."
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:82
+msgid "Debugging Monaca Apps with Monaca for Visual Studio"
+msgstr ""
+
+#: ../doc/monaca_vs/pairing_debugging.rst:84
+msgid "Please refer to :ref:`debugger_with_local_tools`."
+msgstr ""
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="components/loader.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("deviceready", onDeviceReady, false);
+
+      function onDeviceReady () {
+         window.alert ('Loading PhoneGap is completed');
+      }
+
+      function onSuccess (imageURI) {
+        var largeImage = document.getElementById ('picture');
+        largeImage.style.display = 'block';
+        largeImage.src = imageURI;
+      }
+
+      function getPhoto () {
+        //Specify the source to get the photos.
+        navigator.camera.getPicture(onSuccess, onFail, 
+          { quality: 50,destinationType: Camera.DestinationType.FILE_URI,
+          sourceType: navigator.camera.PictureSourceType.SAVEDPHOTOALBUM });
+      }
+
+      function onFail (message) {
+          alert('An error occured: ' + message);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Get an image from a photo album of the device</h1>
+    <input type="button" onclick="getPhoto();" value="Acquiring an image from a photo album"><br>
+    <img style="display:none;" id="picture" src="" width="150" height="150" />
+  </body>
+  </html>
