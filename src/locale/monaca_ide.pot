@@ -216,6 +216,7 @@ msgid "It is likely that the built app does not contain the necessary Cordova pl
 msgstr ""
 
 #: ../doc/monaca_ide/faq/build.rst:2
+#: ../doc/monaca_ide/manual/build/index.rst:5
 #: ../doc/monaca_ide/manual/overview.rst:161
 msgid "Build"
 msgstr ""
@@ -1212,6 +1213,1167 @@ msgstr ""
 msgid "Monaca IDE comprises of the interface to work from the development of the project to the build consistently. Here, we will describe about screen structure, editor's shortcuts and project files management."
 msgstr ""
 
+#: ../doc/monaca_ide/manual/build/build_android.rst:5
+msgid "Building for Android"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:12
+#: ../doc/monaca_ide/manual/build/build_android.rst:18
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:21
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:28
+msgid "Types of Build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:14
+msgid "In Monaca, Android app has two types of build: debug version and release version. The differences between these types of build are as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:18
+#: ../doc/monaca_ide/manual/build/build_android.rst:80
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:27
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:28
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:97
+#: ../doc/monaca_ide/manual/editor.rst:15
+#: ../doc/monaca_ide/manual/zen_coding.rst:53
+#: ../doc/monaca_ide/tips/camera.rst:26
+#: ../doc/monaca_ide/tips/camera.rst:92
+#: ../doc/monaca_ide/tips/storage.rst:54
+#: ../doc/monaca_ide/tips/storage.rst:67
+#: ../doc/monaca_ide/tips/storage.rst:80
+msgid "Description"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:18
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:28
+msgid "Installation"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:20
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:30
+msgid "*Debug Build*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:20
+msgid "An unsigned package which cannot be distributed in the market."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:20
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:34
+msgid "QR Code"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:21
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:31
+msgid ":ref:`Network Install <debugger_project_options>`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:22
+#: ../doc/monaca_ide/manual/build/build_android.rst:24
+msgid "Sideloading"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:24
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:38
+msgid "*Release Build*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:24
+msgid "a signed package with the developer's code sign which can be distributed in the market."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:25
+msgid "Google Play Store and other eligible markets"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:30
+msgid "Sideloading means installing an application package in APK format onto an Android device. After building your app, you can download the APK file and install it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:35
+msgid "Step 1: Configure Android App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:37
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> Android App Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:39
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:16
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:32
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:57
+#: ../doc/monaca_ide/tutorials/building_app.rst:43
+#: ../doc/monaca_ide/tutorials/building_app.rst:141
+msgid "Fill in the necessary information of your app:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:41
+msgid "General settings:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:46
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:62
+msgid "Application Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:46
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:62
+msgid "a name representing your app publicly such as in the Market."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:48
+msgid "Package Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:48
+msgid "a unique name which will be used when uploading to the Android Market. It is recommended to use reverse-domain style (for example, mobi.monaca.appname) for App ID. Only alphanumeric characters and periods (at least one period must be used) are allowed. Each segment separated by a period should begin with an alphabetic character."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:53
+msgid "Use Different Package Name for Debug Build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:53
+msgid "if enable, the package name of the release-built and debug-built apps are different. In other words, the package name of debug-built app will have ``.debug`` extension, and the one for project debugger will have ``.debugger`` extension. However, this option is disable by default because it made some plugins impossible to be debugged due to the fact that they are tied to exact package names (eg. in-app purchase)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:59
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:29
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:50
+msgid "Version"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:59
+msgid "the version number of your app. A version number consist of only number seperated by dots (for example, 1.0.0)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:62
+msgid "Version Code"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:62
+msgid "an internal version number of your app, relative to other versions. The value must be integer, so that the applications can programmatically evaluate it for an upgrade."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:65
+msgid "Fullscreen"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:65
+msgid "this option is only available with the PhoneGap 3.5 and later. If enable, your app will be run in a fullscreen mode which hide the status bar."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:75
+msgid "Misc: various settings regarding your Android app such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:80
+msgid "Settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:80
+msgid "Default Value"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:82
+msgid "Allowed URL"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:82
+msgid "``*``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:82
+msgid "Specify URL(s) which can be accessed from your app. If set to ``*``, you can access all domains from your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:85
+msgid "Keep Running"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:85
+#: ../doc/monaca_ide/manual/build/build_android.rst:87
+msgid "Enable"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:85
+msgid "Enable this if you want Cordova to keep running in the background."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:87
+msgid "Disallow Overscroll"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:87
+msgid "Enable this if you want to disable the glow when a user scrolls beyond the edge of the webview."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:90
+msgid "WebView Engine"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:90
+msgid "Stock WebView"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:90
+msgid "Set to High Performance (Crosswalk) for a more powerful and larger app size. It's required Android 4.0 and up. For phonegap 5.2 and and higher, Stock WebView will be applied as default."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:94
+msgid "Screen Orientation"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:94
+msgid "Default"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:94
+msgid "You can also set the device's screen orientation when running your app as Landscape or Portrait."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:98
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:44
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:66
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:82
+#: ../doc/monaca_ide/tutorials/building_app.rst:58
+#: ../doc/monaca_ide/tutorials/building_app.rst:155
+msgid "After finishing the configurations, click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:104
+msgid "Step 2: Configure Android Keystore"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:106
+msgid "A keystore is a binary file that contains a set of private keys. A private key represents the entity to be identified with the app, such as a person or a company. A keystore is encrypted with a password and it cannot be restored if the password is lost. When a keystore is lost or it overwrites another keystore, it is impossible to use the same key to re-sign the signed package."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:108
+msgid "A keystore is required for the building of a release version for your Android app. In Monaca, you can either create a new keystore or import an existing one. In order to create a new keystore, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:110
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> Android KeyStore Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:112
+msgid "Then, Manage KeyStore and Alias page will appear."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:120
+msgid "Click on :guilabel:`Clear and Generate New...` button. Then, the following screen will appear:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:128
+msgid "Fill in the necessary information as shown in the above screen such as"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:130
+msgid "Alias: a name representing a private key that you will use later when signing your app. Multiple aliases can be stored within one keystore."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:131
+msgid "Password: a password for the private key (alias)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:132
+msgid "Password of the keystore: a password for the keystore. You will need this password when importing this keystore."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:134
+msgid "Then, click :guilabel:`Generate Keystore and Alias` button to Generate the keystore."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:136
+msgid "When a keystore is lost, it is impossible to use the same key to re-sign the signed package. Therefore, always back up and keep the keystore which is used to sign application(s). Use the :guilabel:`Export` button to download your keystore."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:142
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:277
+msgid "Step 3: Start Building"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:144
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App for Android`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:146
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:281
+msgid "Select appropriate type of build you want and click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:154
+msgid "Select the CPU architecture. ARM option is recommended since it has higher compatibility. For more information regarding the CPU architecture and its differences, please refer to `CPUs and Architectures <http://developer.android.com/ndk/guides/arch.html>`_. If you choose Release Build option in Step 2, you may also need to select an alias to sign your package."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:160
+msgid "Debug Build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:166
+msgid "Release Build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:170
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:54
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:76
+msgid "Click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:172
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:291
+msgid "It may take several minutes for the build to complete. Please wait."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:179
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:96
+#: ../doc/monaca_ide/manual/build/build_history.rst:32
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:166
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:296
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:154
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:90
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:140
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:74
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:211
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:171
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:227
+#: ../doc/monaca_ide/manual/editor.rst:61
+#: ../doc/monaca_ide/manual/type_script.rst:313
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:181
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:99
+#: ../doc/monaca_ide/manual/build/build_history.rst:34
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:168
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:156
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:214
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:229
+msgid ":ref:`building_for_ios`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:182
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:100
+#: ../doc/monaca_ide/manual/build/build_history.rst:36
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:301
+msgid ":ref:`building_for_win8`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:183
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:101
+#: ../doc/monaca_ide/manual/build/build_history.rst:37
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:170
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:143
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:215
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:232
+msgid ":ref:`google_play_distribution`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:184
+#: ../doc/monaca_ide/manual/build/build_history.rst:38
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:171
+msgid ":ref:`building_for_chrome_app`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_android.rst:185
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:102
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:172
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:302
+msgid ":ref:`build_history`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:5
+msgid "Building for Chrome Apps"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:12
+msgid "Step 1: Configure Chrome Apps"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:14
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> Chrome Apps Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:21
+msgid "App Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:21
+msgid "Enter the application name. It is displayed in the following locations: install dialog, management UI, and Chrome Web Store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:24
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:46
+msgid "Short Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:24
+msgid "Enter a short name to be displayed in case that there is not enough space displaying the full App Name such as App launcher or Chrome tab bar."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:27
+msgid "Enter the description of the application. It is a plain text string no more than 132 characters."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:29
+msgid "Enter the version of the application."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:31
+msgid "This app works offline"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:31
+msgid "Check if your app works offline."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:33
+msgid "Allowed Hosts"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:33
+msgid "Specify the host permission. It is required if extensions or apps need to interact with code running on page such as cross-origin XMLHttpRequests, content injection script, and the extension's cookies API that requires host permission."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:50
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:72
+msgid "Step 2: Start Building"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:52
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build for Chrome Apps`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:62
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:84
+msgid "After the build is successfully completed, download the zip file of the built app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:71
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:93
+msgid "Step 3: Install the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:73
+msgid "Open Chrome browser and type :guilabel:`chrome://extensions`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:75
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:95
+msgid "Extract the downloaded zip file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:77
+msgid "Drag and drop the extracted folder into Chrome Extenstions page. This will install the app as Chrome extension."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:85
+msgid "Now your app is installed and ready to launch. It’s also automatically added to Chrome App Launcher. To run the app, click :guilabel:`Launch` (as shown in the screenshot above) or click on it from Chrome App Launcher (as shown in the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_chrome_app.rst:98
+#: ../doc/monaca_ide/manual/build/build_history.rst:35
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:169
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:300
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:142
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:173
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:230
+msgid ":ref:`building_for_android`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:5
+msgid "Build History"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:7
+msgid "Everytime you build your app through Monaca IDE, Monaca saves your build history where you can see your build detail and error logs."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:11
+msgid "View build history"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:13
+msgid "You can view your build history as following:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:15
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build History`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:18
+msgid "Your built history will be displayed as following."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_history.rst:26
+msgid "Click on :guilabel:`Remove` button to remove particular item from your history or :guilabel:`Download` button to download the built app. Once you click on :guilabel:`Remove` button, it cannot be undone."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:5
+msgid "Building for Windows"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:10
+msgid "Windows Store Apps"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:12
+msgid "Windows Store apps are created by using HTML5 and JavaScript , and they run natively on the WinRT architecture. Therefore, applications created by using Monaca are equipped with the same functionalities as created by development tools such as Visual Studio, and can use all native features including WinJS."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:14
+msgid "Windows Store apps run on PCs and tablets installed with Windows and Windows RT. However, if you want to publish the app to the Windows Store, you will need to rebuild it separately by using Visual Studio or other development tools since the release build from Monaca are not supported yet."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:16
+msgid "On the other hand, Windows Store apps have various constraints that are not found on Android or iOS such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:18
+msgid "There are some methods or features that are not supported since HTML5 or JavaScript runs in Trident/Chakra application mode. For more details, please refer to HTML, CSS, and JavaScript Features and Difference on `<http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:21
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:12
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:22
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:13
+#: ../doc/monaca_ide/templates_samples/backend_memo.rst:22
+#: ../doc/monaca_ide/templates_samples/facebook.rst:24
+#: ../doc/monaca_ide/templates_samples/ibeacon.rst:28
+#: ../doc/monaca_ide/templates_samples/twitter.rst:25
+msgid "Prerequisite"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:23
+msgid "You are required to have a valid Microsoft Developer License in order to build Windows apps. It's free but you need to have a Microsoft account. If you don't have the license, please register `here <https://dev.windows.com/en-us/programs/join>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:28
+msgid "Step 1: Configure Windows App Settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:30
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> Windows App Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:37
+msgid "Package Certificate Key"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:37
+msgid "This certificate is used when Monaca compiles to Windows app. It will also be used when doing side-loading or submitting to Windows Store. It will be generated automatically in the first Windows build if it does not exist. If you want to upload existing certificate file, it should be a PKCS#7 format without password."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:42
+msgid "App Display Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:42
+msgid "Enter the application name. It will appear on the Start screen."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:44
+msgid "Package Display Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:44
+msgid "Enter the package name."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:46
+msgid "Enter a name to be displayed on the taskbar."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:48
+msgid "Show Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:48
+msgid "Define default setting of logo displayed in start menu of windows 8 or higher."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:50
+msgid "Enter the version number of your app. A version number consist of only number seperated by dots (for example, 0.0.1.0)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:53
+msgid "App Description"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:53
+msgid "A short summary about your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:55
+msgid "Package Publisher Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:55
+msgid "It could be your name, group name, company name, etc."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:57
+msgid "Architecture"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:57
+msgid "Select a CPU Architecture. Available options are AnyCPU, x86, x64 and Arm."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:74
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App for Windows`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:97
+msgid "In the extracted folder, Right-click on the :file:`Add-AppDevPackage.ps1` file and select :guilabel:`Run with PowerShell`. Then, the installation will begin."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:105
+msgid "Then, you might be asked to confirm the opening of the selected file. Click :guilabel:`Open`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:113
+msgid "Press Enter to continue."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:121
+msgid "Then, the UAC (User Account Control) prompt will appear asking you to grant the Administrative privilege. Click :guilabel:`Yes`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:123
+msgid "Confirm the running of the app by typing ``R`` in the PowerShell windows."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:131
+msgid "Then, press ``Y``."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:139
+msgid "Once, the installation is completed, press Enter."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:147
+msgid "Now, your app should be successfully installed. Find your app in the App windows."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/build_winrt.rst:155
+msgid "Click on it to launch the app. Then, your app should be running."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:5
+msgid "Building an iOS App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:11
+#: ../doc/monaca_ide/manual/version_control.rst:19
+#: ../doc/monaca_ide/templates_samples/inmobi.rst:22
+msgid "Prerequisites"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:13
+msgid "Before getting started, you are required to:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:15
+msgid "subscribe to `iOS Developer Program <https://developer.apple.com/programs/ios/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:16
+msgid "understand :ref:`types of build <types_of_build_ios>` and their requirements."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:23
+msgid "In Monaca, iOS app has three types of build: debug version, test version and release version. The differences between these types of build are as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:28
+msgid "Requirement"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:30
+msgid "Build the app to be installed on a development device."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:30
+msgid "Development Certificate"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:31
+msgid "Development Provisioning Profile"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:30
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:35
+msgid "iTune"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:34
+msgid "*Ad Hoc Build*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:34
+msgid "Build the app to be installed on multiples development devices."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:34
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:38
+msgid "Production Certificate"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:35
+msgid "Distribution (Ad Hoc) Provisioning Profile"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:38
+msgid "Build the app to be distributed in App Store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:39
+msgid "Distribution (App Store) Provisioning Profile"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:38
+msgid "App Store"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:44
+msgid "Ad Hoc distribution is a way to distribute your applications without going through the App Store. Currently, up to *100* applications which are built by using Ad Hoc provisioning profile can be shared with other iOS devices through Ad Hoc distribution. However, the application distribution from the developer organization will be limited to the development stakeholders."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:48
+msgid "Step 1: Configure iOS App in Monaca"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:53
+msgid "Configure iOS App Settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:55
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> iOS App Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:64
+msgid "App ID"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:64
+msgid "a unique ID representing your app. It is recommended to use reverse-domain style (for example, mobi.monaca.appname) for App ID. Only alphanumeric characters and periods (at least one period must be used) are allowed. Each segment separated by a period should begin with an alphabetic character."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:69
+msgid "Version Number"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:69
+msgid "a number representing the version of your app which will be required when uploading (publishing process) your application via iTune Connect later. It needs 3 numbers separated by dots (for example, 1.10.2). Each number should be in [0-99]."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:80
+msgid "The App ID (set in Monaca App Settings) cannot contain asterisk (``*``); otherwise, the build will fail. This App ID must be the same as the explicit App ID you will register (or have registered) in iOS Dev Center. Read more on :ref:`register_appID`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:88
+msgid "Configure iOS Build Settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:90
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:85
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Config --> iOS Build Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:98
+msgid "You need to create a new private key or import an existing one. To create a new private key, click on :guilabel:`Generate Key and CSR` button and fill in a username (a name representing this new private key) and email address (Apple ID)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:106
+msgid "If you import an existing private key, you will also need to upload the certificate associated with this private key to Monaca. Please refer to :ref:`import_into_monaca`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:109
+msgid "After creating a new private key, CRS file associated with the private key is also created. Download the CRS file by clicking on :guilabel:`Export` button. It will be used to issue the certificates later in iOS Dev Center."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:111
+msgid "Issue the certificates in iOS Dev Center and download them. Please refer to :ref:`create_cer`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:113
+msgid "Upload the downloaded certificates to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:117
+msgid "Step 2: Configure iOS App in iOS Dev Center"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:119
+msgid "From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Member Center`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:121
+msgid "Sign in using Apple ID and password you used to enroll in the iOS Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/ios/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:123
+msgid "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear. All actions we need to do (in order to build an iOS app) are inside :guilabel:`iOS` panel."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:131
+msgid "In this page, we are going to do 3 important things:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:133
+msgid ":ref:`create_cer`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:134
+msgid ":ref:`register_appID`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:135
+msgid ":ref:`register_dev_device`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:142
+msgid "Generate Certificates"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:144
+msgid "There are two types of certificates which can be issued in iOS Dev Center:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:146
+msgid "Development certificate: required for Debug build"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:147
+msgid "Production certificate: required for either Ad Hoc or Release build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:150
+msgid "After you have downloaded the CSR (refer to :ref:`config_ios_build`), you are now able to issue and download the certificates in iOS Dev Center. In this example, we will show you how to issue and download a Development certificate. To do this, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:152
+msgid "Under iOS Apps section, go to :menuselection:`Certificates --> Development`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:154
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:184
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:224
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:256
+msgid "Click the Add button (+) in the upper-right corner."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:162
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:258
+msgid "Choose :guilabel:`iOS App Development` and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:164
+msgid "Choose :guilabel:`App Store and Ad Hoc` if you want to issue Production certificate."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:166
+msgid "Click :guilabel:`Continue` again and upload the CSR file that you've downloaded from Monaca Cloud IDE earlier. Then, click :guilabel:`Generate`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:168
+msgid "By now, your development certificate has been issued. Please download this certificate. You will need to upload it to Monaca Cloud IDE later."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:170
+msgid "Follow similar instruction in order to create a Production certificate."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:176
+msgid "Register App ID"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:178
+msgid "App IDs are primarily used when creating development and distribution provisioning profiles. You can create a wildcard App ID that matches one or more apps or an explicit App ID that exactly matches your bundle ID."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:180
+msgid "In order to register your App ID, please follow these instructions:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:182
+msgid "Under iOS Apps section, go to :menuselection:`Identifiers --> App IDs`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:186
+msgid "Fill in the information of your App ID such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:188
+msgid "The App ID string contains two parts (Prefix and Suffix) separated by a period (``.``)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:190
+msgid "App ID Description: Description of your App ID. You cannot use special characters such as ``@, &, *, ', \"``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:192
+msgid "App ID Prefix: It is defined as your Team ID by default."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:194
+msgid "App ID Suffix: It is defined as a Bundle ID search string. There are two types of App ID Suffixes:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
+msgid "Explicit App ID"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:199
+msgid "Register an explicit App ID if you plan to incorporate app services such as a Game Center, In-App Purchase, Data Protection, and iCloud, or just want a provisioning profile unique to a single app. Enter a unique string in the Bundle ID field of Explicit App ID which should match with the Bundle ID of your app. The App ID must match the one you set in Monaca Cloud IDE as shown in :ref:`config_ios_app_monaca`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:204
+msgid "Wildcard App ID"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:204
+msgid "Register a wildcard App ID if you want to use a single App ID for building and installing multiple applications. Enter an asterisk (``*``) as the last digit in the Bundle ID field of wildcard App ID."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:208
+msgid "App Services: Select the services you want to enable in your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:210
+msgid "Then, click :guilabel:`Continue`. After reviewing your App ID’s info, click :guilabel:`Submit`. By now, you have completed your App ID registration into iOS Dev Center."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:216
+msgid "Register Development Devices"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:218
+msgid "You are required to register your development device(s) before creating development and distribution provisioning profiles."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:220
+msgid "In order to register a device that you will be using during your app development, please follow these instructions:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:222
+msgid "Under iOS Apps section, go to :guilabel:`Devices`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:226
+msgid "Fill in the information of your device."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:228
+msgid "Name: a name represent your device (Example: MyiPhone)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:230
+msgid "UDID: a unique device identifier of your device. You can find this identifier by connecting your iOS device to your computer. Then, open iTunes and see the summary of your device. After that, click on the device’s *Serial Number* to reveal the UDID which consists of *40* characters. Right-click on it to copy this UDID. (See below)"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:239
+msgid "Then, press :guilabel:`Continue`. After reviewing your device’s info, click :guilabel:`Register`. By now, you have completed your device registration into iOS Dev Center."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:245
+msgid "Create Provisioning Profiles"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:247
+msgid "One last step before building your iOS app is creating a provisioning profile. There are two types of provisioning profile:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:249
+msgid "Development provisioning profile: used with Development certificate for debug build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:250
+msgid "Distribution provisioning profile: used with Production certificate for ad hoc and release build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:252
+msgid "In this example, we will show you how to create a Development provisioning profile. To do this, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:254
+msgid "Under iOS Apps section, go to :menuselection:`Provisioning Profiles --> Development`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:260
+msgid "Choose :guilabel:`Ad Hoc` if you want to create Distribution provisioning profile for Ad Hoc build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:261
+msgid "Choose :guilabel:`App Store` if you want to create Distribution provisioning profile for Release build."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:263
+msgid "Select your App ID and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:265
+msgid "Select the certificate(s) you want to include in this profile and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:267
+msgid "Select the device you have previously registered for development and click :guilabel:`Continue`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:269
+msgid "Input a name for the provisioning profile and click :guilabel:`Generate`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:271
+msgid "Now your Development provisioning profile is ready. Please download it. You will need this file when building your iOS app in Monaca later."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:273
+msgid "Follow similar instruction in order to create a Distribution provisioning profile."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:279
+#: ../doc/monaca_ide/tutorials/building_app.rst:95
+msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App for iOS`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:289
+msgid "Upload the appropriate provisioning profile (refer to :ref:`types_of_build_ios`) and click :guilabel:`Next` button."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:298
+msgid ":ref:`import_export_certificates_and_private_keys`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/build_ios.rst:299
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:144
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:76
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:174
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:231
+msgid ":ref:`app_store_distribution`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:5
+msgid "Build Settings between Monaca and Xcode"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:10
+msgid "If you want to develop your Monaca app in both Monaca Cloud IDE and Xcode on your Mac OS X, you will need to synchronize the build settings (private keys and certificates) of the app you use in these two environments."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:13
+msgid "In this page, we will show you how to:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:15
+msgid ":ref:`from_mac_to_monaca`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:16
+msgid ":ref:`from_monaca_to_mac`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:22
+msgid "Export the Build Settings from Xcode to Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:24
+msgid "In case you've already had your build settings (private keys and certificates) in your Mac OS X (Xcode) and you want to export them to Monaca Cloud IDE, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:29
+msgid "Step 1: Export Private Key and Certificate in Keychain Access"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:31
+msgid "In order to export the private key in Keychain Access, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:33
+msgid "In your Mac OS X, go to :menuselection:`Applications --> Utilities --> Keychain Access`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:35
+msgid "Select :guilabel:`Certificates` on the left panel of the Keychain Access window."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:43
+msgid "Right-click on the certificate you want to export and select :guilabel:`Export “CERTIFICATE NAME”`. Please make sure to choose the certificate that has a private key. Only the certificate which has a private key can be imported into Monaca."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:51
+msgid "Then, the export screen will be displayed. Let's save it as a private key by selecting the file format as ``Personal Information Exchange (.p12)``, and then click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:59
+msgid "Enter a password for this private key, and then click :guilabel:`OK`. By doing so, a private key file with extension of ``.p12`` will be created. Please take note of this password since you will need it when importing this file into Monaca Cloud IDE later."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:67
+msgid "Now, right-click on the certificate you want to export again and select :guilabel:`Export “CERTIFICATE NAME”`. This time, we are going to save it as a certificate by selecting the file format as ``Certificate (.cer)``, and then click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:79
+msgid "Step 2 :Import Private Key and Certificate into Monaca"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:81
+msgid "In Monaca, you can register only one private key. If you are using different private keys for the developer and the distribution certificates, you will need to re-import the private key which is related with the certificate you are going to use."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:83
+msgid "In order to import the private key and certificate in Monaca Cloud IDE, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:94
+msgid "Click on :guilabel:`Import`. Browse the private key file (``.p12`` file) and enter the password for that key. Then click :guilabel:`Import`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:103
+msgid "In the *Upload Certificate* section, click on :guilabel:`Upload` button for the Developer or Distribution certificate."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:111
+msgid "Select the certificate file (``.cer`` file) and then upload it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:117
+msgid "Export the Build Settings from Monaca Cloud IDE to Xcode"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:119
+msgid "From Monaca Cloud IDE, the private key and certificate are exported as one file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:121
+msgid "In order to export the private key and certificate from Monaca Cloud IDE, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:123
+msgid "From the Monaca Cloud IDE menu, select :menuselection:`Config --> iOS Build Settings`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:125
+msgid "In the *Upload Certificate* section, click on :guilabel:`Export` button of the type of certificate you want to export."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:133
+msgid "Then, you will be ask to input a password before exporting. Please remember this password because you will need it when importing this certificate later."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:141
+msgid "After clicking :guilabel:`Export` button, you will then be able to download a file with ``.p12`` extension (Ex: ``dev_certification_ios.p12``). This file consists of a private key and a certificate."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/import_export.rst:143
+msgid "Double-click on the downloaded file. Then, you will be asked to input the password for the file and click :guilabel:`OK`. After that you can use the private key and certificate in Xcode."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/build/ios/index.rst:3
+msgid "Building for iOS"
+msgstr ""
+
 #: ../doc/monaca_ide/manual/creating_monaca_project.rst:3
 msgid "Creating Monaca Projects"
 msgstr ""
@@ -1372,6 +2534,1598 @@ msgstr ""
 msgid "Importing a Project"
 msgstr ""
 
+#: ../doc/monaca_ide/manual/dependencies/components.rst:5
+msgid "JS/CSS Components"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:12
+msgid "JS/CSS components are JavaScript and CSS libraries you may need to include to your project such as jQuery, jQuery mobile, Onsen UI and so on."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:14
+msgid "In order to add a JavaScript/CSS library, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:16
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage JS/CSS Components`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:18
+msgid "Then, \"Add or Remove JS/CSS Components\" page will be shown. You can see several libraries listed there. If you can't find the library you want, input the library's name in a search box to find it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:26
+msgid "Assuming you are searching for Angular, a list of matched libraries will be shown. Click :guilabel:`Add` to include the library to your project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:34
+msgid "Then, you can choose which version of the library to include in your project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:42
+msgid "Next, select which files of the library you want to include and click :guilabel:`OK`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:51
+msgid "After that, you will find your newly added library in the list. Select guilabel:`Configure` when you want to change the library's version and selected files."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:60
+msgid "When a library is added, its files are added into ``www/components`` folder. The following JavaScript and CSS files will also be automatically updated. These files will always be presented regardless of which libraries are added into your project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:63
+msgid "``components/loader.js``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:63
+msgid "A JavaScript file to load for all active libraries"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:65
+msgid "``components/loader.css``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:65
+msgid "A Style sheet file for all active libraries"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:75
+msgid "Therefore, libraries can be loaded by simply referencing the two files (as shown above) in the HMTL file. More specifically, all you need to do is include the following descriptors within the ``<head>`` tag of the HTML file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/components.rst:82
+msgid "If you would like to use images within your libraries, you can directly load those image files from the :guilabel:`components` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:5
+msgid "Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:13
+#: ../doc/monaca_ide/manual/version_control.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:15
+msgid "Usually, you need native code (Java for Android, Objective-C for iOS, etc) to access native device function such as Cameras, FileSystem, Device Storage, etc. However, you can access these native functions using JavaScript with Cordova."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:17
+msgid "Cordova is a set of device APIs that allow a mobile app developer to access native device function such as the camera or accelerometer from JavaScript. Therefore, Monaca uses Cordova to enable your hybrid apps to access native device functions from JavaScript."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:19
+msgid "For more information about Cordova, please refer to `here <https://cordova.apache.org/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:23
+msgid "Loading Cordova"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:25
+msgid "You can't use device APIs before Cordova is fully loaded. It is very important to use :file:`onDeviceReady()` function. This function runs when Cordova is loaded."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:27
+msgid "As a trial, let's start up Camera functions by using device APIs. Please copy and paste the code below to your project in Monaca Cloud IDE then you can run it on  :ref:`monaca_debugger_index`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:29
+msgid "This code was written for Cordova 4.1. We apologize in advance in case the code may behave differently on various devices."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:74
+msgid "Changing Cordova Version"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:76
+msgid "You can't downgrade to older Cordova versions once your projects are upgraded. A backup of the project is automatically created before conversion."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:78
+msgid "For new created projects, the latest Cordova version available in Monaca will be automatically applied. However, you can upgrade your existing projects to the latest Cordova version as following:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:81
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:82
+msgid "Select the preferred Cordova Version from the dropdown list as shown below."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:95
+msgid "Cordova Plugins in Monaca"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:97
+msgid "Right from Monaca Cloud IDE, you can easily include standard (core) and third-party Cordova plugins."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:99
+msgid "Standard Cordova plugins refer to a minimal set of Cordova APIs such as Battery, Camera, Contacts, Devices and so on. Please refer to :ref:`cordova_core_plugins`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:101
+msgid "Third-party Cordova plugins refer to other existing Cordova plugins. There are :ref:`some third-party Cordova plugins <third_party_cordova_index>` which you can add to your project right from Monaca Cloud IDE. You can also import other third-party Cordova plugins. Let's call these imported third-party Cordova plugins as external third-party Cordova plugins."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:106
+msgid "Add/Import Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:108
+msgid "In order to add a Cordova plugin into your project, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:110
+msgid "From Monaca Cloud IDE, go to :menuselection:`File --> Manage Cordova plugin` or :menuselection:`Config --> Manage Cordova plugin`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:112
+msgid "Then, Manage Cordova Plugins page will be shown. In this page, standardard and some third-party Cordova plugins are listed. Mouseover a plugin and click on :guilabel:`Enable` to add the plugin. If you cannot find the plugin you want in the list, you can import other third-party Cordova plugins by using :guilabel:`Import Cordova Plugin` button. A project containing external third-party Cordova plugin(s) requires a custom built Monaca Debugger. Please refer to :ref:`debugger_for_custom_plugins`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/cordova_plugin.rst:120
+msgid "Once a plugin is enabled/imported, you might want to configure it. Mouseover a plugin you want to config and click :guilabel:`Config` to open a plugin's settig dialog where you can change the plugin's version and set plugin's parameter(s)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:5
+msgid "Custom Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:13
+msgid "Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:15
+msgid "Cordova Plugin provides a simple way to write a native code onto your program. In this page, we will describe how to create and add a custom Cordova plugin into your Monaca project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:17
+msgid "You need to subscribe to a valid plan in order to use custom Cordova plugins. Please refer to `Monaca Pricing <https://monaca.mobi/en/pricing>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:19
+msgid "Your custom Cordova plugin need to follow the requirements below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:21
+msgid "It must be compatible with Cordova 4.1."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:22
+msgid "It must have a ``plugin.xml`` file and is installable with ``plugman`` command line tool."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:23
+msgid "It must support iOS and Android platforms."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:25
+msgid "You can find various Cordova Plugins in the Internet, but it is likely that they are either obsolete or their version would not match. Therefore, how to create a custom Cordova plugin from scratch is covered in this page."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:30
+msgid "Structure of a Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:32
+msgid "A typical structure of a Cordova plugin is as follows (directories are displayed in bold letters):"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:35
+msgid "*plugin_name*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:37
+msgid "*src*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:39
+msgid "*ios*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:41
+msgid "plugin_name.h"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:42
+msgid "plugin_name.m"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:44
+msgid "*www*"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:46
+msgid "plugin_name.js"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:48
+msgid "plugin.xml"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:51
+msgid "Before getting started, please download the following zip file containing sample plugin code."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:53
+msgid ":download:`Sample Cordova Plugin <download/cordova_plugin_sample.zip>`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:55
+msgid "When you extract the package, you will see a directory structure as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:65
+msgid ":file:`plugin.xml` file"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:67
+msgid ":file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:69
+msgid "Below is a :file:`plugin.xml` file from the downloaded sample plugin."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:111
+msgid "hello_world.js file"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:113
+msgid ":file:`hello_world.js` is defined as ``js-module`` in plugin spec. Therefore, it will be automatically loaded by ``cordova.js``, which is included in ``loader.js``."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:126
+msgid "For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:130
+msgid "iOS and Android Native Code"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:132
+msgid "Native code must be written in either Objective-C or Java, depending on the platform. It must have the same function as defined in the JavaScript file. Also, please be aware that all callbacks are asynchronous."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:134
+msgid "Here are the guides about native code development."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:136
+msgid "`Developing a Plugin on Android <http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:137
+msgid "`Developing a Plugin on iOS <http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:142
+msgid "Import Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:144
+msgid "To import a custom Cordova plugin into your Monaca project, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:146
+msgid "Compress your custom Cordov plugin files as a zip file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:148
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova plugin`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:150
+msgid "Then, \"Manage Cordova Plugins\" page will be shown. Click on :guilabel:`Import Cordova Plugin` button."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:158
+msgid "Then, browse your plugin file (zip file) and click :guilabel:`Import`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:170
+msgid "Monaca Debugger with Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:172
+msgid "The standard Monaca Debugger, which can be found in the store such as App Store or Google Play, includes the standard (core) and several third-party Cordova plugins (refer to :ref:`third_party_cordova_index` for the list of all third-party Cordova plugins pre-included in Monaca). For this reason, the standard Monaca Debugger cannot be used with Monaca projects containing custom or other external third-party Cordova plugins. In this case, custom built Monaca Debugger is required to run such projects properly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:174
+msgid "Custom built Monaca Debugger is a debugger which is built within Monaca Cloud IDE inside a project containing custom or external third-party Cordova plugins. Please refer to the following links on how to build custom built debugger and the differences between the standard and custom built debugger:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:176
+msgid ":ref:`debugger_on_ios`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:177
+msgid ":ref:`debugger_on_android`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:179
+msgid "Please make sure to import the custom or external third-party Cordova plugins before building the custom built debugger."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:181
+msgid "We also offer technical support (fee required) for developing your custom Cordova Plugin. Please contact our support team `here <https://monaca.mobi/en/support/index>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:185
+msgid "Testing Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:187
+msgid "Create a project in Monaca Cloud IDE using the :ref:`Minimum Project Template <minimum_project>`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:189
+msgid "Import a sample custom Cordova plugin you downloaded earlier in :ref:`plugin_structure`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:191
+msgid "Then, add the following snippet into :file:`index.html` file. The code below is simply just to show a message dialog using the sample custom Cordova plugin:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:207
+msgid "Now, run the project in the standard Monaca Debugger. You will see that the message dialog will not be shown."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:209
+msgid "Build a custom built Monaca Debugger. Please refer to the following links on how to build a custom built Monaca Debugger:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:211
+msgid ":ref:`custom_debugger_ios`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:212
+msgid ":ref:`custom_debugger_and`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:214
+msgid "Install the custom built Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:216
+msgid "Open the debugger and check the debuggers' information by clicking on :guilabel:`About this debugger` button."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:224
+msgid "You should be able to find the custom Cordova plugin in there as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/custom_cordova_plugin.rst:232
+msgid "Login to the debugger and run the project containing the custom Cordova plugin. The message dialog should be shown if the project is run properly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:5
+msgid "File and Folder Structure"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:10
+msgid "The Monaca application is organized with the following folder and file configurations:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:13
+msgid "``android/``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:13
+msgid "Storage folder for Android application settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:14
+msgid "``chrome/``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:14
+msgid "Storage folder for Chrome application settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:15
+msgid "``ios/``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:15
+msgid "Storage folder for iOS application settings"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:16
+msgid "``www/``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:16
+msgid "Storage folder for the main body of the application"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:20
+msgid "www Folder"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:22
+msgid "Files of the application's main body are stored here. Files and folders can be arranged freely within this ``www`` folder, but the following files and folders have special significance."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:25
+#: ../doc/monaca_ide/templates_samples/age-calc.rst:33
+#: ../doc/monaca_ide/templates_samples/backend_memo.rst:48
+#: ../doc/monaca_ide/templates_samples/break_the_bricks.rst:30
+#: ../doc/monaca_ide/templates_samples/clock.rst:32
+#: ../doc/monaca_ide/templates_samples/facebook.rst:60
+#: ../doc/monaca_ide/templates_samples/flickr.rst:28
+#: ../doc/monaca_ide/templates_samples/hello_world.rst:32
+#: ../doc/monaca_ide/templates_samples/ibeacon.rst:47
+#: ../doc/monaca_ide/templates_samples/inmobi.rst:79
+#: ../doc/monaca_ide/templates_samples/memo_application.rst:31
+#: ../doc/monaca_ide/templates_samples/minimum_project.rst:33
+#: ../doc/monaca_ide/templates_samples/omikuji.rst:29
+#: ../doc/monaca_ide/templates_samples/onsen_ui_minimum_project.rst:31
+#: ../doc/monaca_ide/templates_samples/onsen_ui_sliding_menu.rst:30
+#: ../doc/monaca_ide/templates_samples/onsen_ui_tabbar_navigator.rst:30
+#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:31
+#: ../doc/monaca_ide/templates_samples/shinkansen.rst:29
+#: ../doc/monaca_ide/templates_samples/todo.rst:29
+#: ../doc/monaca_ide/templates_samples/twitter.rst:58
+msgid "``index.html``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:25
+msgid "The first page to be displayed when the application starts up. The startup file can be changed."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:26
+msgid "``components/``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:26
+msgid "The folder created by Monaca for all JS/CSS components used in the project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:31
+#: ../doc/monaca_ide/templates_samples/clock.rst:46
+#: ../doc/monaca_ide/templates_samples/hello_world.rst:57
+#: ../doc/monaca_ide/templates_samples/onsen_ui_minimum_project.rst:48
+#: ../doc/monaca_ide/templates_samples/onsen_ui_sliding_menu.rst:49
+#: ../doc/monaca_ide/templates_samples/onsen_ui_tabbar_navigator.rst:51
+#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:63
+#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:74
+#: ../doc/monaca_ide/tips/media.rst:21
+#: ../doc/monaca_ide/tips/media.rst:57
+msgid "index.html"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:33
+msgid "The :file:`index.html` file is the starting point for your application. At startup, the information contained in this file is usually the very first thing that will be read."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:36
+msgid "components Folder"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:38
+msgid "The folder ``www/components/`` is for all JS/CSS components used in the project. However, the following two files exist in that folder by default regardless of what kinds of components you have added for your project."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:41
+msgid "``loader.js``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:41
+msgid "A JavaScript file used by Monaca to load the components"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:43
+msgid "``loader.css``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:43
+msgid "A style sheet file used by Monaca for the components"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:47
+msgid "The :file:`loader.js` and :file:`loader.css` files must be read from an HTML file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:49
+msgid "Each component will create its own folder within (one level below) ``www/components/`` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:52
+msgid "android Folder"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:54
+msgid "Android application settings files are stored inside the ``android`` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:57
+msgid "``AndroidManifest.xml``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:57
+msgid "Manifest file used when running Android applications"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:60
+msgid "For more information about how to use this file, please see :doc:`../../reference/config/android_configuration`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:63
+msgid "chrome Folder"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:65
+msgid "Chrome application settings files are stored inside the ``chrome`` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:68
+msgid "``background.js``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:68
+msgid "A JavasSript file used when running Chrome applications"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:69
+msgid "``manifest.json``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:69
+msgid "A Manifest file used when running Chrome applications"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:75
+msgid "ios Folder"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:77
+msgid "iOS application settings files are stored inside the ``ios`` folder."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:80
+msgid "``MonacaApp-Info.plist``"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:80
+msgid ":file:`Info.plist` file used when running iOS applications"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:83
+msgid "For more information about how to use this file, please see :doc:`../../reference/config/ios_configuration`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/file_dir.rst:92
+#: ../doc/monaca_ide/tutorials/adding_backend.rst:97
+#: ../doc/monaca_ide/tutorials/starting_project.rst:123
+#: ../doc/monaca_ide/tutorials/testing_debugging.rst:124
+msgid ":ref:`sample_apps_index`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/dependencies/index.rst:5
+msgid "Project Dependencies"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:5
+msgid "Amazon Appstore Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:14
+msgid "In order to publish Android apps at Amazon Appstore, you will need to create a developer account at `Amazon Apps Developer Portal <https://developer.amazon.com/appsandservices>`_. The registration is free."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:17
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:24
+msgid "Create a Release Build of the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:19
+msgid "Using Monaca Cloud IDE build feature, you can build a release version of your app and upload it to Amazon Appstore. Follow the steps in :ref:`building_for_android` to build the app with “Release Build”. Then, download the built app (APK file)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:24
+msgid "Register the Apps in Amazon AppStore"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:26
+msgid "Go to `Amazon Apps Developer Portal <https://developer.amazon.com/appsandservices>`_ and login with a valid Amazon developer account."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:28
+msgid "Under :guilabel:`DASHBOARD` tab, click :guilabel:`Add a New App`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:36
+msgid "Select :guilabel:`Android` and click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:38
+msgid "The New App Submission page will appear. In this page, you will need to fill in the necessary information such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:43
+msgid "App title"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:43
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:74
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:81
+msgid "Name of your app"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:45
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:95
+msgid "Category"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:45
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:95
+msgid "Select a category for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:47
+msgid "Customer support contact"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:47
+msgid "You can either use your default support information or input new information about email address, phone number and website."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:51
+msgid "Click :guilabel:`Save`. Then, the following page will appear:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:59
+msgid "Go to :guilabel:`Availability & Pricing` tab, select appropriate type of your app and answer listed questions. Then, click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:67
+msgid "Amazon covers over 200 countries. Your app can only be released after it has been approved."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:69
+msgid "Go to :guilabel:`Description` tab. In this page, you will need to fill in the following necessary information and click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:74
+msgid "Display Title"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:76
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:83
+msgid "Short description"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:76
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:78
+msgid "Description of your app shown in the store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:78
+msgid "long description"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:80
+msgid "Product feature bullets"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:80
+msgid "Input a list of your app's features. They will be displayed in Amazon.com website."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:83
+msgid "Go to :guilabel:`Images & Multimedia` tab. In this page, you will need to upload at least 3 screenshots, a small icon (114x114 PNG file) and a large icon (512x512 PNG file) of your app and click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:85
+msgid "Go to :guilabel:`Content Rating` tab. In this page, you will be asked to complete a questionnaire regarding content rating for your app. Complete the questionaire and click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:87
+msgid "Go to :guilabel:`Binary File(s)` tab. In this page, you will need to fill in the following necessary information and click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:92
+msgid "Apply Amazon DRM?"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:92
+msgid "Select Yes if you want to protect your application from unauthorized."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:94
+msgid "Binary file"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:94
+msgid "Upload your APK file. There is no size restriction for an APK file. However, files larger than 150 MB will need to be uploaded via `SFTP <https://developer.amazon.com/ftp/account.html?appId=MPU22LL128ECT>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:98
+msgid "Device Support"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:98
+msgid "Select only the devices you intend to target with this binary file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:100
+msgid "Language Support"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:100
+msgid "Select available language support for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:102
+msgid "Export Compliance"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:102
+msgid "Check this if your app may be imported to and exported from the United States and all other countries."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:105
+msgid "Use Amazon Maps Redirection"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:105
+msgid "Amazon devices do not support the Google Maps API. However, the Amazon Maps API provides interface parity with the Google Maps v1 API."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:109
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:152
+msgid "After completing the configuration, click :guilabel:`Save draft`. At this point, your app should be ready to be published."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:112
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:158
+msgid "Release the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:114
+msgid "You can't publish your app unless you properly fill in necessary information related to your app. Once, you successfully complete the required information, click on :guilabel:`Submit App` to release your app. This button is disable if the required information is not completed properly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:116
+msgid "After submission is complete, Amazon will review your app. The security of the app will be the primary concern. Review typically takes 1-2 days to complete."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:118
+msgid "After approved by Amazon, your app will be published on the Amazon Appstore for Android. The release date will be the specified date and time you have set in Step 6 in :ref:`register_app_in_amazon`, or as soon as it’s approved if you haven’t set any date or time yet."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:127
+msgid "Inquiry"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:129
+msgid "You can contact `Amazon customer support <https://developer.amazon.com/public/support/contact/contact-us>`_ at the Amazon Appstore for Android with any inquiries. They can assist you with various issues including how to submit your app or use the API."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:133
+msgid "Amazon Badges for Amazon Appstore for Android"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:135
+msgid "You can use Amazon badges to promote the availability of your app on the Amazon store. Badges are available from `Amazon Badges <https://developer.amazon.com/public/support/legal/tuabg>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/amazon_store.rst:145
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:216
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:175
+msgid ":ref:`non_market_app_distribution`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:5
+msgid "Monaca Upload Feature"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:7
+msgid "In order to use this upload feature, you are required to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:9
+msgid "If you use activation code to upgrade your account, you can use Monaca upload feature in case your plan supports this feature. Please `contact us <https://monaca.mobi/en/support/inquiry>`_ for more details."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:11
+msgid "Monaca allows you to upload your app to iTunes Connect right from Monaca IDE. In order to do this, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:14
+msgid "Create a release build version of your app through Monaca. Please refer to :ref:`building_for_ios`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:16
+msgid "When you successfully build a release version of your app, the following screen will appear. Click on the Upload button as shown in the screen below."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:24
+msgid "Then, the App Upload window will appear. Click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:32
+msgid "Fill in a valid Apple account information. Click :guilabel:`Next`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:40
+msgid "Make sure you've :ref:`registered this app with iTunes Connect <apply_itune_connect>` before uploading your app. Then, tick :guilabel:`We've registered the application with iTunes Connect.`. Click :guilabel:`Upload`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:48
+msgid "The uploading will start. Please wait."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:50
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:157
+msgid "If you upload multiple versions of the app, please make sure that each app file has different version number. Otherwise, the upload will fail."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:58
+msgid "If your upload is successful, the following screen will appear. It may take sometimes until the app shows up in the iTunes Connect."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:66
+msgid "Sometimes Monaca is successfully uploaded your app to iTunes Connect but Apple may find error(s) on their end and report to you via email. If this happens, please see the report and fix the error(s) appropriately. Then, re-upload your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:69
+msgid "Now that you successfully uploaded your app, you can start selecting it in iTunes Connect. Please refer to :ref:`Selecting the Uploaded App<select_uploaded_app>`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/app_submission.rst:77
+msgid ":ref:`itunes_connect`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/index.rst:5
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:32
+msgid "App Store Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/index.rst:8
+msgid "Before publishing iOS apps to the App Store, your apps need to be reviewed and accepted by Apple. iTunes Connect is where you can upload your apps, edit their descriptions and metadata, and view finances earned. Once, your apps are submitted, you will need to wait for the review from Apple. Apple will check if your apps are eligible or qualified to be in the App Store. Usually, it takes two weeks for the review. Therefore, please wait patiently for it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:5
+msgid "iTunes Connect Guide"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:19
+msgid "This document describes how to use iTunes Connect to submit an app for distribution through the App Store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:24
+msgid "You are required to have a `Team Agent account <https://developer.apple.com/support/roles/>`_ under `iOS Developer Program <https://developer.apple.com/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:30
+msgid "Registering the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:32
+msgid "In order to register your app in iTunes Connect, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:34
+msgid "Login to `iTunes Connect <https://itunesconnect.apple.com/>`_ with your Team Agent account."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:36
+msgid "Go to :guilabel:`My Apps`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:38
+msgid "Select :menuselection:`+ --> New App`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:46
+msgid "Enter the information about the app on the form that appears as seen below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:51
+msgid "Platforms"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:51
+msgid "Choose a platform for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:53
+msgid "Name"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:53
+msgid "Enter your app's name as it will appear on the App Store. It can't be longer than 255 characters."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:55
+msgid "Primary Language"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:55
+msgid "Choose a default language for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:57
+msgid "Bundle ID"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:57
+msgid "Select a Bundle ID which can be an explicit App ID or a wildcard App ID. If it’s a wildcard App ID, you also need to specify a bundle ID suffix. If it's an explicit App ID, it must exactly match the bundle identifier in your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:61
+msgid "Bundle ID Suffix"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:61
+msgid "Once you select a Bundle ID, the input field for Bundle ID Suffix will be displayed. It's a string that is appended to the bundle ID property if the bundle ID is a wildcard App ID. The bundle ID and bundle ID suffix must form a bundle identifier that exactly matches the bundle identifier in your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:66
+msgid "SKU"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:66
+msgid "Enter the code to identify the app. Although the code is up to your decision, it is necessary to create an ID that will identify the app in a unique way."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:76
+msgid "Click :guilabel:`Create`. Then, you will be redirected to the App Information page."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:78
+msgid "In the App Information page, choose a category for your app and click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:86
+msgid "Go to :guilabel:`Pricing and Availability`. In this page, you will need to configure 3 main points such as price schedule, available areas for your app and volume purchase program. Then, click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:94
+msgid "Go to :guilabel:`Prepare for Submission`. In this page, you will need to configure:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:96
+msgid "App video preview and screenshots: at least one screenshot is required."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:98
+msgid "Keywords"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:99
+msgid "Support URL"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:100
+msgid "App icon"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:101
+msgid "Copyright"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:102
+msgid "Contact information."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:110
+msgid "After the configuration, click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:117
+msgid "Uploading the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:119
+msgid "In the past, it was not necessary to have a Mac environment for submission. However, since August 2012, a Mac environment has become necessary as the Application Loader is needed to upload the apps to iTunes Connect and it is only compatible with Mac."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:121
+msgid "Fortunately, Monaca allows you to upload your app to iTunes Connect right from Monaca IDE. In other words, you don't need a Mac to upload your apps anymore."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:123
+msgid "For more information on how to use this upload feature, please refer to :ref:`upload_via_ide`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:125
+msgid "Alternatively, you can use the Application Loader as described below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:127
+msgid "Create and download a release build version of your app through Monaca. Please refer to :ref:`building_for_ios`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:129
+msgid "From iTunes Connect, download and install Application Uploader."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:137
+msgid "Open Application Uploader and login with your Apple account."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:139
+msgid "Select :guilabel:`Deliver Your App` and click :guilabel:`Choose`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:147
+msgid "Browse the release build file of your app. Then, the following screen will apear. Click :guilabel:`Next` to start uploading your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:155
+msgid "Once, the uploading is completed, click :guilabel:`Next` and :guilabel:`Done`. It may take sometimes until the app shows up in the iTunes Connect."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:162
+msgid "Selecting the Uploaded App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:164
+msgid "Once you successfully uploaded your app to iTunes Connect, it can be selected to submit to the App Store. Please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:166
+msgid "From iTunes Connect, go to :guilabel:`Prepare for Submission`. Under Build section, click :guilabel:`+`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:174
+msgid "Select your build and click :guilabel:`Done`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:182
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:186
+msgid "Submitting the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:188
+msgid "Now that you have completed the necessary configurations, your app is ready to be submitted."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:190
+msgid "From iTune Connect, go to :guilabel:`Prepare for Submission`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:192
+msgid "Click :guilabel:`Submit for Review`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:195
+msgid "After you've successfully submitted the app, you will need to wait for the review from Apple. Apple will review your app and see if it is eligible or qualified to be in App Store. Usually, it takes two weeks for the review. Therefore, please wait patiently for it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:201
+msgid "Publishing the App"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:203
+msgid "When your app is accepted by Apple, it will be up in the App Store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:205
+msgid "The large app icon, which was not necessary before, is now required for the submission. In fact, the required environment and information have changed in the submission procedure for the registration. If a registration/submission is not successful, please make sure you complete necessary configurations properly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:213
+msgid ":ref:`upload_via_ide`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/appstore/itunes_connect.rst:217
+msgid ":ref:`amazon_store_distribution_en`"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:5
+msgid "Google Play Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:15
+msgid "In order to distribute your apps through Google Play, you must register as a *Google Play Developer Console* account. The registration fee is ``$25`` (one-time only). It will take ``48`` hours for your *Google Play Developer Console* registration to be fully processed. To register, please go `here <https://play.google.com/apps/publish/v2/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:17
+msgid "If you want to sell your apps, you will also need to register as a Google Checkout merchant as well. To register, please visit `this link <https://support.google.com/googleplay/android-developer/answer/answer.py?hl=en&answer=2972701>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:26
+msgid "Using Monaca Cloud IDE build feature, you can build a release version of your app and upload it to Google Play."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:28
+msgid "Follow the steps in :ref:`building_for_android` to build the app with “Release Build”. Then, download the built app (APK file)."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:34
+msgid "Register the Apps in Google Play"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:36
+msgid "Go to `Google Play Developer Console <https://play.google.com/apps/publish/v2/>`_ and login with a valid Google Developer account."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:38
+msgid "Select :guilabel:`Add new application`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:46
+msgid "Choose a default language and enter a title for your app. Then, click :guilabel:`Upload APK`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:54
+msgid "In this page, you can upload your APK files for testing (beta and alpha) and production. Under PRODUCTION tab, select :guilabel:`Upload your first APK to Production`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:62
+msgid "Browse your APK file and upload it. A single APK file can be up to ``50MB``."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:64
+msgid "For more details on how to upload multiple APKs, please go `multiple apk upload <http://developer.android.com/guide/google/play/publishing/multiple-apks.html>`_ ."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:66
+msgid "Package names for app files are unique and permanent. They can't be deleted or re-used in the future. Therefore, you must be wise in choosing package names. Moreover, if you lost your keystore, you'll have to publish the app with a new package name and a new key. Then, update the description of the original app and unpublish it."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:68
+msgid "Once, the uploading is successfully completed, the page should look similar to the screenshot below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:76
+msgid "Go to Store Listing section. In this page, you will need to fill in some necessary information such as:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:81
+msgid "Title"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:83
+msgid "Description of your app shown in Google Play. It can be up to ``80`` characters."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:85
+msgid "Full description"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:85
+msgid "Description of your app shown in Google Play. It can be up to ``4000`` characters."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:87
+msgid "Screenshots"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:87
+msgid "At least 2 screenshots are required but you can upload up to 8 screenshots per type."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:89
+msgid "Hi-res icon"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:89
+msgid "You are required to upload a high-resolution icon (512x512 PNG file) for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:91
+msgid "Feature Graphic"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:91
+msgid "You are required to upload a feature graphic (1024x500 PNG file) for your app."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:93
+msgid "Application type"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:93
+msgid "It can be ``Applications`` or ``Games``. They are the major application types in Google Play."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:97
+msgid "Content rating"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:97
+msgid "Select a content rating of your app as appropriate."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:99
+msgid "Contact details"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:99
+msgid "You must have at least one support channel for your app. The support channels can be website, email and phone. This information can be viewed by users from Google Play."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:102
+msgid "Privacy Policy"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:102
+msgid "Input your privacy policy URL if you have one. Otherwise, please tick :guilabel:`Not submitting a privacy policy URL at this time.`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:112
+msgid "After completing the configuration, click :guilabel:`Save draft`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:114
+msgid "Go to Content Rating section. In this page, you will be asked to complete a questionnaire regarding content rating for your app. Click :guilabel:`Continue` to start the questionaire."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:122
+msgid "Fill in your email address and choose a category for your app. Then, fill in the answer for the questionaire and click :guilabel:`Save questionaire`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:124
+msgid "Click :guilabel:`Calculate rating`. Then, click :guilabel:`Apply rating`. Now, the page should look similar to this:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:132
+msgid "Go to Pricing & Distribution section. In this page, you are required to complete the following information:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:137
+msgid "Default price"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:137
+msgid "The default price applies to all countries without local prices."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:139
+msgid "Distributing Countries"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:139
+msgid "Select the countries you will distribute your app to."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:141
+msgid "Content guidelines"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:141
+msgid "Check if your app meets Android Content Guidelines."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:143
+msgid "US export laws"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:143
+msgid "Check if your app follows US export laws."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/google_play.rst:160
+msgid "You can't publish your app unless you properly fill in necessary information related to your app. Once, you successfully complete the required information, click on :guilabel:`Publish app` to release your app. This button is disable if the required information is not completed properly."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/index.rst:5
+msgid "Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:5
+msgid "Non-market App Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:13
+msgid "For iOS Apps"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:15
+msgid "There are two cases which you want to distribute your applications outside the App Store:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:17
+msgid "Testing Purpose: Before releasing your apps, you would want to test them as much as you can. Thus, you would want to distribute your apps to users (testers) by various ways besides the App Store."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:19
+msgid "In-house Applications: The applications are made for internal uses (in a company or organization) only."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:21
+msgid "For in-house distribution, you will need to have an `iOS Developer Enterprise Program <https://developer.apple.com/programs/ios/enterprise/>`_ account."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:23
+msgid "The differences between iOS Developer and iOS Developer Enterprise programs regarding apps distribution:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:26
+msgid "iOS Developer Program"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:26
+msgid "iOS Developer Enterprise Program"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:28
+msgid "TestFlight Beta Testing"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:28
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:30
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:30
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:32
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:34
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:36
+msgid "Yes"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:28
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:32
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:34
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:36
+msgid "No"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:30
+msgid "Ad Hoc Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:34
+msgid "Custom B2B App Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:36
+msgid "In-house Distribution"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:39
+msgid "For more information about the differences between the two programs, please refer to `here <https://developer.apple.com/programs/start/ios/>`_."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:41
+msgid "There are two ways to distribute your pre-release apps for testing:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:43
+msgid "using iTunes Connect: it's required iOS Developer Account and takes time since it needs approval from Apple Review prior to the distribution."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:45
+msgid "using Ad Hoc distribution: it can be done with either iOS Developer and iOS Developer Enterprise accounts. Plus, it doesn't require the approval from Apple Review."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:48
+msgid "In-house distribution is to securely distribute your iOS apps to your employees. In other words, you can distribute your app to any company devices. However, if you want someone outside of your company to test your app or restrict distribution to specific devices, you can use Ad Hoc distribution."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:50
+msgid "Ad Hoc distribution is to distribute your apps using Ad Hoc provisioning profile to registered devices up to 100."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:54
+msgid "Both types of distribution have the same ways for app installation. The difference is the provisioning profile."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:56
+msgid "There are several ways you can install your applications outside the App Store as shown in the following sections."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:59
+msgid "Install using iTunes"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:61
+msgid "Build your application with with debug or ad-hoc build. For more details about iOS build process, please refer to :ref:`building_for_ios`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:63
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:100
+msgid "Download the ``.ipa`` file after the build completes."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:65
+msgid "Open iTunes, go to :guilabel:`App` library."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:67
+msgid "Drag and drop the downloaded ``.ipa`` file into the App library."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:69
+msgid "Connect your device to iTunes and go to your device apps."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:71
+msgid "Click :guilabel:`install` button of the app and click :guilabel:`Sync` button. See the example below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:77
+msgid "Install using Xcode"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:79
+msgid "You can install your iOS app (``.ipa`` file) via Xcode as follows:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:81
+msgid "Connect your device to your PC."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:83
+msgid "Open Xcode, go to :menuselection:`Window --> Devices`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:85
+msgid "Then, the Devices screen will appear. Choose the device you want to install the app on."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:87
+msgid "Drag and drop your ``.ipa`` file into the Installed Apps as shown below:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:94
+msgid "Install using OTA Deployment"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:96
+msgid "OTA (Over-The-Air) Deployment enables you to install your built apps (ad-hoc build) via HTTPS."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:98
+msgid "Build your application with either debug or ad-hoc build. For more details about iOS build process, please refer to :ref:`building_for_ios`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:102
+msgid "Upload the ``.ipa`` file to the site you want."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:104
+msgid "Create a ``.plist`` file for this built application. The ``.plist`` file should look like this:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:141
+msgid "While creating ``.plist`` file, please pay attention to these points:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:143
+msgid "``.plist`` file must be accessed via https protocol."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:144
+msgid "update bundle-identifier with the App ID."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:145
+msgid "specify correct path to the .ipa file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:147
+msgid "Upload the ``.plist`` file to the site you want. Make sure this file must be accessed via HTTPS protocol."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:149
+msgid "Create a webpage embedded the link to the uploaded ``.plist`` file using special ``itms-services://`` protocol. See blow example:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:157
+msgid "After you get the link, use your device to access the link. Then, you will be prompted to install the application. See below example:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:172
+msgid "For Android Apps"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:174
+msgid "There are two cases which you want to distribute your applications outside the offical markets such as Google Play Store, Amazon AppStore and so on:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:176
+msgid "Testing Purpose: Before releasing your apps, you would want to test them as much as you can. Thus, you would want to distribute your apps to users (testers) by various ways besides the official markets."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:178
+msgid "Personal/Internal Purpose: The applications are made for your own personal uses or just for internal uses."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:181
+msgid "Install using ADB command"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:183
+msgid "ADB (Android Debug Bridge) is a tool enabling you to use various terminal commands to your phone."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:185
+msgid "Prerequisite:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:187
+msgid "install Android SDK on your computer"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:188
+msgid "locate the ADB path after Android SDK installation"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:189
+msgid "enable USB Debugging and allow installation of apps from sources other than the Play Store on your device."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:191
+msgid "In order to install your built app via ADB command:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:193
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:210
+msgid "Build your application with debug build. For more details about Android build process, please refer to :ref:`building_for_android`."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:195
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:212
+msgid "Download the ``.apk`` file after the build completes."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:197
+msgid "Plug your device via USB to your computer."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:199
+msgid "Run below command on your computer in command window. Make sure to use the correct path to your ``.apk`` file."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:206
+msgid "Install using Direct Link"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:208
+msgid "This is simply an installation through direct link to your ``.apk`` file:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:214
+msgid "Upload the downloaded file to any sites you want."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:216
+msgid "Go the link of the uploaded file from your device. Then, you will be prompted to install the applicaiton."
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:219
+msgid "Please make sure make these settings on your device beforehand:"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:221
+msgid "enable USB Debugging"
+msgstr ""
+
+#: ../doc/monaca_ide/manual/deploy/non_market_deploy.rst:222
+msgid "allow installation of apps from sources other than the Play Store."
+msgstr ""
+
 #: ../doc/monaca_ide/manual/editor.rst:5
 msgid "Editor Shortcuts"
 msgstr ""
@@ -1386,16 +4140,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/editor.rst:15
 msgid "Mac"
-msgstr ""
-
-#: ../doc/monaca_ide/manual/editor.rst:15
-#: ../doc/monaca_ide/manual/zen_coding.rst:53
-#: ../doc/monaca_ide/tips/camera.rst:26
-#: ../doc/monaca_ide/tips/camera.rst:92
-#: ../doc/monaca_ide/tips/storage.rst:54
-#: ../doc/monaca_ide/tips/storage.rst:67
-#: ../doc/monaca_ide/tips/storage.rst:80
-msgid "Description"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/editor.rst:17
@@ -1798,11 +4542,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/editor.rst:56
 msgid "We cannot guarantee that the all of the above shortcuts are working properly since the operations may differ depending on each version of OSs and browsers."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/editor.rst:61
-#: ../doc/monaca_ide/manual/type_script.rst:313
-msgid "*See Also*"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/editor.rst:63
@@ -2638,10 +5377,6 @@ msgstr ""
 msgid "Version Control (GitHub)"
 msgstr ""
 
-#: ../doc/monaca_ide/manual/version_control.rst:7
-msgid "Introduction"
-msgstr ""
-
 #: ../doc/monaca_ide/manual/version_control.rst:9
 msgid "Version control is a management tool that helps manage the changes to your project's source code and other collections of information. Usually, changes are determined by a revision code which is comprised of numbers and/or letters.  With version control, revision history can easily be tracked, compared against, restored and merged to control the whole set of your source code.  Additionally, version control systems provide is the ability to allow multiple team members or individuals to collaborate and maintain tracking over the source code."
 msgstr ""
@@ -2656,11 +5391,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/manual/version_control.rst:15
 msgid "Generally, you can only connect to public repositories. However, with valid Monaca subscription plan, you can additionally connect to private repositories. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr ""
-
-#: ../doc/monaca_ide/manual/version_control.rst:19
-#: ../doc/monaca_ide/templates_samples/inmobi.rst:22
-msgid "Prerequisites"
 msgstr ""
 
 #: ../doc/monaca_ide/manual/version_control.rst:21
@@ -3335,28 +6065,6 @@ msgid "File Components"
 msgstr ""
 
 #: ../doc/monaca_ide/templates_samples/age-calc.rst:33
-#: ../doc/monaca_ide/templates_samples/backend_memo.rst:48
-#: ../doc/monaca_ide/templates_samples/break_the_bricks.rst:30
-#: ../doc/monaca_ide/templates_samples/clock.rst:32
-#: ../doc/monaca_ide/templates_samples/facebook.rst:60
-#: ../doc/monaca_ide/templates_samples/flickr.rst:28
-#: ../doc/monaca_ide/templates_samples/hello_world.rst:32
-#: ../doc/monaca_ide/templates_samples/ibeacon.rst:47
-#: ../doc/monaca_ide/templates_samples/inmobi.rst:79
-#: ../doc/monaca_ide/templates_samples/memo_application.rst:31
-#: ../doc/monaca_ide/templates_samples/minimum_project.rst:33
-#: ../doc/monaca_ide/templates_samples/omikuji.rst:29
-#: ../doc/monaca_ide/templates_samples/onsen_ui_minimum_project.rst:31
-#: ../doc/monaca_ide/templates_samples/onsen_ui_sliding_menu.rst:30
-#: ../doc/monaca_ide/templates_samples/onsen_ui_tabbar_navigator.rst:30
-#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:31
-#: ../doc/monaca_ide/templates_samples/shinkansen.rst:29
-#: ../doc/monaca_ide/templates_samples/todo.rst:29
-#: ../doc/monaca_ide/templates_samples/twitter.rst:58
-msgid "``index.html``"
-msgstr ""
-
-#: ../doc/monaca_ide/templates_samples/age-calc.rst:33
 #: ../doc/monaca_ide/templates_samples/inmobi.rst:79
 #: ../doc/monaca_ide/templates_samples/todo.rst:29
 msgid "The startup Page"
@@ -3477,13 +6185,6 @@ msgstr ""
 #: ../doc/monaca_ide/templates_samples/backend_memo.rst:11
 #: ../doc/monaca_ide/templates_samples/flickr.rst:12
 msgid "*Tested Environments:* Android 4.1.1, iOS 7.1.1"
-msgstr ""
-
-#: ../doc/monaca_ide/templates_samples/backend_memo.rst:22
-#: ../doc/monaca_ide/templates_samples/facebook.rst:24
-#: ../doc/monaca_ide/templates_samples/ibeacon.rst:28
-#: ../doc/monaca_ide/templates_samples/twitter.rst:25
-msgid "Prerequisite"
 msgstr ""
 
 #: ../doc/monaca_ide/templates_samples/backend_memo.rst:24
@@ -3749,18 +6450,6 @@ msgstr ""
 #: ../doc/monaca_ide/templates_samples/flickr.rst:32
 #: ../doc/monaca_ide/templates_samples/omikuji.rst:30
 msgid "``images/*.png``"
-msgstr ""
-
-#: ../doc/monaca_ide/templates_samples/clock.rst:46
-#: ../doc/monaca_ide/templates_samples/hello_world.rst:57
-#: ../doc/monaca_ide/templates_samples/onsen_ui_minimum_project.rst:48
-#: ../doc/monaca_ide/templates_samples/onsen_ui_sliding_menu.rst:49
-#: ../doc/monaca_ide/templates_samples/onsen_ui_tabbar_navigator.rst:51
-#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:63
-#: ../doc/monaca_ide/templates_samples/sample_rss_reader.rst:74
-#: ../doc/monaca_ide/tips/media.rst:21
-#: ../doc/monaca_ide/tips/media.rst:57
-msgid "index.html"
 msgstr ""
 
 #: ../doc/monaca_ide/templates_samples/clock.rst:48
@@ -4370,7 +7059,7 @@ msgid ":envvar:`InfoPageCtrl` controls the interactions and processes in :file:`
 msgstr ""
 
 #: ../doc/monaca_ide/templates_samples/index.rst:5
-msgid "Sample Apps & Templates"
+msgid "Templates & Sample Apps"
 msgstr ""
 
 #: ../doc/monaca_ide/templates_samples/inmobi.rst:5
@@ -5917,12 +8606,6 @@ msgstr ""
 msgid ":ref:`cloud_ide_publishing_app`"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorials/adding_backend.rst:97
-#: ../doc/monaca_ide/tutorials/starting_project.rst:123
-#: ../doc/monaca_ide/tutorials/testing_debugging.rst:124
-msgid ":ref:`sample_apps_index`"
-msgstr ""
-
 #: ../doc/monaca_ide/tutorials/building_app.rst:5
 msgid "Part 4: Building Monaca App"
 msgstr ""
@@ -5987,11 +8670,6 @@ msgstr ""
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`Config --> iOS App Settings...`"
 msgstr ""
 
-#: ../doc/monaca_ide/tutorials/building_app.rst:43
-#: ../doc/monaca_ide/tutorials/building_app.rst:141
-msgid "Fill in the necessary information of your app:"
-msgstr ""
-
 #: ../doc/monaca_ide/tutorials/building_app.rst:45
 #: ../doc/monaca_ide/tutorials/building_app.rst:143
 msgid "Application Name: a name representing your app publicly such as in the Market."
@@ -6012,11 +8690,6 @@ msgstr ""
 
 #: ../doc/monaca_ide/tutorials/building_app.rst:56
 msgid "The App ID in Monaca Build Settings must be the same as the App ID you have registered in iOS Provisioning Portal. This App ID (in Monaca Build Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
-msgstr ""
-
-#: ../doc/monaca_ide/tutorials/building_app.rst:58
-#: ../doc/monaca_ide/tutorials/building_app.rst:155
-msgid "After finishing the configurations, click :guilabel:`Save`."
 msgstr ""
 
 #: ../doc/monaca_ide/tutorials/building_app.rst:62
@@ -6046,10 +8719,6 @@ msgstr ""
 #: ../doc/monaca_ide/tutorials/building_app.rst:93
 #: ../doc/monaca_ide/tutorials/building_app.rst:189
 msgid "Step 3: Building the App"
-msgstr ""
-
-#: ../doc/monaca_ide/tutorials/building_app.rst:95
-msgid "From the Monaca Cloud IDE menu, go to :menuselection:`Build --> Build App for iOS`."
 msgstr ""
 
 #: ../doc/monaca_ide/tutorials/building_app.rst:97
@@ -6185,7 +8854,7 @@ msgid ":ref:`cloud_ide_adding_backend`"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorials/index.rst:3
-msgid "Monaca Cloud IDE Tutorial"
+msgid "Tutorial"
 msgstr ""
 
 #: ../doc/monaca_ide/tutorials/index.rst:5

@@ -15,7 +15,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../doc/monaca_power_plugins/index.rst:4
+#: ../doc/monaca_power_plugins/faq/index.rst:5
+msgid "F.A.Q"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/faq/index.rst:7
+#: ../doc/monaca_power_plugins/tips/index.rst:7
+msgid "[TBU]"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/index.rst:5
 msgid "Power Plugins"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/manual/index.rst:3
+msgid "Manual"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/templates_samples/index.rst:5
+msgid "Templates & Sample Apps"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/tips/index.rst:5
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../doc/monaca_power_plugins/tutorials/index.rst:3
+msgid "Tutorial"
 msgstr ""
 

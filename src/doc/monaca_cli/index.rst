@@ -1,1 +1,1 @@
-.. _monaca_cli_index:===========================================CLI===========================================.. toctree::  :glob:  :maxdepth: 2  ../../../quick_start/cli/index  overview  cli_commands  pairing_debugging  build_publish
+.. _monaca_cli_index:===========================================CLI===========================================.. toctree::  :glob:  :maxdepth: 2  tutorials/index  templates_samples/index  manual/index  tips/index  faq/index  ../reference/index

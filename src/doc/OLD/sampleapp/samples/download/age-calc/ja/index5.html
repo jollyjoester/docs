@@ -1,0 +1,7 @@
+function keisan() {
+  var myname = $("#myname").val();
+  var myage = $("#myage").val();
+  var birthyear = new Date().getFullYear() - myage;
+  var text = myname + "さんは" + birthyear + "年生まれですね。";
+  navigator.notification.alert(text, null, "Monacaへようこそ！");
+}

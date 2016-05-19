@@ -6,8 +6,10 @@ Monaca for VS
 .. toctree::
   :maxdepth: 2
 
-  ../../../quick_start/monaca_vs/index
-  overview
-  pairing_debugging
-  build_publish
+  tutorials/index
+  templates_samples/index
+  manual/index
+  tips/index
+  faq/index
+  ../reference/index
 

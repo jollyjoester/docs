@@ -1,5 +1,5 @@
 =============================
-Monaca Cloud IDE Tutorial
+Tutorial
 =============================
 
 Before getting started with this tutorial, you will need:

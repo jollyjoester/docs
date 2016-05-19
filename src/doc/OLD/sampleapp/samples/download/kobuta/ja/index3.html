@@ -1,0 +1,19 @@
+//加速度センサーから傾きを取得するために、'devicemotion'にイベントを設定します
+  window.addEventListener('devicemotion',function(e){
+
+        //端末の傾きを取得します
+        gravity = e.accelerationIncludingGravity;
+        game.gy = gravity.y;
+
+       //y軸の傾きが3000以上であれば、こぶたの速さを3倍にして、フレームも2と3を交互に表示します
+       if(game.gy > 3.000){
+           player.x += 30;
+           player.frame = game.frame % 2 +2;
+       }
+
+       //y軸の傾きが3000以下であれば、通常どおりの速さとフレームです
+       else if(game.gy <= 3.000){
+           player.x += 10;
+           player.frame = game.frame %2;
+       }
+    },true);

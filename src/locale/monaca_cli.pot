@@ -15,870 +15,3809 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../doc/monaca_cli/build_publish.rst:5
-msgid "Remote Building and Publishing"
+#: ../doc/monaca_cli/faq/index.rst:5
+msgid "F.A.Q"
 msgstr ""
 
-#: ../doc/monaca_cli/build_publish.rst:11
-msgid "Remote Building"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:13
-msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:15
-msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:16
-msgid "Building configuration: configure necessary information regarding application and build for each platform."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:17
-msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:20
-msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:22
-msgid "Please refer to the following documentation on how to build your app according to each platform:"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:24
-msgid ":doc:`../../build/ios/index`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:25
-msgid ":doc:`../../build/build_android`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:26
-msgid ":doc:`../../build/build_winrt`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:27
-msgid ":doc:`../../build/build_chrome_app`."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:31
-msgid "Publishing"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:34
-msgid "Publishing for App Store"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:36
-msgid "Please refer to :ref:`app_store_distribution`."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:39
-msgid "Publishing for Google Play"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:41
-msgid "Please refer to :ref:`google_play_distribution`."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:44
-msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:49
-#: ../doc/monaca_cli/overview.rst:100
-#: ../doc/monaca_cli/pairing_debugging.rst:91
-msgid "*See Also*"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:51
-#: ../doc/monaca_cli/overview.rst:102
-#: ../doc/monaca_cli/pairing_debugging.rst:93
-msgid ":doc:`../../../quick_start/cli/index`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:52
-#: ../doc/monaca_cli/pairing_debugging.rst:95
-msgid ":doc:`overview`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:53
-#: ../doc/monaca_cli/overview.rst:103
-#: ../doc/monaca_cli/pairing_debugging.rst:94
-msgid ":doc:`cli_commands`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:54
-#: ../doc/monaca_cli/overview.rst:104
-msgid ":doc:`pairing_debugging`"
-msgstr ""
-
-#: ../doc/monaca_cli/build_publish.rst:55
-msgid ":ref:`troubleshoot_pair`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:5
-msgid "Monaca CLI Commands"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:12
-msgid "Commands"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:12
-msgid "Description"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:14
-msgid ":ref:`monaca_login`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:14
-msgid "signs in to Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:15
-msgid ":ref:`monaca_create`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:15
-msgid "creates a new Monaca project locally from a template."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:16
-msgid ":ref:`monaca_clone`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:16
-msgid "clones a project from Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:17
-msgid ":ref:`monaca_import`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:17
-msgid "imports a project from Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:18
-msgid ":ref:`monaca_upload`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:18
-msgid "uploads a project to Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:19
-msgid ":ref:`monaca_download`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:19
-msgid "downloads a project from Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:20
-msgid ":ref:`monaca_plugin`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:20
-msgid "manages installed plugins of a project."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:21
-msgid ":ref:`monaca_debug`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:21
-msgid "serves a single project to Monaca Debugger."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:22
-msgid ":ref:`monaca_preview`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:22
-msgid "serves a single project to browser."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:23
-msgid ":ref:`monaca_multiserve`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:23
-msgid "serves multiple projects to Monaca Debugger."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:24
-msgid ":ref:`monaca_remote_build`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:24
-msgid "builds a project remotely on Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:25
-msgid ":ref:`monaca_proxy`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:25
-msgid "configures proxy to use when connecting to Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:26
-msgid ":ref:`monaca_logout`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:26
-msgid "signs out from Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:34
-msgid "monaca login"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:36
-msgid "Signs in to the Monaca Cloud. You will be prompted to input your Monaca account information (username and password)."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:38
-msgid ":dfn:`$ monaca login`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:48
-#: ../doc/monaca_cli/cli_commands.rst:103
-#: ../doc/monaca_cli/cli_commands.rst:138
-#: ../doc/monaca_cli/cli_commands.rst:172
-#: ../doc/monaca_cli/cli_commands.rst:219
-#: ../doc/monaca_cli/cli_commands.rst:260
-#: ../doc/monaca_cli/cli_commands.rst:294
-#: ../doc/monaca_cli/cli_commands.rst:334
-#: ../doc/monaca_cli/cli_commands.rst:387
-#: ../doc/monaca_cli/cli_commands.rst:433
-#: ../doc/monaca_cli/cli_commands.rst:472
-#: ../doc/monaca_cli/cli_commands.rst:499
-msgid "Example"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:41
-msgid "Here is an example when you login to Monaca Cloud with Monaca CLI:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:59
-msgid "monaca create"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:61
-msgid "Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:63
-msgid ":dfn:`$ monaca create path [name]`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:69
-#: ../doc/monaca_cli/cli_commands.rst:463
-msgid "Parameters"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:67
-msgid "``path``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:67
-msgid "location where you want to store your project files"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:68
-msgid "``name``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:68
-msgid "project name"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:72
-msgid "The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/MyProject\" folder:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:113
-msgid "monaca clone"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:115
-msgid "Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:117
-msgid "If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:119
-msgid ":dfn:`$ monaca clone`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:123
-msgid "Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/CloneRssProject\" folder on your local PC."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:148
-msgid "monaca import"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:150
-msgid "Imports a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to import into a specified directory on your local PC."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:152
-msgid "If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:154
-msgid ":dfn:`$ monaca import`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:157
-msgid "Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/ImportRssProject\" folder on your local PC."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:182
-msgid "monaca upload"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:184
-msgid "Uploads the current project to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:186
-msgid "This command works differently for different types of projects:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:188
-msgid "new/imported project: this command will upload this whole project as a new project in Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:189
-msgid "cloned project: this command will overwrite the same project in Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:192
-msgid ":dfn:`$ monaca upload`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:201
-#: ../doc/monaca_cli/cli_commands.rst:243
-#: ../doc/monaca_cli/cli_commands.rst:283
-msgid "Options"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:196
-#: ../doc/monaca_cli/cli_commands.rst:239
-msgid "``--delete``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:196
-msgid "deletes those files on Monaca cloud which are not existed locally."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:197
-#: ../doc/monaca_cli/cli_commands.rst:240
-msgid "``--force``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:197
-#: ../doc/monaca_cli/cli_commands.rst:240
-msgid "doesn't ask user for permission to continue."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:198
-#: ../doc/monaca_cli/cli_commands.rst:241
-msgid "``--dry-run``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:198
-msgid "simulates the upload operation and provides details of which files will be uploaded. There is no actual upload operation is done."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:204
-msgid "Navigate to your project folder. Then, type ``monaca upload`` command with various options and see how it works."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:229
-msgid "monaca download"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:231
-msgid "Downloads updates/changes (of the synced project) made in Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:233
-msgid "This command will overwrite the changes into the local project. If your local project is not existed in Monaca Cloud, you can't use this command."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:235
-msgid ":dfn:`$ monaca download`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:239
-msgid "deletes those files locally which are not existed on Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:241
-msgid "simulates the download operation and provides details of which files will be downloaded. There is no actual download operation is done."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:246
-msgid "Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:270
-msgid "monaca plugin"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:272
-msgid "Manages plugins of a project such as adding new plugins, listing and removing installed plugins."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:275
-msgid ":dfn:`$ monaca plugin [options]`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:279
-msgid "``add <plugin>``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:279
-msgid "adds a plugin."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:280
-msgid "``rm <plugin>``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:280
-msgid "removes a plugin."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:281
-msgid "``ls|list``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:281
-msgid "lists currently installed plugins."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:282
-msgid "``search <query>``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:282
-msgid "searches the plugin directory."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:286
-#: ../doc/monaca_cli/cli_commands.rst:466
-msgid "Navigate to your project folder and type the command below:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:303
-msgid "monaca preview"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:305
-msgid "Serves a single project to browser. Use this command when you want to run your project on the browser."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:307
-msgid ":dfn:`$ monaca preview [option]`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:316
-msgid "monaca debug"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:318
-msgid "Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:320
-msgid ":dfn:`$ monaca debug [option]`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:325
-#: ../doc/monaca_cli/cli_commands.rst:423
-msgid "Options:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:324
-msgid "``--port``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:324
-msgid "HTTP port to listen to (default value is 8001)"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:328
-msgid "Navigate to your project folder and use ``monaca debug`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:336
-msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:338
-msgid "When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:345
-msgid "Pairing Dialog"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:351
-msgid "Network Connection Notification"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:363
-msgid "monaca multiserve"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:365
-msgid "Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:373
-msgid ":dfn:`$ monaca multiserve paths`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:378
-msgid "Parameters:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:377
-msgid "``paths``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:377
-msgid "a list of project directories"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:381
-msgid "Try to use this command with a list of projects you have on your local PC. In this example, we are serving 3 projects (SlidingMenu, ImportRssProject and CloneRssProject) which are under \"MyProjectFolder/\" to Monaca Debugger. You should see a list of these projects in your debugger if the pairing is successful."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:389
-msgid "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:399
-msgid "monaca remote build"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:401
-msgid "Builds the project on Monaca Cloud. If your project is not existed in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project is alreayd existed in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:403
-msgid "Please refer to :ref:`build_index` for more information on how to:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:405
-msgid "config build settings for each platform"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:406
-msgid "types of build"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:407
-msgid "build the application for each platform"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:408
-msgid "get/install the built apps."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:410
-msgid ":dfn:`$ monaca remote build [options]`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:414
-msgid "``--platform``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:414
-msgid "builds for specific platform. It can be: ``ios``, ``android`` or ``windows``."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:415
-msgid "``--build-type``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:415
-msgid "chooses the build type. It can be:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:417
-msgid "``debug`` (for iOS, Android and Windows. It is default option.)"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:418
-msgid "``test`` (for iOS only)"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:419
-msgid "``release`` (for iOS, Android and Chrome Apps)"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:421
-msgid "``--android_webview``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:421
-msgid "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:422
-msgid "``--android_arch``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:422
-msgid "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:426
-msgid "Navigate to your project folder and try to use this command with different options:"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:435
-msgid "If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below)."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:453
-msgid "monaca proxy"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:455
-msgid "Configures proxy to use when connecting to Monaca Cloud."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:457
-msgid ":dfn:`$ monaca proxy <command>`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:461
-msgid "``set <URL:PORT_NUMBER>``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:461
-msgid "sets a proxy server."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:462
-msgid "``rm``"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:462
-msgid "removes a proxy server."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:482
-msgid "monaca logout"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:484
-msgid "Signs out from Monaca Cloud and removes stored login token."
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:486
-msgid ":dfn:`$ monaca logout`"
-msgstr ""
-
-#: ../doc/monaca_cli/cli_commands.rst:489
-msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
+#: ../doc/monaca_cli/faq/index.rst:7
+#: ../doc/monaca_cli/tips/index.rst:7
+msgid "[TBU]"
 msgstr ""
 
 #: ../doc/monaca_cli/index.rst:5
 msgid "CLI"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:5
-msgid "Monaca CLI Overview"
+#: ../doc/monaca_cli/manual/build_publish.rst:5
+msgid "Remote Building and Publishing"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:11
+#: ../doc/monaca_cli/manual/build_publish.rst:11
+msgid "Remote Building"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:13
+msgid "Inside :guilabel:`Remote Build`, there are several important functions such as:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:15
+msgid "Building application: choose a specific platform (among Android, iOS, Chrome Apps and Windows) to build."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:16
+msgid "Building configuration: configure necessary information regarding application and build for each platform."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:17
+msgid "Project dependencies: include necessary dependencies (:ref:`Cordova plugins<standard_plugins>`, :ref:`js_css` and Service Integration) used by the project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:20
+msgid "Until this step, we assume that you have successfully developed a complete application. Then, you can try building your app and installing it on your device. Once the app development and testing are completed, your app is ready for market submission. Before releasing or distributing your app into the markets (App Store, Google Play, ...), you will need to create a release build of your app."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:22
+msgid "Please refer to the following documentation on how to build your app according to each platform:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:24
+msgid ":doc:`../../build/ios/index`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:25
+msgid ":doc:`../../build/build_android`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:26
+msgid ":doc:`../../build/build_winrt`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:27
+msgid ":doc:`../../build/build_chrome_app`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:31
+msgid "Publishing"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:34
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:11
+msgid "Publishing for App Store"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:36
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:13
+msgid "Please refer to :ref:`app_store_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:39
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:16
+msgid "Publishing for Google Play"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:41
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:18
+msgid "Please refer to :ref:`google_play_distribution`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:44
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:21
+msgid "For more information regarding the distribution of Monaca Apps for other platforms, please refer to :ref:`distribution_index`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:49
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:90
+#: ../doc/monaca_cli/manual/overview.rst:100
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:91
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:51
+#: ../doc/monaca_cli/manual/overview.rst:102
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:93
+msgid ":doc:`../../../quick_start/cli/index`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:52
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:95
+msgid ":doc:`overview`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:53
+#: ../doc/monaca_cli/manual/overview.rst:103
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:94
+msgid ":doc:`cli_commands`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:54
+#: ../doc/monaca_cli/manual/overview.rst:104
+msgid ":doc:`pairing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/build_publish.rst:55
+msgid ":ref:`troubleshoot_pair`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:5
+msgid "Monaca CLI Commands"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:12
+msgid "Commands"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:12
+msgid "Description"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:14
+msgid ":ref:`monaca_login`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:14
+msgid "signs in to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:15
+msgid ":ref:`monaca_create`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:15
+msgid "creates a new Monaca project locally from a template."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:16
+msgid ":ref:`monaca_clone`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:16
+msgid "clones a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:17
+msgid ":ref:`monaca_import`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:17
+msgid "imports a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:18
+msgid ":ref:`monaca_upload`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:18
+msgid "uploads a project to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:19
+msgid ":ref:`monaca_download`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:19
+msgid "downloads a project from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:20
+msgid ":ref:`monaca_plugin`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:20
+msgid "manages installed plugins of a project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:21
+msgid ":ref:`monaca_debug`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:21
+msgid "serves a single project to Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:22
+msgid ":ref:`monaca_preview`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:22
+msgid "serves a single project to browser."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:23
+msgid ":ref:`monaca_multiserve`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:23
+msgid "serves multiple projects to Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:24
+msgid ":ref:`monaca_remote_build`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:24
+msgid "builds a project remotely on Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:25
+msgid ":ref:`monaca_proxy`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:25
+msgid "configures proxy to use when connecting to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:26
+msgid ":ref:`monaca_logout`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:26
+msgid "signs out from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:34
+msgid "monaca login"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:36
+msgid "Signs in to the Monaca Cloud. You will be prompted to input your Monaca account information (username and password)."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:38
+msgid ":dfn:`$ monaca login`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:48
+#: ../doc/monaca_cli/manual/cli_commands.rst:103
+#: ../doc/monaca_cli/manual/cli_commands.rst:138
+#: ../doc/monaca_cli/manual/cli_commands.rst:172
+#: ../doc/monaca_cli/manual/cli_commands.rst:219
+#: ../doc/monaca_cli/manual/cli_commands.rst:260
+#: ../doc/monaca_cli/manual/cli_commands.rst:294
+#: ../doc/monaca_cli/manual/cli_commands.rst:334
+#: ../doc/monaca_cli/manual/cli_commands.rst:387
+#: ../doc/monaca_cli/manual/cli_commands.rst:433
+#: ../doc/monaca_cli/manual/cli_commands.rst:472
+#: ../doc/monaca_cli/manual/cli_commands.rst:499
+msgid "Example"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:41
+msgid "Here is an example when you login to Monaca Cloud with Monaca CLI:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:59
+msgid "monaca create"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:61
+msgid "Creates a new Monaca project locally based on Monaca Cloud templates at a specified path. The command will show a list of available templates for the user to choose from. Then, the user need to input a number representing the preferred template."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:63
+msgid ":dfn:`$ monaca create path [name]`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:69
+#: ../doc/monaca_cli/manual/cli_commands.rst:463
+msgid "Parameters"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:67
+msgid "``path``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:67
+msgid "location where you want to store your project files"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:68
+msgid "``name``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:68
+msgid "project name"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:72
+msgid "The following snippet shows how to create a new project based on a :ref:`onsen_ui_sliding_menu` template inside \"Documents/CLI/MyProject\" folder:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:113
+msgid "monaca clone"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:115
+msgid "Clones a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to clone into a specified directory on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:117
+msgid "If you clone a project into your local PC from Monaca Cloud, the cloned project keeps cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, they will overwrite older files of the same project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:119
+msgid ":dfn:`$ monaca clone`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:123
+msgid "Here is an exmaple of how to clone a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/CloneRssProject\" folder on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:148
+msgid "monaca import"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:150
+msgid "Imports a project from Monaca Cloud. Firstly, it will display a list of all projects you have in Monaca Cloud. Then, you will need to input a number representing a project you want to import into a specified directory on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:152
+msgid "If you import a project into your local PC from Monaca Cloud, the imported project doesn't keep cloud synced information. In other words, if you make changes to this project locally and upload (using :ref:`monaca_upload`) them to Monaca Cloud, this project will be uploaded as a new project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:154
+msgid ":dfn:`$ monaca import`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:157
+msgid "Here is an exmaple of how to import a project called RSS Reader Example from Monaca Cloud into \"MyProjectFolder/ImportRssProject\" folder on your local PC."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:182
+msgid "monaca upload"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:184
+msgid "Uploads the current project to Monaca Cloud. The project files will be compared with the remote files so only the changed and new files will be uploaded."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:186
+msgid "This command works differently for different types of projects:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:188
+msgid "new/imported project: this command will upload this whole project as a new project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:189
+msgid "cloned project: this command will overwrite the same project in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:192
+msgid ":dfn:`$ monaca upload`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:201
+#: ../doc/monaca_cli/manual/cli_commands.rst:243
+#: ../doc/monaca_cli/manual/cli_commands.rst:283
+msgid "Options"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:196
+#: ../doc/monaca_cli/manual/cli_commands.rst:239
+msgid "``--delete``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:196
+msgid "deletes those files on Monaca cloud which are not existed locally."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:197
+#: ../doc/monaca_cli/manual/cli_commands.rst:240
+msgid "``--force``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:197
+#: ../doc/monaca_cli/manual/cli_commands.rst:240
+msgid "doesn't ask user for permission to continue."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:198
+#: ../doc/monaca_cli/manual/cli_commands.rst:241
+msgid "``--dry-run``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:198
+msgid "simulates the upload operation and provides details of which files will be uploaded. There is no actual upload operation is done."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:204
+msgid "Navigate to your project folder. Then, type ``monaca upload`` command with various options and see how it works."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:229
+msgid "monaca download"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:231
+msgid "Downloads updates/changes (of the synced project) made in Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:233
+msgid "This command will overwrite the changes into the local project. If your local project is not existed in Monaca Cloud, you can't use this command."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:235
+msgid ":dfn:`$ monaca download`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:239
+msgid "deletes those files locally which are not existed on Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:241
+msgid "simulates the download operation and provides details of which files will be downloaded. There is no actual download operation is done."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:246
+msgid "Navigate to your project folder. Then, type ``monaca download`` command with various options and see how it works."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:270
+msgid "monaca plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:272
+msgid "Manages plugins of a project such as adding new plugins, listing and removing installed plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:275
+msgid ":dfn:`$ monaca plugin [options]`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:279
+msgid "``add <plugin>``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:279
+msgid "adds a plugin."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:280
+msgid "``rm <plugin>``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:280
+msgid "removes a plugin."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:281
+msgid "``ls|list``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:281
+msgid "lists currently installed plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:282
+msgid "``search <query>``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:282
+msgid "searches the plugin directory."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:286
+#: ../doc/monaca_cli/manual/cli_commands.rst:466
+msgid "Navigate to your project folder and type the command below:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:303
+msgid "monaca preview"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:305
+msgid "Serves a single project to browser. Use this command when you want to run your project on the browser."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:307
+msgid ":dfn:`$ monaca preview [option]`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:316
+msgid "monaca debug"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:318
+msgid "Serves a single project to Monaca Debugger. Use this command when you want to debug your project on a device (Monaca Debugger). It will reflect the changes instantly. This command starts a web server for the Monaca Debugger to connect to. It also starts broadcasting messages to tell debuggers in the local network to connect to it. When a debugger has connected, all file changes will be sent to it."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:320
+msgid ":dfn:`$ monaca debug [option]`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:325
+#: ../doc/monaca_cli/manual/cli_commands.rst:423
+msgid "Options:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:324
+msgid "``--port``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:324
+msgid "HTTP port to listen to (default value is 8001)"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:328
+msgid "Navigate to your project folder and use ``monaca debug`` command. Then, you should be able to see that project name in Monaca Debugger under *Local Projects* section. Click on that project in order to run it. Please try to make some changes to the project and save them. You should be able to see those changes reflect instantly."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:336
+msgid "In order to stop ``monaca debug`` process, press :guilabel:`Ctrl+c`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:338
+msgid "When runnig this command, you should be prompted to pair your debugger with your local PC or see the notification of successful network connection (see the screenshots). Otherwise, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:345
+msgid "Pairing Dialog"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:351
+msgid "Network Connection Notification"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:363
+msgid "monaca multiserve"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:365
+msgid "Serves multiple projects to Monaca Debugger. It works in the same way as :ref:`monaca_debug` except it can serve a list of project at once to Monaca Debugger (see the screenshot below). Therefore, successful pairing/connection between your debugger and local PC is required. Otherwise, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:373
+msgid ":dfn:`$ monaca multiserve paths`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:378
+msgid "Parameters:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:377
+msgid "``paths``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:377
+msgid "a list of project directories"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:381
+msgid "Try to use this command with a list of projects you have on your local PC. In this example, we are serving 3 projects (SlidingMenu, ImportRssProject and CloneRssProject) which are under \"MyProjectFolder/\" to Monaca Debugger. You should see a list of these projects in your debugger if the pairing is successful."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:389
+msgid "In order to stop ``monaca multiserve`` process, press :guilabel:`Ctrl+c`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:399
+msgid "monaca remote build"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:401
+msgid "Builds the project on Monaca Cloud. If your project is not existed in Monaca Cloud yet, it will be automatically uploaded to the cloud first before the build starts. However, if your project is alreayd existed in Monaca Cloud, all its local updates/changes will be uploaded to the cloud first before the build starts."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:403
+msgid "Please refer to :ref:`build_index` for more information on how to:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:405
+msgid "config build settings for each platform"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:406
+msgid "types of build"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:407
+msgid "build the application for each platform"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:408
+msgid "get/install the built apps."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:410
+msgid ":dfn:`$ monaca remote build [options]`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:414
+msgid "``--platform``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:414
+msgid "builds for specific platform. It can be: ``ios``, ``android`` or ``windows``."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:415
+msgid "``--build-type``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:415
+msgid "chooses the build type. It can be:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:417
+msgid "``debug`` (for iOS, Android and Windows. It is default option.)"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:418
+msgid "``test`` (for iOS only)"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:419
+msgid "``release`` (for iOS, Android and Chrome Apps)"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:421
+msgid "``--android_webview``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:421
+msgid "if the platform is ``android``. It can be: ``default`` or ``crosswalk``."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:422
+msgid "``--android_arch``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:422
+msgid "required if ``--android_webview`` is ``crosswalk``. It can be: ``x86`` or ``arm``."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:426
+msgid "Navigate to your project folder and try to use this command with different options:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:435
+msgid "If you use ``monaca remote build`` command without any options, you will get an interactive build interface in your browser. In this page, you can config build settings and choose specific platform you want to build for (see the screenshots below)."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:453
+msgid "monaca proxy"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:455
+msgid "Configures proxy to use when connecting to Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:457
+msgid ":dfn:`$ monaca proxy <command>`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:461
+msgid "``set <URL:PORT_NUMBER>``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:461
+msgid "sets a proxy server."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:462
+msgid "``rm``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:462
+msgid "removes a proxy server."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:482
+msgid "monaca logout"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:484
+msgid "Signs out from Monaca Cloud and removes stored login token."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:486
+msgid ":dfn:`$ monaca logout`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/cli_commands.rst:489
+msgid "Here is an example when you logout from Monaca Cloud with Monaca CLI:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:5
+msgid "JS/CSS Components"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:12
+msgid "JS/CSS components are JavaScript and CSS libraries you may need to include to your project such as jQuery, jQuery mobile, Onsen UI and so on."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:14
+msgid "In order to add a JavaScript/CSS library, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:16
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage JS/CSS Components`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:18
+msgid "Then, \"Add or Remove JS/CSS Components\" page will be shown. You can see several libraries listed there. If you can't find the library you want, input the library's name in a search box to find it."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:26
+msgid "Assuming you are searching for Angular, a list of matched libraries will be shown. Click :guilabel:`Add` to include the library to your project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:34
+msgid "Then, you can choose which version of the library to include in your project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:42
+msgid "Next, select which files of the library you want to include and click :guilabel:`OK`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:51
+msgid "After that, you will find your newly added library in the list. Select guilabel:`Configure` when you want to change the library's version and selected files."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:60
+msgid "When a library is added, its files are added into ``www/components`` folder. The following JavaScript and CSS files will also be automatically updated. These files will always be presented regardless of which libraries are added into your project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:63
+msgid "``components/loader.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:63
+msgid "A JavaScript file to load for all active libraries"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:65
+msgid "``components/loader.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:65
+msgid "A Style sheet file for all active libraries"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:75
+msgid "Therefore, libraries can be loaded by simply referencing the two files (as shown above) in the HMTL file. More specifically, all you need to do is include the following descriptors within the ``<head>`` tag of the HTML file."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/components.rst:82
+msgid "If you would like to use images within your libraries, you can directly load those image files from the :guilabel:`components` folder."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:5
+msgid "Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:13
+#: ../doc/monaca_cli/manual/overview.rst:11
 msgid "Introduction"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:13
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:15
+msgid "Usually, you need native code (Java for Android, Objective-C for iOS, etc) to access native device function such as Cameras, FileSystem, Device Storage, etc. However, you can access these native functions using JavaScript with Cordova."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:17
+msgid "Cordova is a set of device APIs that allow a mobile app developer to access native device function such as the camera or accelerometer from JavaScript. Therefore, Monaca uses Cordova to enable your hybrid apps to access native device functions from JavaScript."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:19
+msgid "For more information about Cordova, please refer to `here <https://cordova.apache.org/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:23
+msgid "Loading Cordova"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:25
+msgid "You can't use device APIs before Cordova is fully loaded. It is very important to use :file:`onDeviceReady()` function. This function runs when Cordova is loaded."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:27
+msgid "As a trial, let's start up Camera functions by using device APIs. Please copy and paste the code below to your project in Monaca Cloud IDE then you can run it on  :ref:`monaca_debugger_index`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:29
+msgid "This code was written for Cordova 4.1. We apologize in advance in case the code may behave differently on various devices."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:74
+msgid "Changing Cordova Version"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:76
+msgid "You can't downgrade to older Cordova versions once your projects are upgraded. A backup of the project is automatically created before conversion."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:78
+msgid "For new created projects, the latest Cordova version available in Monaca will be automatically applied. However, you can upgrade your existing projects to the latest Cordova version as following:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:81
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:82
+msgid "Select the preferred Cordova Version from the dropdown list as shown below."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:95
+msgid "Cordova Plugins in Monaca"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:97
+msgid "Right from Monaca Cloud IDE, you can easily include standard (core) and third-party Cordova plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:99
+msgid "Standard Cordova plugins refer to a minimal set of Cordova APIs such as Battery, Camera, Contacts, Devices and so on. Please refer to :ref:`cordova_core_plugins`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:101
+msgid "Third-party Cordova plugins refer to other existing Cordova plugins. There are :ref:`some third-party Cordova plugins <third_party_cordova_index>` which you can add to your project right from Monaca Cloud IDE. You can also import other third-party Cordova plugins. Let's call these imported third-party Cordova plugins as external third-party Cordova plugins."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:106
+msgid "Add/Import Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:108
+msgid "In order to add a Cordova plugin into your project, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:110
+msgid "From Monaca Cloud IDE, go to :menuselection:`File --> Manage Cordova plugin` or :menuselection:`Config --> Manage Cordova plugin`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:112
+msgid "Then, Manage Cordova Plugins page will be shown. In this page, standardard and some third-party Cordova plugins are listed. Mouseover a plugin and click on :guilabel:`Enable` to add the plugin. If you cannot find the plugin you want in the list, you can import other third-party Cordova plugins by using :guilabel:`Import Cordova Plugin` button. A project containing external third-party Cordova plugin(s) requires a custom built Monaca Debugger. Please refer to :ref:`debugger_for_custom_plugins`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/cordova_plugin.rst:120
+msgid "Once a plugin is enabled/imported, you might want to configure it. Mouseover a plugin you want to config and click :guilabel:`Config` to open a plugin's settig dialog where you can change the plugin's version and set plugin's parameter(s)."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:5
+msgid "Custom Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:13
+msgid "Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:15
+msgid "Cordova Plugin provides a simple way to write a native code onto your program. In this page, we will describe how to create and add a custom Cordova plugin into your Monaca project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:17
+msgid "You need to subscribe to a valid plan in order to use custom Cordova plugins. Please refer to `Monaca Pricing <https://monaca.mobi/en/pricing>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:19
+msgid "Your custom Cordova plugin need to follow the requirements below:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:21
+msgid "It must be compatible with Cordova 4.1."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:22
+msgid "It must have a ``plugin.xml`` file and is installable with ``plugman`` command line tool."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:23
+msgid "It must support iOS and Android platforms."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:25
+msgid "You can find various Cordova Plugins in the Internet, but it is likely that they are either obsolete or their version would not match. Therefore, how to create a custom Cordova plugin from scratch is covered in this page."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:30
+msgid "Structure of a Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:32
+msgid "A typical structure of a Cordova plugin is as follows (directories are displayed in bold letters):"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:35
+msgid "*plugin_name*"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:37
+msgid "*src*"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:39
+msgid "*ios*"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:41
+msgid "plugin_name.h"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:42
+msgid "plugin_name.m"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:44
+msgid "*www*"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:46
+msgid "plugin_name.js"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:48
+msgid "plugin.xml"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:51
+msgid "Before getting started, please download the following zip file containing sample plugin code."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:53
+msgid ":download:`Sample Cordova Plugin <download/cordova_plugin_sample.zip>`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:55
+msgid "When you extract the package, you will see a directory structure as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:65
+msgid ":file:`plugin.xml` file"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:67
+msgid ":file:`plugin.xml` file is a plugin specification file containing plugin's definitions. For more details, please refer to `Cordova Plugin Specification <http://docs.phonegap.com/en/4.0.0/plugin_ref_spec.md.html#Plugin%20Specification>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:69
+msgid "Below is a :file:`plugin.xml` file from the downloaded sample plugin."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:111
+msgid "hello_world.js file"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:113
+msgid ":file:`hello_world.js` is defined as ``js-module`` in plugin spec. Therefore, it will be automatically loaded by ``cordova.js``, which is included in ``loader.js``."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:126
+msgid "For more details about how to write Cordova callback function, please refer to `Plugin Development Guide <http://docs.phonegap.com/en/4.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:130
+msgid "iOS and Android Native Code"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:132
+msgid "Native code must be written in either Objective-C or Java, depending on the platform. It must have the same function as defined in the JavaScript file. Also, please be aware that all callbacks are asynchronous."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:134
+msgid "Here are the guides about native code development."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:136
+msgid "`Developing a Plugin on Android <http://docs.phonegap.com/en/4.0.0/guide_platforms_android_plugin.md.html#Android%20Plugins>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:137
+msgid "`Developing a Plugin on iOS <http://docs.phonegap.com/en/4.0.0/guide_platforms_ios_plugin.md.html#iOS%20Plugins>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:142
+msgid "Import Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:144
+msgid "To import a custom Cordova plugin into your Monaca project, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:146
+msgid "Compress your custom Cordov plugin files as a zip file."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:148
+msgid "From Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova plugin`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:150
+msgid "Then, \"Manage Cordova Plugins\" page will be shown. Click on :guilabel:`Import Cordova Plugin` button."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:158
+msgid "Then, browse your plugin file (zip file) and click :guilabel:`Import`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:170
+msgid "Monaca Debugger with Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:172
+msgid "The standard Monaca Debugger, which can be found in the store such as App Store or Google Play, includes the standard (core) and several third-party Cordova plugins (refer to :ref:`third_party_cordova_index` for the list of all third-party Cordova plugins pre-included in Monaca). For this reason, the standard Monaca Debugger cannot be used with Monaca projects containing custom or other external third-party Cordova plugins. In this case, custom built Monaca Debugger is required to run such projects properly."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:174
+msgid "Custom built Monaca Debugger is a debugger which is built within Monaca Cloud IDE inside a project containing custom or external third-party Cordova plugins. Please refer to the following links on how to build custom built debugger and the differences between the standard and custom built debugger:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:176
+msgid ":ref:`debugger_on_ios`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:177
+msgid ":ref:`debugger_on_android`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:179
+msgid "Please make sure to import the custom or external third-party Cordova plugins before building the custom built debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:181
+msgid "We also offer technical support (fee required) for developing your custom Cordova Plugin. Please contact our support team `here <https://monaca.mobi/en/support/index>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:185
+msgid "Testing Custom Cordova Plugin"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:187
+msgid "Create a project in Monaca Cloud IDE using the :ref:`Minimum Project Template <minimum_project>`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:189
+msgid "Import a sample custom Cordova plugin you downloaded earlier in :ref:`plugin_structure`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:191
+msgid "Then, add the following snippet into :file:`index.html` file. The code below is simply just to show a message dialog using the sample custom Cordova plugin:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:207
+msgid "Now, run the project in the standard Monaca Debugger. You will see that the message dialog will not be shown."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:209
+msgid "Build a custom built Monaca Debugger. Please refer to the following links on how to build a custom built Monaca Debugger:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:211
+msgid ":ref:`custom_debugger_ios`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:212
+msgid ":ref:`custom_debugger_and`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:214
+msgid "Install the custom built Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:216
+msgid "Open the debugger and check the debuggers' information by clicking on :guilabel:`About this debugger` button."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:224
+msgid "You should be able to find the custom Cordova plugin in there as shown in the screenshot below:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/custom_cordova_plugin.rst:232
+msgid "Login to the debugger and run the project containing the custom Cordova plugin. The message dialog should be shown if the project is run properly."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:5
+msgid "File and Folder Structure"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:10
+msgid "The Monaca application is organized with the following folder and file configurations:"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:13
+msgid "``android/``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:13
+msgid "Storage folder for Android application settings"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:14
+msgid "``chrome/``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:14
+msgid "Storage folder for Chrome application settings"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:15
+msgid "``ios/``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:15
+msgid "Storage folder for iOS application settings"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:16
+msgid "``www/``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:16
+msgid "Storage folder for the main body of the application"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:20
+msgid "www Folder"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:22
+msgid "Files of the application's main body are stored here. Files and folders can be arranged freely within this ``www`` folder, but the following files and folders have special significance."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:25
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:33
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:48
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:30
+#: ../doc/monaca_cli/templates_samples/clock.rst:32
+#: ../doc/monaca_cli/templates_samples/facebook.rst:60
+#: ../doc/monaca_cli/templates_samples/flickr.rst:28
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:32
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:47
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:79
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:31
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:33
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:29
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:31
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:30
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:30
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:31
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:29
+#: ../doc/monaca_cli/templates_samples/todo.rst:29
+#: ../doc/monaca_cli/templates_samples/twitter.rst:58
+msgid "``index.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:25
+msgid "The first page to be displayed when the application starts up. The startup file can be changed."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:26
+msgid "``components/``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:26
+msgid "The folder created by Monaca for all JS/CSS components used in the project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:31
+#: ../doc/monaca_cli/templates_samples/clock.rst:46
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:57
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:48
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:49
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:51
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:63
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:74
+msgid "index.html"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:33
+msgid "The :file:`index.html` file is the starting point for your application. At startup, the information contained in this file is usually the very first thing that will be read."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:36
+msgid "components Folder"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:38
+msgid "The folder ``www/components/`` is for all JS/CSS components used in the project. However, the following two files exist in that folder by default regardless of what kinds of components you have added for your project."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:41
+msgid "``loader.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:41
+msgid "A JavaScript file used by Monaca to load the components"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:43
+msgid "``loader.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:43
+msgid "A style sheet file used by Monaca for the components"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:47
+msgid "The :file:`loader.js` and :file:`loader.css` files must be read from an HTML file."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:49
+msgid "Each component will create its own folder within (one level below) ``www/components/`` folder."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:52
+msgid "android Folder"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:54
+msgid "Android application settings files are stored inside the ``android`` folder."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:57
+msgid "``AndroidManifest.xml``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:57
+msgid "Manifest file used when running Android applications"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:60
+msgid "For more information about how to use this file, please see :doc:`../../reference/config/android_configuration`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:63
+msgid "chrome Folder"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:65
+msgid "Chrome application settings files are stored inside the ``chrome`` folder."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:68
+msgid "``background.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:68
+msgid "A JavasSript file used when running Chrome applications"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:69
+msgid "``manifest.json``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:69
+msgid "A Manifest file used when running Chrome applications"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:75
+msgid "ios Folder"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:77
+msgid "iOS application settings files are stored inside the ``ios`` folder."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:80
+msgid "``MonacaApp-Info.plist``"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:80
+msgid ":file:`Info.plist` file used when running iOS applications"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:83
+msgid "For more information about how to use this file, please see :doc:`../../reference/config/ios_configuration`."
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/file_dir.rst:92
+msgid ":ref:`sample_apps_index`"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/dependencies/index.rst:5
+msgid "Project Dependencies"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/index.rst:3
+msgid "Manual"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:5
+msgid "Monaca CLI Overview"
+msgstr ""
+
+#: ../doc/monaca_cli/manual/overview.rst:13
 msgid "Monaca CLI provides command line interface for using Monaca Cloud from your local PC. With Monaca CLI, you can:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:15
+#: ../doc/monaca_cli/manual/overview.rst:15
 msgid "create new local projects, import or clone existing projects in Monaca Cloud into your local PC"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:16
+#: ../doc/monaca_cli/manual/overview.rst:16
 msgid "debug your app with inspector integration"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:17
+#: ../doc/monaca_cli/manual/overview.rst:17
 msgid "remote build your projects without any setups locally."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:21
+#: ../doc/monaca_cli/manual/overview.rst:21
 msgid "Getting Started"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:26
+#: ../doc/monaca_cli/manual/overview.rst:26
 msgid "Step 1: Installation"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:28
+#: ../doc/monaca_cli/manual/overview.rst:28
 msgid "You are required to have `Node.js <https://nodejs.org/>`_ installed on your PC in order to use Monaca CLI. After that, you can install Monaca CLI using ``npm`` command."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:30
+#: ../doc/monaca_cli/manual/overview.rst:30
 msgid "Use the following command to install Monaca CLI:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:36
+#: ../doc/monaca_cli/manual/overview.rst:36
 msgid "On some systems you may have to prefix the command with sudo because of permissions:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:43
+#: ../doc/monaca_cli/manual/overview.rst:43
 msgid "In order to check the currently installed Monaca CLI's version, use ``monaca`` command. Moreover, if you want to update Monaca CLI, just re-install it using the above command."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:47
+#: ../doc/monaca_cli/manual/overview.rst:47
 msgid "Step 2: Creating a New Project and Run on Browser"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:49
+#: ../doc/monaca_cli/manual/overview.rst:49
 msgid "you can also :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:51
+#: ../doc/monaca_cli/manual/overview.rst:51
+#: ../doc/monaca_cli/tutorials/starting_project.rst:33
 msgid "Create a new project by using the command below:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:57
+#: ../doc/monaca_cli/manual/overview.rst:57
 msgid "Choose a project template. Please see the example below:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:71
+#: ../doc/monaca_cli/manual/overview.rst:71
 msgid "Run on the browser."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:81
+#: ../doc/monaca_cli/manual/overview.rst:81
 msgid "Step 3: Connecting to Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:83
+#: ../doc/monaca_cli/manual/overview.rst:83
 msgid "Use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:89
+#: ../doc/monaca_cli/manual/overview.rst:89
 msgid "Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. This message will only be displayed if it's the first time you are connecting to the device. After this, your application should be running on your Monaca Debugger."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:91
+#: ../doc/monaca_cli/manual/overview.rst:91
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:41
 msgid "Before connecting Monaca Debugger to the local PC, please pay attention to the following points:"
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:93
+#: ../doc/monaca_cli/manual/overview.rst:93
 msgid "Monaca Debugger and the local PC have to connect to the same WiFi network."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:94
-#: ../doc/monaca_cli/pairing_debugging.rst:14
+#: ../doc/monaca_cli/manual/overview.rst:94
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:14
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:44
 msgid "Use the same Monaca account for either Monaca Debugger and the local PC."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:95
-#: ../doc/monaca_cli/pairing_debugging.rst:15
+#: ../doc/monaca_cli/manual/overview.rst:95
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:15
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:45
 msgid "Disable the local PC's firewall."
 msgstr ""
 
-#: ../doc/monaca_cli/overview.rst:105
-#: ../doc/monaca_cli/pairing_debugging.rst:96
+#: ../doc/monaca_cli/manual/overview.rst:105
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:96
 msgid ":doc:`build_publish`"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:5
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:5
 msgid "Pairing and Debugging"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:9
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:9
 msgid "In order to debug Monaca app with Monaca CLI, you need to pair your host PC (running Monaca CLI) with your device (running Monaca Debugger) first."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:11
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:11
 msgid "Before connecting Monaca Debugger to your local PC, please pay attention to the following points:"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:13
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:13
 msgid "Monaca Debugger and the local PC have to connect to the same network connection (LAN or Wi-Fi). Some public networks do not allow connections between clients; therefore, pairing cannot be done in this case."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:21
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:21
 msgid "Start Pairing"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:23
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:23
 msgid "Launch Monaca Debugger app on your device and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca CLI."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:25
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:25
 msgid "In the command window on your PC, navigate to your project folder and use :ref:`monaca_debug` command to connect to your Monaca Debugger:"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:31
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:31
 msgid "Then, a popup message, prompting you to pair the Debugger with the local PC, will appear in the Monaca Debugger. After this, your application should be running on your Monaca Debugger."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:39
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:39
 msgid "If your pairing is successful, your local project’s name will appear under Local Projects in in Monaca Debugger. However, if you fail the pairing, please refer to :ref:`troubleshoot_pair`."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:49
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:49
 msgid "Stop Pairing"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:51
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:51
 msgid "There are two ways to stop the pairing:"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:54
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:54
 msgid "From the PC"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:56
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:56
 msgid "In the same command window on your PC which you are running :ref:`monaca_debug` command, please use the following command to stop the pairing/break the debug process between your PC and Monaca Debugger:"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:64
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:64
 msgid "From Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:66
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:66
 msgid "click on the toggle menu on the top-left corner and go to :guilabel:`Local Computers` button."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:68
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:68
 msgid "Then, the connected PC will be shown. Click on the \"Information\" icon of the connected PC (see the screenshot below)."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:76
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:76
 msgid "The information of the connected PC will be shown here. Click :guilabel:`Unpair this computer` button to disconnect from the selected PC. Once you unpair, you can't debug your local Monaca projects with this debugger anymore unless you pair it again."
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:84
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:84
 msgid "Debugging Monaca Apps with Monaca CLI"
 msgstr ""
 
-#: ../doc/monaca_cli/pairing_debugging.rst:86
+#: ../doc/monaca_cli/manual/pairing_debugging.rst:86
 msgid "Please refer to :ref:`debugger_with_local_tools`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:5
+msgid "BirthYear App"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:10
+msgid "This sample application is a reprint of an article first featured on Think I­T on the 12/26/2012."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:12
+msgid "The app will calculate a user's birthyear and display it after he/she entered his/her name and age."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:15
+#: ../doc/monaca_cli/templates_samples/clock.rst:14
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:13
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:13
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:13
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:13
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:13
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:12
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:13
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:13
+#: ../doc/monaca_cli/templates_samples/todo.rst:13
+msgid "*Tested Environments:* Android 4.2.2, iOS 7.1.1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:26
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:41
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:23
+#: ../doc/monaca_cli/templates_samples/clock.rst:25
+#: ../doc/monaca_cli/templates_samples/facebook.rst:53
+#: ../doc/monaca_cli/templates_samples/flickr.rst:21
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:24
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:40
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:72
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:24
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:24
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:22
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:24
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:23
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:23
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:24
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:22
+#: ../doc/monaca_cli/templates_samples/todo.rst:22
+#: ../doc/monaca_cli/templates_samples/twitter.rst:51
+msgid "File Components"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:33
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:79
+#: ../doc/monaca_cli/templates_samples/todo.rst:29
+msgid "The startup Page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:35
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:34
+#: ../doc/monaca_cli/templates_samples/clock.rst:36
+#: ../doc/monaca_cli/templates_samples/flickr.rst:29
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:40
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:55
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:83
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:34
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:41
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:30
+msgid "``css/style.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:35
+msgid "The stylesheet used in the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:39
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:53
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:42
+#: ../doc/monaca_cli/templates_samples/facebook.rst:76
+#: ../doc/monaca_cli/templates_samples/flickr.rst:37
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:46
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:59
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:89
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:39
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:38
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:39
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:40
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:45
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:36
+#: ../doc/monaca_cli/templates_samples/todo.rst:35
+#: ../doc/monaca_cli/templates_samples/twitter.rst:66
+msgid "Required JS/CSS Components"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:42
+#: ../doc/monaca_cli/templates_samples/facebook.rst:79
+#: ../doc/monaca_cli/templates_samples/flickr.rst:40
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:49
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:42
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:48
+#: ../doc/monaca_cli/templates_samples/twitter.rst:69
+msgid "``jQuery``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:47
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:62
+#: ../doc/monaca_cli/templates_samples/clock.rst:43
+#: ../doc/monaca_cli/templates_samples/facebook.rst:92
+#: ../doc/monaca_cli/templates_samples/flickr.rst:44
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:54
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:75
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:96
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:48
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:39
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:35
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:45
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:46
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:48
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:60
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:44
+#: ../doc/monaca_cli/templates_samples/todo.rst:43
+#: ../doc/monaca_cli/templates_samples/twitter.rst:81
+msgid "HTML Explanation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:49
+msgid "The following contents of the HTML body of :file:`index.html` file is for displaying 2 textboxes for the user to input his/her name and age, and a button to calculate his/her birthyear. (see screenshot below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:77
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:185
+#: ../doc/monaca_cli/templates_samples/clock.rst:74
+#: ../doc/monaca_cli/templates_samples/facebook.rst:178
+#: ../doc/monaca_cli/templates_samples/flickr.rst:63
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:97
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:156
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:127
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:132
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:72
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:71
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:56
+#: ../doc/monaca_cli/templates_samples/todo.rst:59
+#: ../doc/monaca_cli/templates_samples/twitter.rst:155
+msgid "JavaScript Explanation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:79
+msgid "This code creates a function called ``calculate``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:81
+msgid "After entering your age and name, it stores them in two variables called \"myname\" and \"myage\" respectively. It then goes on to calculate your birth year based on today's date, and stores it in a variable called \"birthyear\"."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:83
+msgid "Finally it stores the message contents in a variable called \"text\", calls the \"navigator.notification.alert\" function and displays the result as a popup."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/age-calc.rst:85
+msgid "The ``navigator.notification.alert`` function  is a PhoneGap function that displays a popup dialog box on the screen. The third argument displays the text \"Welcome to Monaca!\" as the title of the dialog box."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:5
+msgid "Backend Memo"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:9
+msgid "This sample app allows user to create a memo app using Monaca Backend API."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:11
+#: ../doc/monaca_cli/templates_samples/flickr.rst:12
+msgid "*Tested Environments:* Android 4.1.1, iOS 7.1.1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:22
+#: ../doc/monaca_cli/templates_samples/facebook.rst:24
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:28
+#: ../doc/monaca_cli/templates_samples/twitter.rst:25
+msgid "Prerequisite"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:24
+msgid "You need to set-up a new backend and attach it to the project. After creating a new project, please follow :ref:`cloud_ide_adding_backend` for detailed instruction."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:26
+msgid "After you have created a new backend, please create a new ``Memo`` collection as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:31
+msgid "Please check :guilabel:`Allow JavaScript API to insert data`. :guilabel:`Read` and :guilabel:`Write` options must not be selected."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:34
+msgid "For more details on how to create Backend, please read :doc:`../../manual/backend/control_panel`"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:37
+msgid "In order to access Backend API, you need to register ``cloud.monaca.mobi`` in the whitelist by editing each OSs configuration file. For more details, please refer to :ref:`Access Origin (Android) <access_origin_android>` and :ref:`Access Origin (iOS) <access_origin>`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:48
+#: ../doc/monaca_cli/templates_samples/clock.rst:32
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:32
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:33
+msgid "The Startup page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:49
+#: ../doc/monaca_cli/templates_samples/clock.rst:34
+#: ../doc/monaca_cli/templates_samples/facebook.rst:70
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:53
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:35
+#: ../doc/monaca_cli/templates_samples/todo.rst:31
+msgid "``js/app.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:49
+msgid "JavaScript file handling the interaction of the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:56
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:92
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:39
+#: ../doc/monaca_cli/templates_samples/todo.rst:38
+msgid "``jQuerymobile``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:64
+msgid "For the User Interface of this sample app, we use jQuery Mobile. In jQuery Mobile, multiple pages can be integrated to a single HTML file. In this app, for example, both login screen and register screen are defined within :file:`index.html`. Specifically, pages are expressed by ``div`` tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify as ``header``, ``content`` , or ``listview``. For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:66
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:98
+msgid "The following contents of the HTML body:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:90
+msgid "is corresponding to this screenshot which allows a user to login to Monaca Memo app if the user has already registered with the app:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:119
+msgid "is corresponding to this screenshot which allows a new user to register with the Monaca Memo app:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:125
+msgid "Likewise, there are several other pages defined in this HTML. Here are the screenshots of those pages."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:131
+msgid "List Page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:137
+msgid "Confirm Logout Message"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:143
+msgid "Confirm Delete Message"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:151
+msgid "Add Page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:157
+msgid "Successful Adding Message"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:165
+msgid "View Memo"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:173
+msgid "Edit Page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:179
+msgid "Successful Updating Message"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:187
+msgid "There are 7 main functionalities in the JavaScript code of this app which are *Login*, *Logout*, *Register*, *Adding Memo*, *Editing Memo*, *Deleting Memo* and *Viewing Memo* functions."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:190
+msgid "Register a New User"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:192
+msgid "``onRegisterBtn()`` is called when a user clicks on :guilabel:`Register` button in the *Register Page*. Then, both ``email`` and ``password`` from the input boxes are captured and used to call ``monaca.cloud.User.register()`` function. This function is used to register a new user to Monaca Backend. If the registration is successful, the user will be automatically logged-in. Below is the JavaScript code to register a user:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:215
+msgid "Login a User and Get Collection Data"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:217
+msgid "``onLoginBtn()`` is called when a user clicks on :guilabel:`Login` button. In this function, a Monaca Backend API called ``monaca.cloud.User.login()`` is used to login an existing user. If the user is found in the Monaca Backend, the user is redirected to the list page which displays a list of memo of the currently logged-in user by calling ``getMemoList()`` function. Inside ``getMemoList()`` function, a list of memo of currently logged-in users is retrieved by using ``monaca.cloud.Collection().findMine()`` function. In this example, we assume that you have already created a collection named ``Memo``. The memo is then dynamically added into the ``TopListView`` in the list page. Below is the JavaScript code of the these functions:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:269
+msgid "As a result, the list page like the one below will be displayed:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:277
+msgid "Logout a User"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:279
+msgid "``monaca.cloud.User.logout()`` function is used to logout the currently logged-in user. If the user is successfully logged out, the user will be redirected to the login page."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:299
+msgid "Adding a Memo"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:301
+msgid "``onSaveBtn()`` is called when a user clicks on :guilabel:`Save` button in the add page. Then, both ``title`` and ``content`` of a new memo from the input boxes are captured and handed over to ``addMemo()`` function."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:303
+msgid "In this function, a Monaca Backend API of a collection called ``monaca.cloud.Collection().insert()`` is used to insert a new item into ``Memo`` collection."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:339
+msgid "Updating a Memo"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:341
+msgid "When you update a memo, ``monaca.cloud.Collection().findMine()`` function is used to find the memo to update. In this case, we already know the ``_id`` property of the collection item. Then, we call ``monaca.cloud.collectionItem.update()`` function to update this item in ``Memo`` collection."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:391
+msgid "Deleting a Memo"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/backend_memo.rst:393
+msgid "Similar to updating a memo, the app calls ``monaca.cloud.Collection().findMine()`` function to get the collection item. Then, call ``monaca.cloud.collectionItem.delete()`` function to delete the memo."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:5
+msgid "Break the Bricks"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:10
+msgid "This is a sample game based on :file:`pixi.js` which is a super fast HTML5 2D rendering engine that uses webGL with canvas fallback. For more information about Pixi, please refer to `here <https://github.com/GoodBoyDigital/pixi.js>`_. In the game, player controlls a paddle to prevent a ball from falling while trying to clear the bricks. The objective of the game is to clear all the bricks."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:13
+msgid "*Tested Environments:* Android 4.4, iOS 8.1.1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:30
+msgid "The Startup page (Home page)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:32
+#: ../doc/monaca_cli/templates_samples/flickr.rst:30
+msgid "``js/main.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:32
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:35
+msgid "A JavaScript file handling various implementation in the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:34
+msgid "Style Sheet for the whole application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:36
+msgid "``img/*.png``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:36
+#: ../doc/monaca_cli/templates_samples/clock.rst:38
+msgid "All image files needed to use this template"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:38
+msgid "``res/VT323-Regular.ttf``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:38
+msgid "A true type font"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:45
+msgid "``Pixi``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:50
+msgid "Source Code Explanation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:53
+msgid "js/main.js"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:55
+msgid ":file:`main.js` is a JavaScript file handling various functionalities of the application."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:57
+msgid "Below is the code of ``BB`` object which is the main object of this application. Its properties are screensize, paddle, balls, blocks, score and so on. Its methods are creating block map (``setMap()``), creating a ball (``addBall()``), creating a paddle (``addPaddle()``), resetting the game after it ended (``reset()``), calculating the score (``addScore()``), ending the game (``endGame()``) and so on."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:317
+msgid "When this page is loading, ``init()`` function is called when Cordova is fully loaded or when it's failed to detect the type of the device."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:329
+msgid "Here is the code of ``init()`` function. In this function, BB object is rendered according to the type of device you are using. Then, events listeners related the paddle are added. Also, it renders the paddle position according to each event."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/break_the_bricks.rst:397
+msgid "``getUa()`` function is used to detect the type of the device. It will return ``false`` when it failed to get this information."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:5
+msgid "Clock App"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:10
+msgid "This sample application is reprinting of `Think IT article <http://thinkit.co.jp/story/2013/03/11/3987>`_ relaesed on 3/11/2013."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:12
+msgid "This sample app is a clock app displaying current Date and time."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:34
+msgid "The JavaScript file handling implementation in the project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:36
+msgid "The style Sheet for the project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:38
+#: ../doc/monaca_cli/templates_samples/flickr.rst:32
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:30
+msgid "``images/*.png``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:48
+msgid "The following HTML body of :file:`index.html` file is for displaying the current Date and time (see screenshot below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:77
+msgid "js/app.js"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:79
+msgid "When the application is loaded, the ``clock()`` function is called every 1 seconds (1000 ms) by this statement:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/clock.rst:87
+msgid "The ``clock()`` function is used to display the current date and time. First, it gets the current time (hour, minute and second) and then display the images (digit image) according to the time. Next, it gets the current date (day, month and year) and then display it in the format as defined in ``renderDay()`` and ``renderMonth()`` functions (see below screenshot). Here is content of the ``clock()`` function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:5
+msgid "Facebook Client"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:10
+msgid "This sample app allows users to connect to Facebook from Monaca by using `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ and InAppBrowser."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:13
+#: ../doc/monaca_cli/templates_samples/twitter.rst:13
+msgid "*Tested Environments:* Android 4.3, iOS 7.1.1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:26
+msgid "You are required to have *App ID/App Key* and *App Secret* by registering your Monaca app with Facebook Developer:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:28
+msgid "Go to `Facebook Developer Site <https://developers.facebook.com/>`_. Signin with Facebook account. If you don't have one, please signup."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:30
+msgid "Go to :guilabel:`Apps > Create a New App`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:35
+msgid "Fill in the display name and choose a category of your app. Then, click :guilabel:`Create App` button."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:40
+msgid "For security purpose, you will be asked to input some code. Click :guilabel:`Submit` button after input the shown code properly."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:45
+msgid "After a successful registration, a similar screen shown below will appear. You can see the App ID and App Secret here. You will need them later."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:60
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:47
+msgid "Startup Page (Consists of Connect Screen)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:62
+msgid "``home_navigator.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:62
+msgid "Navigate to Connect Screen"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:64
+msgid "``connect.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:64
+msgid "Connect Screen"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:66
+msgid "``profile.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:66
+msgid "Facebook User Profile Screen"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:68
+msgid "``list.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:68
+msgid "Friends List Screen"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:70
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:53
+msgid "JavaScript file handling app interactions."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:72
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:34
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:34
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:36
+msgid "``styles/app.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:72
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:55
+msgid "Stylesheet file for the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:80
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:62
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:41
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:42
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:43
+msgid "``Onsen UI``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:84
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:66
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:52
+#: ../doc/monaca_cli/templates_samples/twitter.rst:73
+msgid "Required Cordova Plugins"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:87
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:55
+#: ../doc/monaca_cli/templates_samples/twitter.rst:76
+msgid "``InAppBrowser``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:94
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:77
+msgid "The User Interface of this sample app is based on *Onsen UI*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/index.html>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:96
+msgid "The following contents of the HTML body of :file:`index.html` file loads the :file:`home_navigator.html` file at startup:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:105
+msgid "The following contents of the HTML body of :file:`home_navigator.html` file will direct to the :file:`connect.html` file which is the Connect Screen:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:114
+msgid "The following contents of the HTML body of :file:`connect.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:126
+msgid "corresponds to the screenshot below which allows a user to connect to Facebook:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:133
+msgid "The following contents of the HTML body of :file:`profile.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:148
+msgid "corresponds to the screenshot below which shows the user's basic info and profile picture if the authentication is successful. When the :guilabel:`Show Friend List` button is tapped, the :file:`list.html` page is shown:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:155
+msgid "The following contents of the HTML body of :file:`list.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:170
+msgid "corresponds to the screenshot below which shows the friends list of the authenticated user:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:180
+msgid "The logic behind this app is based on *Graph API* and *InAppBrowser*. The `Graph API <https://developers.facebook.com/docs/reference/api/>`_ is the primary way that data is retrieved from Facebook or posted on Facebook. We use *InAppBrowser* to open a Facebook authentication page inside our app. This prevents opening of an external browser."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:182
+msgid "The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 3 controller functions: :envvar:`Connect_Ctrl`, :envvar:`Profile_Ctrl` and :envvar:`List_Ctrl` correspond to :file:`connect.html` page, :file:`profile.html` page and :file:`list.html` page, respectively. In order to create global vairables used between these controller functions, you need to create a service function to store those global variables as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:204
+msgid "Inside this service function, we are able to get and set the value of the ``property`` variable which is a JSON object. This variale contains various variables needed to use between different pages."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:207
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:247
+msgid "Next, we will explain each controller function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:210
+msgid "Connect_Ctrl"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:212
+msgid ":envvar:`Connect_Ctrl` controls the interactions and processes in :file:`connect.html` file. In other words, it handles the Facebook authentication process. In order to run this function, you will need to fill in your API Key, App Secret and a valid callback URL. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:291
+msgid "Inside this controller, there is :envvar:`connect` function which leads user through Facebook authentication. This function is called when the :guilabel:`Connect` button is pressed. In order to gain access to Facebook, the :envvar:`Connect()` function needs to open a Facebook authentication page first (as shown below) via a *InAppBrowser* using :envvar:`window.open()` function."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:297
+msgid "After the user inputs his/her login information and presses :guilabel:`Log in` button, the app redirects to your callback URL. From the callback URL, Facebook code can be found. Then, an ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/oauth/access_token?...\"`` in order to get access token."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:299
+msgid "If the request is successful, another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me?...\"`` in order to get some information of the authenticated user, in this case, ``Name`` and ``Profile picture URL``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:301
+msgid "Next, if the request is successful, the retrieved info will then be stored in a JSON object (``info_obj``) for later use and another ``HttpRequest`` is sent with several parameters including the newly found Facebook code to ``\"https://graph.facebook.com/me/friends?...\"`` in order to get a list of friends of the authenticated user. If the request is successful, the retrieved data (in JSON format) of friends list will also be stored in the ``info_obj`` and updates into the global variable (``property``) inside ``sharedProperties`` service for using between controllers (pages)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:303
+msgid "Then, finally, the app redirects to :file:`profile.html` page."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:307
+msgid "Profile_Ctrl"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:309
+msgid ":envvar:`Profile_Ctrl` controls the interactions and processes in the :file:`profile.html` file. In other words, it displays the retrieved data after a successful authentication. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:322
+msgid "This controller contains the assigment of some variables with the necessary data from the global variable inside the ``sharedProperties`` service."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:325
+msgid "List_Ctrl"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:327
+msgid ":envvar:`List_Ctrl` controls the interactions and processes in the :file:`list.html` file. In other words, it displays the retrieved data of friends list of the authenticated user. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/facebook.rst:365
+msgid "Inside this controller, there is :envvar:`get_list()` function which displays the list of friends retrieved from global variable (``property``) of the ``sharedProperties`` service."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:5
+msgid "Flickr Sample"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:10
+msgid "This sample app shows how to retrieve pictures from Flickr and displays them as a slide show."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:28
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:29
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:29
+msgid "The startup page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:29
+msgid "A stylesheet for the project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:30
+msgid "A JavaScript file for this project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:31
+msgid "``js/jquery.bxslider.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:31
+msgid "A Javascript file for photo sliding animation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:32
+msgid "Image files used in the project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:46
+msgid "The following HTML body of :file:`index.html` file is for the title bar, spinner and container for displaying the images (see screenshot below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:65
+msgid "There are 2 main functions in this sample app which will be explained as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:68
+msgid "jsonFlickrFeed()"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:70
+msgid "``jsonFlickrFeed()`` is fired when the Flickr API is loaded. The Flickr API is called when the :file:`index.html` file is loaded. Inside the header of :file:`index.html` file, there is a line: ``<script src=\"http://api.flickr.com/services/feeds/photos_public.gne?format=json\" defer></script>``. This is where the Flickr API is called. In this function, the retrieved photos are then pushed into a local variable ``images`` and the photos are display as a slide show by calling ``displayPicture()`` function every *1 second*. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:91
+msgid "displayPicture()"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/flickr.rst:93
+msgid ":envvar:`displayPicture()` displays the photos stored inside ``images`` variable (photos retrieved from Flickr) in a container created by HTML code in :file:`index.html` file. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:5
+msgid "Hello World App"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:10
+msgid "This sample app is a PhoneGap Demo showing several device functionalities such as camera, contacts, compass and so on."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:34
+msgid "``phonegap-demo.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:34
+msgid "The PhoneGap Demo page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:36
+msgid "``phonegap-demo/master.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:36
+msgid "The style sheet for the PhoneGap Demo page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:38
+msgid "``phonegap-demo/main.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:38
+msgid "The JavaScript file handling implementation in the PhoneGap Demo page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:40
+msgid "The style Sheet for the whole application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:42
+msgid "``img/icon/*.png``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:42
+msgid "All icon files needed to use this template"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:59
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:65
+msgid ":file:`index.html` is the Startup page."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:69
+msgid "The above html code inside the ``<body>`` tag is showing a ``HelloWorld!`` phrase and a :guilabel:`Start Demo` button as shown below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:77
+msgid "phonegap-demo.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:79
+msgid ":file:`phonegap-demo.html` shows a PhoneGap Demo with the basic phone information and a list of functions as below:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:81
+msgid "*Toggle Accelerometer*: Start or stop the measurement of the phone's movement."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:82
+msgid "*Get Location*: Get current location of the phone."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:83
+msgid "*Call 411*: Call ``411``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:84
+msgid "*Vibrate*: Vibrate the phone."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:85
+msgid "*Get a Picture*: Turn on the phone's camera."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:86
+msgid "*Get Phone's Contacts*: Get the total number of contacts in the phone and display the third contact name."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:87
+msgid "*Check Network*: Check the current type of network the phone is using."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:88
+msgid "*Toggle Compass*: Start or stop the phone compass."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:94
+msgid "The JavaScript code corresponds to these functions will be explained in the next section."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:99
+msgid "The :file:`main.js` is a JavaScript file handling the implementation of the PhoneGap Demo page. There are 8 main functions in this file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:102
+msgid "Toggle Accelerometer"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:104
+msgid "Start or stop the measurement of the phone's movement. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:138
+msgid "When click on the :guilabel:`Toggle Accelerometer` button, you can either start or stop the measurement of the phone's movement. If it is started, the ``X``, ``Y`` & ``Z`` values change; otherwise, they will appear as ``0``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:152
+msgid "Get Location"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:154
+msgid "Get current location of the phone. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:169
+msgid "When click on the :guilabel:`Get Location` button, a message showing the current location of phone will appear as below:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:177
+msgid "Call 411"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:179
+msgid "Call ``411``. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:188
+msgid "When click on the :guilabel:`Call 411` button, a confirmed message of the call is appeared."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:196
+msgid "Vibrate"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:198
+msgid "Vibrate the phone. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:208
+msgid "When click on the :guilabel:`Vibrate` button, you will notice that your phone vibrates."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:212
+msgid "Get a Picture"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:214
+msgid "Turn on the phone's camera. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:240
+msgid "When click on the :guilabel:`Get a Picture` button, the phone camera is turned on. If you take a picture and use it, it will be displayed in the page as shown below otherwise a message will be displayed (see below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:254
+msgid "Get Phone's Contacts"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:255
+msgid "Get the total number of contacts in the phone and display the third contact name. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:281
+msgid "When click on the :guilabel:`Get Phone's Contacts` button, the total number of contacts in the phone and the third contact name will be displayed as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:289
+msgid "Check Network"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:291
+msgid "Check the current type of network the phone is using. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:313
+msgid "When click on the :guilabel:`Check Network` button, the current network type information will be displayed."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:321
+msgid "Toggle Compass"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:322
+msgid "Start or stop the phone compass. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/hello_world.rst:348
+msgid "When click on the :guilabel:`Toggle Compass` button, you can either start or stop the phone compass. If the compass is started, the value of the compass heading changes; otherwise, it will appear as ``off``. For example:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:5
+msgid "iBeacon"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:10
+msgid "(Last Updated: 2014/02/05)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:12
+msgid "This sample app uses iBeacon service to detect its proximity to iBeacon device. This Monaca app has `Onsen UI <http://docs.monaca.mobi/onsen/index.html>`_ as its UI. When the mobile (running this app) gets close enough to a predefined iBeacon device, a new page showing its UUID will be displayed."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:15
+msgid "*Tested Environments:* Android 4.4, iOS 8.0.2"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:24
+msgid "In order to test this application, you can either build the application or use the custom built Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:30
+msgid "Download the iBeacon plugin from `here <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_ and import it into Monaca Cloud IDE. See :ref:`import_cordova_plugin`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:32
+msgid "Find at least one iBeacon device."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:34
+msgid "Get information of each iBeacon device by using its conresponded utility software. In our case, we use `My Beacon Tool <https://itunes.apple.com/jp/app/mybeacon-tool/id848908053?mt=8>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:36
+msgid "Take note of the UUID of each iBeacon device."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:49
+msgid "``top_page.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:49
+msgid "Top page of the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:51
+msgid "``info_page.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:51
+msgid "The page showing information of each iBeacon"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:69
+msgid "`Proximity Beacon Plugin <https://github.com/petermetz/cordova-plugin-ibeacon.git>`_"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:70
+msgid "``Bluetooth``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:79
+msgid "The following contents of the HTML body of :file:`index.html` file loads the :file:`top-page.html` file at startup:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:88
+msgid "The following contents of the HTML body of :file:`top-page.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:113
+msgid "corresponds to the screenshot below which allows a user to see a list of predefined iBeacon devices with its proximity:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:120
+msgid "The following contents of the HTML body of :file:`info-page.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:148
+msgid "corresponds to the screenshot below which shows the information (UUID) of the closest iBeacon device to the mobile."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:158
+msgid "The JavaScript codes of this sample app is based on AngularJS. In AngularJS, each page, which requires interactions, contains its own controller function. In this sample, we have 2 controller functions: :envvar:`TopPageCtrl` and :envvar:`InfoPageCtrl` corresponded to :file:`top-page.html` page and :file:`info-page.html` page, respectively. In order to create global vairables used between these controller functions, we create a service function to store those global variables as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:241
+msgid "Inside this service function, we are able to:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:243
+msgid "create an array of all predefined iBeacon devices' information (UUID, proximity, name, icon file and so on)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:244
+msgid "create a function to search for iBeacon devices nearby and retrieve the UUID of the closest iBeacon devices."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:250
+msgid "TopPageCtrl"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:252
+msgid ":envvar:`TopPageCtrl` controls the interactions and processes in :file:`top-page.html` file. In other words, it searching for nearby iBeacon devices. If the predefined iBeacon devices are in range, their proximity and rssi (received signal strength indicator) information will be updated. Otherwise, their proximity value will appear as ``ProximityUnknown`` and their rssi value will appear as ``-63 dBm`` (see below screenshot)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:259
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:316
+msgid "Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:311
+msgid "InfoPageCtrl"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/ibeacon.rst:313
+msgid ":envvar:`InfoPageCtrl` controls the interactions and processes in :file:`info-page.html` file. This controller simply displays the UUID of the closest iBeacon device by using the UUID value passing by the ``iBeaconService``. By \"closest\", we mean that the proximity of the iBeacon device is \"Immediate\". Otherwise, the :file:`info-page.html` will not displayed."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/index.rst:5
+msgid "Templates & Sample Apps"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:5
+msgid "Inmobi Client"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:10
+msgid "In this page, we will show how to integrate the mobile ads using the mobile ads network Inmobi with Monaca. For more information about the Inmobi, please visit `Inmobi\\'s website <http://www.inmobi.com/>`_ and `Inmobi Mobile Web Integration Guide <https://support.inmobi.com/monetize/integration/mobile-web/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:22
+msgid "Prerequisites"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:25
+msgid "Property ID from Inmobi"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:27
+msgid "To obtain a property ID from Inmobi, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:29
+msgid "Create an Inmobi account at `Inmobi Site <https://www.inmobi.com/user/register.html?locale=en_us>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:31
+msgid "After succesfully created an Inmobi account, log in to your Inmobi account. In the menu bar, select :guilabel:`MONETIZE` and fill in the necessary information. There are 4 types of property: ``Windows Phone``, ``iOS``, ``Android`` and ``Mobile Web``. In this sample, we choose the ``Mobile Web``. Then, click on :guilabel:`Add Property` button."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:36
+msgid "Next, you need to verify the newly created property which is required by Inmobi. In the property list, click on the :guilabel:`Verification` button (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:41
+msgid "To complete the verification, please add the following meta tag within the HTML head tag of your property URL."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:54
+msgid "To find out about your property ID, click on the :guilabel:`Settings` button (see the screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:59
+msgid "Then, a dialog showing information of the selected property will appear. You can find the property ID in that dialog."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:64
+msgid "After adding the above code snippet, click on :guilabel:`Verify Now` button."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:81
+msgid "``js/inmobi.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:81
+msgid "An Inmobi library."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:83
+#: ../doc/monaca_cli/templates_samples/twitter.rst:59
+msgid "A stylesheet file for the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:85
+msgid "``images/logo.png``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:85
+msgid "Monaca logo used in the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:98
+msgid "In the following code, we used *jQuery Mobile* for the header of the app. For more information on *jQuery Mobile* tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_. The remaining ``div`` tags are used to apply the CSS style we created earlier."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:129
+msgid "The first part of this JavaScript code as shown below is about initializing an *inmobi* object called ``inmobi_conf``. There are several properties of this object such as:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:131
+msgid "``siteid`` (string): the property ID."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:132
+msgid "``slot`` (number):  dimensions of the slot or box where ads appear on your app. The recommended slot value for most publishers is ``15``, which is a ``320x50`` slot that is compatible with rich media ads. For more information about other slot numbers, please refer to `Slot Sizes <https://support.inmobi.com/monetize/integration/mobile-web/mobile-web-integration-guide#integrating-the-ad-code>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:133
+msgid "``test`` (boolean): the state of your app. During development and testing, it should be set to true, to ensure that only test ads are sent. When you set test to false, you will receive live ads."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:134
+msgid "``manual`` (boolean): if set to ``\"true\"``, the ad is not loaded automatically at page load. The ad can then be fetched at some other time in the life cycle of the page, using the :envvar:`getNewAd()` function."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:135
+msgid "``autoRefresh`` (number): the duration of auto refresh of text and banner ads. The refresh interval is in seconds and its minimum accepted value is 20. In this sample, the ads is auto refreshed every minute."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:136
+msgid "``targetWindow``: allows you this control whether to open a click URL/Landing Page in the same window or in a new window. To open click URLs in a new window, the parameter value must be set to ``\"_blank\"``. The default value is ``\"_top\"`` which opens the click URL in the same window."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:164
+msgid "There are 2 functions in the JavaScript code of this app: :envvar:`onDeviceReady()`, and :envvar:`showAds()`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:167
+msgid "onDeviceReady() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:169
+msgid "The :envvar:`onDeviceReady()` includes :file:`inmobi.js` file when PhoneGap is fully loaded. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:188
+msgid ":file:`inmobi.js` must not be included as usual in the header  by using (``<script type=\"text/javascript\" src=\"inmobi.js\"></script>``). This file is needed to be included after PhoneGap is fully loaded inside :envvar:`onDeviceReady()` function as shown above."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:191
+msgid "showAds() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:193
+msgid "The :envvar:`showAds()` function requests a new ads from the Inmobi. Below is the JavaScript code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/inmobi.rst:206
+msgid "For more information regarding *inmobi* JavaScript API, please refer to `this <http://developer.inmobi.com/wiki/index.php?title=JavaScript>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:5
+msgid "Memo Application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:10
+msgid "This sample app allows user to create a memo application using local storage."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:31
+msgid "The Home screen"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:33
+msgid "``js/memo.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:33
+msgid "A JavaScript file handling data manipulation in local storage"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:43
+msgid "``jQuery Mobile``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:50
+msgid "This sample app's user interface is based on jQuery Mobile. In jQuery Mobile, multiple pages can be integrated to a single HTML file. In this app, for example, all pages (Top page, Add Memo page and Detail page) are defined within :file:`index.html`. Specifically, pages are expressed by ``div`` tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify as ``header``, ``content`` , or ``listview``. For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://demos.jquerymobile.com/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:53
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:79
+msgid "The following content of the HTML body tag of ``index.html`` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:73
+msgid "corresponds to this screenshot of the Top page (Home screen) which allows a user to add, view or delete memos:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:100
+msgid "corresponds to this screenshot of the Add Memo page which allows a user to add/save a memo:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:106
+msgid "The following content of the HTML body tag of :file:`index.html` file:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:124
+msgid "corresponds to this screenshot of the Detail page which allows a user to see the full content of each memo:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:135
+msgid "app.js"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:137
+msgid ":file:`app.js` is a JavaScript file handling various implementation of the application."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:139
+msgid "As soon as the application starts, the ``initTopPage()`` function is called. This function is used to initialize the Top page (Home screen). The initialization process is to get all the previously stored memo(s) (using the ``getMemoList()`` function which is defined in the :file:`memo.js` file) and put them into a list view. If there is no previously created memo (when using the application for the first time), ``\"No memo found\"`` will be displayed (see below screenshot)."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:145
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:198
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:219
+msgid "Below is the source code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:174
+msgid "On the Top page, when a user clicks on the :guilabel:`+Add` button, the Add Memo page will be shown. After filling in the Memo text box, the ``onSaveBtn()`` function is called when the :guilabel:`Save` button is clicked. In this function, the input text will be saved to local storage via the ``addMemo()`` function (defined in the :file:`memo.js` file) and then it goes back to the Top page with an updated list. Below is the source code of this function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:192
+msgid "On the Top page, when a user clicks on an item in the list, the ``onShowLink()`` function (defined in the :file:`memo.js` file) is called. In this function, the Detail page will be shown and either the title or the full content of the selected item will be displayed as shown below:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:213
+msgid "On the Top page, a user can delete any item in the list by clicking on the :guilabel:`delete` icon at the end of each item. When the :guilabel:`delete` icon is clicked, the ``onDeleteLink()`` function is called. In this function, a message confirming the deleting action is shown (see below screenshot). If the :guilabel:`OK` button is clicked, the selected item will be deleted from the local storage via the ``deleteMemo()`` function (defined in the :file:`memo.js` file). Then, it will go back the Top page with an updated list."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:240
+msgid "memo.js"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:242
+msgid ":file:`memo.js` file is a JavaScript file handling data manipulation in local storage. Inside this file, there are 4 functions such as:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:244
+msgid "``getMemoList()``: get the list of all memo stored in the local storage."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:245
+msgid "``saveMemoList()``: save the list of all memo into the local storage."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:246
+msgid "``AddMemo()``: add a new memo into the memo list and then save the new list into the local storage using ``saveMemoList()`` function."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/memo_application.rst:247
+msgid "``deleteMemo()``: delete a specific memo from the memo list and then save the new list into the local storage using ``saveMemoList()`` function."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:5
+msgid "Minimum Template"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:10
+msgid "This is an empty template of a Monaca project."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:26
+msgid "When using the *Minimum Template*, the following files will be automatically created:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:34
+msgid "The style sheet file for the project."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:45
+msgid "The above ``<meta>`` tag sets the display width to the actual width of the device screen. Some devices may display slight screen differences."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:52
+msgid "The above ``loader.js`` and ``loader.css`` files are used to load the necessary files and style sheets for the components included in the project."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/minimum_project.rst:55
+msgid "The :file:`index.html` is the Startup page. Here is the screenshot of the Startup page:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:5
+msgid "Omikuji Fortune Telling App"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:10
+msgid "Omikuji is a Japanese word means “random fortunes”. In Monaca, app development is done using HTML and JavaScript just like webpages. JavaScript is a scripting language with simple syntax and functions, and often used for smartphone development compared to other languages."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:30
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:31
+msgid "Image files used in this application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:37
+#: ../doc/monaca_cli/templates_samples/todo.rst:45
+msgid "The contents of the HTML body section are shown below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:45
+msgid "There are two ``div`` tags spanning lines 1 through 4 and lines 5 through 7, with their IDs set to ``hako`` and ``bottombar`` , respectively. These IDs are referenced in the style sheet, which is discussed below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:47
+msgid "The ``div`` tag is used for grouping other tags. For example, the ``div`` tag with the ID ``hako`` contains img tags with the IDs ``saisyo`` and ``kekka`` .  ``img`` tag is used to display an image. These two tags display images for the omikuji box (displayed immediately after startup) and omikuji result, respectively."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:49
+msgid "In order to display the image of the omikuji box when the app starts, the image is specified using the ``src`` attribute of the ``img`` tag with the ID ``saisyo``. In contrast, the ``kekka`` ``img`` tag has no ``src`` attribute. Instead, a ``style=\"display: none\"`` attribute has been provided. This is an example of how to include a style sheet definition (discussed below) in HTML, and this means that the image will not be displayed onscreen when the file is loaded. The fortune telling result image is set and displayed using the JavaScript program discussed below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:51
+msgid "Similarly, the ``div`` tag with the ID ``bottombar`` also contains an ``img`` tag.  In addition to the ``src`` attribute, an ``onclick`` attribute has also been provided.  The ``onclick`` attribute contains JavaScript code to be called when the image is clicked or tapped. In this example, when the fortune telling start button is tapped, the JavaScript ``omikuji()`` function is called.  The `omikuji()` function prepares the fortune telling results and displays them onscreen."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:54
+msgid "Style Sheet Explanation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:56
+msgid "The style sheet is included in the HTML ``head`` tag using the ``style`` tag. The style sheet code itself is shown below. There are three main groups of definitions: definitions for the ``body`` tag, definitions for the tag with the ID ``hako`` , and definitions for the tag with the ID ``bottombar`` ."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:64
+msgid "The four properties (``background`` ,  ``margin`` , ``padding`` , and ``text-align``) are applied to set the styling for the ``body`` tag.  The ``background`` property is used to set the background image. In this example, the image :file:`images/omikuji-bg.png` will be enlarged to fill the ``body`` tag, i.e., the entire page.  The margin and padding properties are used to specify the page margins. Since they are both set to ``0`` in this example, there are no margins.  The ``text-align`` property is used to set text alignment. In this example, text is center aligned."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:66
+msgid "As mentioned in the HTML explanation,  ``#hako`` identifies the ``div`` tag used to display the omikuji box and result images, and ``#bottombar`` identifies the ``div`` tag used to display the start button. These style sheet definitions make use of the ``position`` ,  ``bottom`` ,  ``top`` , and ``width``  properties.  When the ``position`` property is set to ``absolute`` , positioning is done using absolute coordinates. In this example, both divs will use coordinates relative to their parent tag, the ``body`` tag.  The ``bottom`` and ``top`` properties set the position from the bottom or top."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:68
+msgid "This app refers to the external style sheet  :file:`components/loader.css`. It contains style sheet definitions used by libraries loaded by Monaca plugins. However, it has no significance here since this sample app does not make use of Monaca plugins included in the style sheets."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:74
+#: ../doc/monaca_cli/templates_samples/todo.rst:61
+msgid "The JavaScript code is shown below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:83
+msgid "Lines 1 through 16 contain the definition of the ``omikuji`` function. When the start button is tapped, this function will be executed. On line 2, the ``Math.floor`` and ``Math.random`` functions are combined to generate a random number from 0 to 3, which is assigned to the dice variable. On lines 4 through 11, the variable *image_name* is assigned an image file name according to the value of the ``dice`` variable."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:85
+msgid "On lines 12 through 15, the ``document.getElementById`` function is used to modify the style sheet and replace images. This is referred to as DOM (Document Object Model) manipulation, and is used to dynamically update. In the following example, the ``src`` attribute of the element (HTML tag) with the ID ``kekka`` is modified."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/omikuji.rst:91
+msgid "Since, as described above, the ``image_name`` variable is set to the name of the image file corresponding to the omikuji result, this technique can be used to display the image for the fortune telling result onscreen."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:5
+msgid "Onsen UI Minimum Template"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:10
+msgid "This is a minimum template for `Onsen UI <http://onsenui.io/>`_ application."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:31
+msgid "Home screen  (Startup page)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:32
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:32
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:32
+msgid "``page1.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:32
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:32
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:32
+msgid "Page 1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:33
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:33
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:33
+msgid "``page2.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:33
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:33
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:33
+msgid "Page 2"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:34
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:34
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:36
+msgid "Style sheet file of this project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:50
+msgid ":file:`index.html` is the Startup page. It contains the page navigation ``<ons-navigator>`` which is a page stack manager and transition animator. The attribute ``page=\"page1.html\"`` denotes that :file:`page1.html` is the first page of the stack, in other words, it is the first page loaded when the app start."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:52
+msgid "Instead of using attibute ``page`` of ``<ons-navigator>``, you can also use <ons-page> component under <ons-navigator> to define the first page of the stack. In case of both options are used, the attribute ``page`` overwrites the ``<ons-page>`` component. In other words, the page from the ``page`` attribute is the first page of the stack while the ``<ons-page>`` component is ignored. For more information please refer to `Onsen UI Documentation <http://onsen.io/guide/overview.html#PageNavigation>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:55
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:66
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:66
+msgid "page1.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:57
+msgid ":file:`page1.html` has a line of text (``Page 1``) and a :guilabel:`Push Page 2` button. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:62
+msgid "When the :guilabel:`Push Page 2` button is clicked, the Page 2 is shown horizontally with a :guilabel:`Welcome` back button on top-left of the page. In other words, the Page 2 is currently the second page in the page stack. When the :guilabel:`Welcome` back button is clicked, it goes back to the previous page which, in this case, is the Page 1."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:66
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:75
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:90
+msgid "page2.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_minimum_project.rst:68
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:92
+msgid ":file:`page2.html` has only a line of text (``Page 2``). (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:5
+msgid "Onsen UI Sliding Menu"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:9
+msgid "This is a template using `Onsen UI sliding menu <http://onsenui.io/guide/overview.html#UsingSlidingMenu>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:30
+msgid "Startup page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:31
+msgid "``menu.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:31
+msgid "Menu Page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:35
+msgid "``images/ico_swipe_right_s.png``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:35
+msgid "Image file used in this project"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:51
+msgid ":file:`index.html` is the Startup page. It is the starting point of the app and contains the sliding menu component (``<ons-sliding-menu>`` tag). The ``ons-sliding-menu`` component has main page :file:`page1.html` and menu page :file:`menu.html`. When the :file:`index.html` is loaded at the start of the app, the :file:`page1.html` and :file:`menu.html` are loaded as the main page and menu page, respectively."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:54
+msgid "menu.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:56
+msgid ":file:`menu.html` is shown when the :guilabel:`Toggle Menu` button is clicked or when the user swipe the page right. This page contains a list of 2 items: Page 1 (``page1.html``) and Page 2 (``page2.html``). (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:62
+msgid "While the behind-page (:file:`menu.html`) of the sliding menu element is always the same, its above-page is changed to :file:`navigator1.html` or :file:`navigator2.html` when the :guilabel:`Page 1` or :guilabel:`Page 2` is selected, respectively."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:68
+msgid ":file:`page1.html` has several lines of text, a :guilabel:`Toggle Menu` button and an image file. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_sliding_menu.rst:77
+msgid ":file:`page2.html` has only a line of text (``Page 2``) and a :guilabel:`Toggle Menu` button. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:5
+msgid "Onsen UI Tabbar Navigation"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:10
+msgid "This is a template using `Onsen UI tabbar <http://onsenui.io/guide/overview.html#UsingTabBar>`_ and `navigator <http://onsenui.io/guide/overview.html#PageNavigation>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:30
+msgid "Startup page (Home page)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:31
+msgid "``navigator.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:31
+msgid "Navigator page for Page 1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:34
+msgid "``page3.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:34
+msgid "Page 3"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:35
+msgid "``new_page.html``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:35
+msgid "New page"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:53
+msgid ":file:`index.html` is the Startup page. It contains a ``<ons-tabbar>`` component which consists of 3 tabs: Home (:file:`navigator1.html`), Camera (:file:`page2.html`) and Settings (:file:`page3.html`) tabs. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:60
+msgid "navigator.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:62
+msgid ":file:`navigator.html` stores a navigator element (``<ons-navigator>`` tag) which manages the page navigation backed by page stack, horizontally. As shown in the :file:`navigator.html` file, the :file:`page1.html` is used in a navigator element. In other words, the Page 1 is the first page in the page stack."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:68
+msgid ":file:`page1.html` has a line of text (``Page 1``) and a :guilabel:`Push New Page` button. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:75
+msgid "When the :guilabel:`Push New Page` button is clicked, the New page is shown and pushed into the page stack. In other words, it's the second page in the page stack after the page 1."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:78
+msgid "new_page.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:80
+msgid ":file:`new_page.html` has a line of text (``New Page``) and a :guilabel:`Pop Page` button. (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:87
+msgid "Either when the :guilabel:`Home` back button on the top-left corner of the New Page or the :guilabel:`Pop Page` button is clicked, it will go back to the previous page found in the page stack which, in this case, is the Page 1."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:100
+msgid "page3.html"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/onsen_ui_tabbar_navigator.rst:102
+msgid ":file:`page3.html` has only a line of text (``Page 3``). (See the screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:5
+msgid "RSS Reader Example"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:10
+msgid "This is an RSS reader application using jQuery."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:31
+msgid "The Startup page where RSS feeds will be loaded"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:33
+msgid "``loading.gif``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:33
+msgid "A loading image file"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:35
+msgid "``README.md``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:35
+msgid "A README file about this template"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:37
+msgid "``js/feed-reader.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:37
+msgid "A JavaScript file for retrieving the RSS feeds"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:39
+msgid "``js/phpjs_LICENSE.txt``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:39
+msgid "A license file (You can ignore this file.)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:41
+msgid "Style Sheet for the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:67
+msgid "The HTML body of this file is simply a placeholder of a ``loading.gif``, the feed list and error message."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:76
+msgid "As soon as the application starts, the RSS feeds retrieval also begins. While loading the content of RSS feeds, :file:`loading.gif` file is displayed. The following JavaScript code is used to invoke the RSS feeds retrieval function. This function is defined in :file:`feed-reader.js` file which will be explained later in this page. You can try changing the RSS feeds URL."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:92
+msgid "feed-reader.js"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:94
+msgid "When the RSS feeds retrieval function (``Feed.load()``) is called, the following JavaScript code is executed:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:129
+msgid "If the function is executed successfully, the retrieved RSS feeds are listed in the Home screen as shown in the screenshot below."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:135
+msgid "The following JavaScript code corresponds to the display arrangment of RSS feeds in the Home screen (:file:`index.html`):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:152
+msgid "The RSS feeds are displayed in a list view format. When click on each link of the feeds, it forwards to the corresponded URL in a ChildBrowser as shown below:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/sample_rss_reader.rst:158
+msgid "The following JavaScript code corresponds to the above function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:5
+msgid "Train Catalog"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:10
+msgid "This sample app is a train catalog which displaying the types trains towards Tokaido and Tohoku areas."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:12
+msgid "*Tested Environments:* Android 4.0, iOS 7.1.1"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:30
+msgid "The stylesheet file for the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:31
+msgid "``images/¥*¥*¥*.jpg``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:46
+msgid "This sample uses the native function of Monaca. Therefore, there are multiple HTML pages. First, here is the body of the :file:`index.html`."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:53
+msgid "This sample uses jQuery Mobile to display the list screen. Once you tap each column, ``showDetail`` function is called. This function will transit to the next page, which will be described later. Also ``a`` tag uses ``monaca.invokeBrowser`` function in ``onclick`` attributes. This function is used to launch the browser and display the specified URL."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:58
+msgid "The JavaScript code of the Top Screen is not long."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:65
+msgid "As mentioned before, ``showDetail`` is called when the column in the list is tapped. Take 2 arguments and assign them to``filename`` variable and ``trqinname`` variable."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/shinkansen.rst:67
+msgid "Display the next page with ``monaca.pushPage``  function. This function will open a new page natively by using Monaca native functions and the variable passed to the next page is defined in it's third argument. The passed value can be obtained by ``monaca.queryParams`` variable."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:5
+msgid "TODO App"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:10
+msgid "The application allows you to add a todo list."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:31
+msgid "A JavaScript file used in the application"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:52
+msgid "Since this sample uses jQuery Mobile, the HTML should be written accordingly. Specifically, attributes beginning with *data-*, such as *data-role* and *data-position*, serve special roles in jQuery Mobile."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:54
+msgid "In jQuery Mobile, multiple pages can be described in a single HTML file. In this app, for example, both the List Screen and the Add Screen are defined within :file:`index.html`. Specifically, pages are expressed by ``div``  tags in which the ``data-role`` attribute is set to ``page``. The role of the tags is expressed by the ``data-role`` attribute in this manner. For example, ``data-role`` can also specify ``header``, ``content`` , or ``listview``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:56
+msgid "For more information on jQuery Mobile tags and components, please refer to `jQuery Mobile Demo <http://jquerymobile.com/demos/1.2.0/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:68
+msgid "Here, the two functions, ``addTodoPicture`` and ``addTodo``, are defined. As the names imply, the first function shoots a photo and registers data while the second performs only data registration."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:70
+msgid "To shoot a photo, the *addTodoPicture* functions calls *navigator.camera.getPicture*,which is a function provide by PhoneGap. If the call is successful, the function *addTodo* is then executed. if it fails, an error message is generated. Photo shoot options such as fixing the image size and specifying the return type are also set."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:72
+msgid "The function ``addTodo`` takes an argument called ``camera_url``. When the function ``navigator.camera.getPicture`` is called and the photo shoot is successful, a reference to the graphic file is stored in this argument."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:74
+msgid "DOM operations can easily be performed within these functions through the use of jQuery libraries. For example, in the following snippet, the value of the element with ID ``todo-title`` is acquired and assigned to the variable ``title``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/todo.rst:80
+msgid "Accordingly, in lines 14-19, the input values are read and assigned to the appropriate variables ``title``, ``body``, and ``img_tag``. Next, the function *$.mobile.changePage* transitions to the next page and adds a new row to the list. Finally, the list page is redrawn and the program ends."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:5
+msgid "Twitter Client"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:10
+msgid "This sample app is showing the Twitter Timeline of a specifice user. It allows user to connect to Twitter from Monaca app by using `OAuth protocol <https://dev.twitter.com/docs/auth/oauth>`_ and InAppBrowser. If you want to use other APIs, please refer `Twitter Documentation <https://dev.twitter.com/docs>`_ ."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:27
+msgid "You are required to obtain *API key* and *API secret* by registering your Monaca app with Twitter Developer:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:29
+msgid "Go to `Twitter Developer Site <https://dev.twitter.com/>`_. Signin with Twitter account. If you don't have one, please signup."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:31
+msgid "Go to :guilabel:`My applications`. Then, click on :guilabel:`Create New App` button."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:36
+msgid "Fill in the information of your app such as: Name, Description, Website and Callback URL. Tick :guilabel:`Yes, I agree`. Then, click :guilabel:`Create your Twitter application` button."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:38
+msgid "Go to :guilabel:`Settings` tab and tick :guilabel:`Allow this application to be used to Sign in with Twitter`. (See screenshot below)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:43
+msgid "Go to :guilabel:`API Keys` tab and take note of the API key and API secret. You will need them later. You can also regenerate the API keys."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:58
+msgid "The startup Page (Consists of Connect Screen)"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:59
+msgid "``css/app.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:60
+msgid "``css/onsen-css-components-default.css``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:60
+msgid "A stylesheet file for `Onsen UI <http://onsenui.io/>`_ components"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:61
+msgid "``js/jsoauth.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:61
+msgid "A JavaScript library implementing the `OAuth protocol <https://dev.twitter.com/docs/auth/oauth>`_ which aims to form the basis of custom clients such as Twitter. `See more about jsOAuth <https://github.com/bytespider/jsOAuth>`_"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:62
+msgid "``js/underscore.js``"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:62
+msgid "A JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. `See more about this library <http://underscorejs.org/>`_"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:83
+msgid "The User Interface for this sample app is based on *Onsen UI Components*. For more information on *Onsen UI* tags and components, please refer to `Onsen UI Documentation <http://docs.monaca.mobi/onsen/en/index.html>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:85
+msgid "The following contents of the HTML body of :file:`index.html` file is for the navigation bar of the application which has a Twitter icon on the left, Search icon on the right and entitled as ``\"Twitter Timeline\"`` (see screenshot below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:114
+msgid "The following contents of the HTML body of :file:`index.html` file is for the :guilabel:`Connect to Twitter` button and a place to load the content of the Twitter timeline (see screenshot below):"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:157
+msgid "The logic behind this app is based on *InAppBrowser* and *OAuth protocol*. We use InAppBrowser to open a Twitter authentication page inside our app. This prevents an opening of an external browser."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:159
+msgid "The OAuth protocol is used to send authorized requests to Twitter API. It’s a secure way to interact with Twitter since users are not required to share their passwords with 3rd party applications. For more information about OAuth protocol, please refer to `this <https://dev.twitter.com/docs/auth/oauth>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:161
+msgid "We will explain the JavaScript code of this app as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:164
+msgid "Initialize Oauth Object"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:166
+msgid "Before starting to use an Oauth object, you will need to initialize it first. In order to do that, you will need to have ``API Key``, ``API Secret`` and a valid callback URL. Here is how to initialize an Oauth object:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:186
+msgid "connect() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:188
+msgid "Here is the ``connect()`` function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:203
+msgid "This function is called when the user clicks on :guilabel:`Connect to Twitter` button. It is asking the user to login to Twitter by using InAppBrowswer. In other words, it is requesting for the authentication token by asking the user to authenticate through InAppBrowser via another function called ``showAuthWindow()``."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:206
+msgid "showAuthWindow() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:208
+msgid "Here is the ``showAuthWindow()`` function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:228
+msgid "In this function, a browser is open for Twitter user authentication (see screenshot below). If the authentication is success (i.e the callback URL is successfully loaded), the Access Token is stored inside the oauth object and ``getTwits()`` function is called. After that, the browser is closed."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:236
+msgid "getTwits() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:238
+msgid "Here is the ``getTwits()`` function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:252
+msgid "This function is used to get a specific user's timeline. First, it starts to hide the :guilabel:`Connect to Twitter` button. Then, using oauth API to fetch the user's timeline. After that, calling ``showTwits()`` function to load the content into the app."
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:255
+msgid "showTwits() function"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:257
+msgid "Here is the ``showTwits()`` function:"
+msgstr ""
+
+#: ../doc/monaca_cli/templates_samples/twitter.rst:270
+msgid "This function is used to display the twit information. It uses ``underscore.js`` library for templating (see screenshot below)."
+msgstr ""
+
+#: ../doc/monaca_cli/tips/index.rst:5
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:5
+msgid "Part 3: Building Monaca App"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:10
+msgid "In this tutorial, we only cover the building of Monaca Apps for iOS and Android:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:12
+msgid ":ref:`cli_building_for_ios`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:13
+msgid ":ref:`cli_building_for_android`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:15
+msgid "For more information regarding the building of Monaca Apps for other platforms, please refer to :ref:`build_index`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:21
+msgid "Building a Monaca App for iOS"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:23
+msgid "This section will cover an instruction of how to create a Debug Build version of your app for iOS which will be installed on the development device. For more information about other types of build, please refer to :ref:`types_of_build_ios`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:25
+msgid "*Prerequisite*:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:27
+msgid "You must enroll in `iOS Developer Program <https://developer.apple.com/programs/ios/>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:29
+msgid "*Requirement*"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:31
+msgid "You are required to create the following items from iOS Provisioning Portal after enrolling iOS Developer Program:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:33
+msgid "``App ID`` (see :ref:`register_appID` and :ref:`register_dev_device`)"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:34
+msgid "``Developer Certificate`` (see :ref:`create_cer`)"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:35
+msgid "``Development Provisioning Profile`` (see :ref:`register_provisioning`)"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:39
+msgid "Step 1: Configuring iOS App Settings"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:41
+#: ../doc/monaca_cli/tutorials/building_app.rst:146
+msgid "In the command window, navigate to your project folder and type :ref:`monaca_remote_build` command. This command will automatically upload your local project files to Monaca Cloud and open an interactive build interface in your browser."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:47
+msgid "From the build interface, go to :menuselection:`Build Configuration --> iOS App`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:49
+#: ../doc/monaca_cli/tutorials/building_app.rst:154
+msgid "Fill in the necessary information of your app:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:51
+#: ../doc/monaca_cli/tutorials/building_app.rst:156
+msgid "Application Name: a name representing your app publicly such as in the Market."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:52
+msgid "App ID: a unique ID representing your app. It is recommended to use reverse-domain style (for example, mobi.monaca.appname) for App ID. Only alphanumeric characters and periods (at least one period must be used) are allowed. Each segment separated by a period should begin with an alphabetic character."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:53
+msgid "Version Number: a number representing the version of your app which will be required when uploading (publishing process) your application via iTune Connect later. It needs 3 numbers separated by dots (for example, 1.10.2). Each number should be in [0-99]."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:54
+#: ../doc/monaca_cli/tutorials/building_app.rst:160
+msgid "The remaining information is optional. You can configure icon, splash screen and other configurations in the page."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:62
+msgid "The App ID in Monaca Build Settings must be the same as the App ID you have registered in iOS Provisioning Portal. This App ID (in Monaca Build Settings) cannot contain asterisk (``*``); otherwise, the build will fail."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:64
+#: ../doc/monaca_cli/tutorials/building_app.rst:168
+msgid "After finishing the configurations, click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:68
+msgid "Step 2: Configuring iOS Build Settings"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:70
+msgid "From the build interface, go to :menuselection:`Build Configuration --> iOS Build`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:72
+msgid "Click on :guilabel:`Generate Key and CSR...` button and fill in your Apple ID information (user name and email address). Then, click :guilabel:`Generate Key and CSR` button. You can also import an existing Private Key if you have one."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:80
+msgid "The following dialog box will appear if your authentication is successful."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:88
+msgid "Export the CSR file. It will be required to issue the certificates later in iOS Provisioning Portal."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:97
+msgid "If you import an existing private key, you need to use the certificates which are issued based on that imported private key. However, if you create a new private key and CRS file, you will need to use the new CRS file to issue new certificates."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:100
+#: ../doc/monaca_cli/tutorials/building_app.rst:203
+msgid "Step 3: Building the App"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:102
+msgid "From the build interface, Select ``iOS`` platform."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:110
+#: ../doc/monaca_cli/tutorials/building_app.rst:207
+msgid "Select Debug Build and click :guilabel:`Next` button."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:118
+msgid "Upload the development provisioning profile and click :guilabel:`Next` button."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:120
+msgid "It may take several minutes for the build to complete. Please wait. The following screen will appear after the build is complete."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:129
+#: ../doc/monaca_cli/tutorials/building_app.rst:224
+msgid "Step 4: Installing the Built App"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:131
+msgid "Download the built app."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:132
+msgid "Use iTunes to install the built app on your iOS device."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:138
+msgid "Building a Monaca App for Android"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:140
+msgid "This section will cover an instruction of how to create a Debug Build version of your app for Android. For more information about other types of build, please refer to :ref:`types_of_build_android`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:144
+msgid "Step 1: Configuring Android App Settings"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:152
+msgid "From the build interface, go to :menuselection:`Build Configuration --> Android App`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:157
+msgid "Package Name: a unique ID representing your app. It is recommended to use reverse-domain style (for example, mobi.monaca.appname) for App ID. Only alphanumeric characters and periods (at least one period must be used) are allowed. Each segment separated by a period should begin with an alphabetic character."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:158
+msgid "Version Number: a number representing the version of your app. It needs 3 numbers separated by dots (for example, 1.10.2). Each number should be in [0-99]."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:159
+msgid "Use Different Package Name for Debug Build: if checked, the package name of the debug-built app and custom-built debugger are different. In other words, the package name of debug-built app will have ``.debug`` extension, and the one for project debugger will have ``.debugger`` extension. However, this option is disable by default because it made some plugins impossible to be debugged due to the fact that they are tied to exact package names (eg. in-app purchase)."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:172
+msgid "Step 2: Configuring Android KeyStore"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:174
+msgid "Android KeyStore is used for storing the keys (Alias) needed to sign a package. When a KeyStore is lost or it is overwritten by another KeyStore, it is impossible to re-sign the signed package with the same key. One KeyStore can contain multiple Alias, but only one Alias is used for code-sign an application."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:176
+msgid "In order to configure Android KeyStore in Monaca, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:178
+msgid "From the build interface, go to :menuselection:`Build Configuration --> Android Build`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:180
+msgid "Now, you will need to generate a new KeyStore if you haven't created one yet. The KeyStore can either be created or imported. In this tutorial, we assume that you need to create a new KeyStore. Therefore, click on :guilabel:`Clear and Generate New...` button."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:188
+msgid "Fill in the necessary information related to the KeyStore such as:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:190
+msgid "Alias: key information stored in the KeyStore which is used to sign an app package."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:191
+msgid "Password: password for the Alias."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:192
+msgid "KeyStore Password: password for the new KeyStore."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:200
+msgid "Then, click :guilabel:`Generate KeyStore and Alias` button."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:205
+msgid "From the build interface, Select ``Android`` platform."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:215
+msgid "It may take several minutes for the build to complete. Please wait. The following screen will appear after the build is successfully completed."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:226
+msgid "There are several ways you can install the built app:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:228
+msgid ":ref:`network_and`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:229
+msgid "use QR Barcode"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:230
+msgid "download the built app directly to your computer"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:231
+msgid "send the URL to download the built app  to your email address (registered with Monaca)."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:236
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:26
+#: ../doc/monaca_cli/tutorials/starting_project.rst:60
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:132
+msgid "*See Also*:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:238
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:28
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:134
+msgid ":ref:`cli_starting_project`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:239
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:29
+#: ../doc/monaca_cli/tutorials/starting_project.rst:62
+msgid ":ref:`cli_testing_debugging`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/building_app.rst:240
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:136
+msgid ":ref:`cli_publishing_app`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/index.rst:3
+msgid "Tutorial"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/index.rst:5
+msgid "Monaca CLI is one of the local deveopment environments which can be used to develop Monaca apps locally. Monaca CLI provides command line interface for using Monaca Cloud from your local PC. You can create new local projects, import or clone existing projects from Monaca Cloud to your local PC and start developing Monaca apps with any editors you prefer. Monaca CLI allows you to debug your app with inspector integration and remote build your projects without any setups locally. Read more :ref:`here <monaca_cli_index>`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/index.rst:7
+msgid "Before getting started, you need to:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/index.rst:16
+msgid "get a Monaca account. If you don't have one, please register `here <https://monaca.mobi/en/register/start>`_."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/index.rst:17
+msgid "install Monaca CLI. Please follow the installation instruction :ref:`here <install_monaca_cli>`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:5
+msgid "Part 4: Publishing Monaca App"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/publishing_app.rst:30
+#: ../doc/monaca_cli/tutorials/starting_project.rst:63
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:135
+msgid ":ref:`cli_building_app`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:5
+msgid "Part 1: Starting a Project"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:12
+msgid "Step 1: Logging into Monaca"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:14
+msgid "Open a Command Prompt window (for Windows) or Terminal window (for Mac) and type the following command:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:21
+msgid "Then, you will be asked to input email and password of your Monaca account."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:31
+msgid "Step 2: Creating a New Project"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:39
+msgid "Choose a project template by typing the number representing that template. Let's choose \"Onsen UI Sliding Menu\" in this example."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:47
+msgid "After creating the project, the project's folder will be created on your PC. You can then use any local editors to develop your Monaca projects."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:55
+msgid "You can also use Monaca CLI to :ref:`import<monaca_import>` or :ref:`clone<monaca_clone>` your existing projects from Monaca Cloud."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/starting_project.rst:64
+msgid ":ref:`localkit_publishing_app`"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:5
+msgid "Part 2: Using Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:10
+msgid ":ref:`monaca_debugger_index` is a powerful application for testing and debugging your Monaca applications on real devices in real-time by just saving the source code."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:12
+msgid "When developing Monaca apps on your local PC, assuming that your local PC is successfully paired with Monaca Debugger, all changes made to your project files will be pushed into your Monaca Debugger in real-time as soon as you save those changes."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:16
+msgid "Before Getting Started"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:18
+msgid "Please install Monaca Debugger on your device. Please refer to :ref:`Monaca Debugger Installation <debugger_installation_index>` for other platforms."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:37
+msgid "Step 1: Pairing Monaca Debugger with Local PC"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:39
+msgid "In order to debug/test a local Monaca app, you need to pair local PC with Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:43
+msgid "Monaca Debugger and the local PC have to connect to the same network connection (LAN or Wi-Fi)."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:48
+msgid "In the command window, navigate to your project folder and type :ref:`monaca_debug` command to connect to your Monaca Debugger. Then, Monaca CLI will wait for requests from debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:56
+msgid "Launch Monaca Debugger app and sign in using your Monaca account information. Make sure you are using the same account information you use for Monaca CLI earlier."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:64
+msgid "Then, a popup message, prompting you to pair the debugger with the local PC, will appear in the debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:72
+msgid "If your pairing is successful, your local project's name will appear under ``Local Projects`` in in Monaca Debugger. However, if you fail the pairing, please refer to :ref:`troubleshoot_pair`."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:82
+msgid "Step 2: Running the Project on Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:84
+msgid "From the Local Projects list in Monaca Debugger, click on your project's name to run it."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:86
+msgid "Now the project should run as in screenshot below. Use :guilabel:`Back` button within Debugger Menu button to go back to the Project List screen."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:92
+msgid "Monaca Debugger Menu Button"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:98
+msgid "Monaca Debuger Back Button"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:104
+msgid "Step 3: Real-time Update between Monaca CLI and Debugger"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:106
+msgid "Run the project on the debugger."
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:108
+msgid "You can now try make some changes to your file. For example, try changing the starting page of the sample app to Page 2. In order to do this, please open the ``index.html`` file. Then, change the ``main-page`` attribute (inside <ons-sliding-menu> tag) to ``page2.html`` and save your change. Your code should look like this:"
+msgstr ""
+
+#: ../doc/monaca_cli/tutorials/testing_debugging.rst:123
+msgid "If your PC is still connected to Monaca Debugger, it will automatically refresh the updates. Now your starting page should be Page 2."
 msgstr ""
 

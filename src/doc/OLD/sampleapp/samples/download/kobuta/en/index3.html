@@ -1,0 +1,19 @@
+//Setting a "devicemotion" event to obtain the slope from the accelerometer. 
+  window.addEventListener('devicemotion',function(e){
+
+        //Getting the slope of the device.
+        gravity = e.accelerationIncludingGravity;
+        game.gy = gravity.y;
+
+       //If the y-axis inclination is at least 3000, triple the speed of the pig by increasing it's x-axis and frame speed 3 times.
+       if(game.gy > 3.000){
+           player.x += 30;
+           player.frame = game.frame % 2 +2;
+       }
+
+       //If the y-axis inclination is less than 3000, th pig is running in a normal speed.
+       else if(game.gy <= 3.000){
+           player.x += 10;
+           player.frame = game.frame %2;
+       }
+    },true);

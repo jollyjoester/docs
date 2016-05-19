@@ -1,0 +1,38 @@
+//enchant.jsを使う際にこの関数を呼び出します
+ enchant ();
+
+ //ウィンドウ画面がロードされた直後に、ブロック内の処理を行います
+ window.onload = function () {
+
+       //ゲームオブジェクトをサイズ960*640ピクセルで作成します
+       var game = new Game (960, 640);
+
+       //一秒間に15回に画面の更新頻度を設定します
+       game.fps = 15;
+
+       //「こぶた」の画像ファイルをゲームにプリロードします
+       game.preload ('player.png');
+
+       //ゲームがロードされた際にブロック内の処理を行います
+       game.onload = function () {
+
+               //Spriteオブジェクトを生成します
+               player = new Sprite (160, 160);
+
+               //Spriteオブジェクトに「こぶた」の画像をセットします
+               player.image = game.assets['player.png'];
+
+               //Spriteオブジェクトのフレームに1を設定します(フレームについては下記で解説します)
+               player.frame = 1;
+
+               //Spriteの位置座標を設定します
+               player.x = 100;
+               player.y = 100;
+
+               //こぶたの画像を表示するオブジェクトをgame.rootSceneに代入します
+               game.rootScene.addChild(player);
+       };
+
+       //ゲームを開始します
+       game.start ();
+ }

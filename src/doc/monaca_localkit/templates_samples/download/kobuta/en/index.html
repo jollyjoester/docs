@@ -1,0 +1,35 @@
+//This function is called when using enchant.js
+ enchant ();
+
+ //This block of code will be executed as soon as the window is loaded.
+ window.onload = function () {
+
+       //Creating a new game with the size of 960x640 pixels.
+       var game = new Game (960, 640);
+
+       //Setting the screen refresh rate of the game.
+       game.fps = 15;
+
+       game.preload ('player.png');
+
+       //This block of code will be executed when the game is loaded.
+       game.onload = function () {
+
+               player = new Sprite (160, 160);
+
+               //Assigning a game image to the new Sprite object.
+               player.image = game.assets['player.png'];
+
+               player.frame = 1;
+
+               //Setting the Sprite object's coordinates.
+               player.x = 100;
+               player.y = 100;
+
+               //Adding the Sprite object to the game.rootScene
+               game.rootScene.addChild(player);
+       };
+
+       //Starting the game.
+       game.start ();
+ }

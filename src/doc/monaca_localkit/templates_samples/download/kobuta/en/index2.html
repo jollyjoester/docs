@@ -1,0 +1,32 @@
+  enchant ();
+
+  window.onload = function () {
+
+       var game = new Game (960, 640);
+
+       game.fps = 15;
+
+       game.preload ('player.png');
+
+       game.onload = function () {
+
+               player = new Sprite (160, 160);
+
+               player.image = game.assets['player.png'];
+
+               player.frame = 1;
+
+               player.x = 100;
+               player.y = 100;
+
+               game.rootScene.addChild(player);
+               
+               //Increasing x-coordinate of the object when a frame is updated.
+               player.addEventListener('enterframe', function() {
+                   this.x += 10;
+                   this.frame = game.frame % 2;
+               })
+       };
+
+  game.start ();
+  }

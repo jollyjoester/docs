@@ -15,1278 +15,1300 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../doc/monaca_debugger/debug.rst:5
-msgid "Usage"
+#: ../doc/monaca_debugger/faq/index.rst:5
+msgid "F.A.Q"
 msgstr ""
 
-#: ../doc/monaca_debugger/debug.rst:9
-msgid "In this page, we will describe how to use Monaca Debugger with Monaca Cloud IDE and other Monaca local development tools such as Monaca Localkit, Monaca CLI and Monaca for Visual Studio:"
+#: ../doc/monaca_debugger/faq/index.rst:7
+#: ../doc/monaca_debugger/tips/index.rst:7
+#: ../doc/monaca_debugger/tutorials/index.rst:7
+msgid "[TBU]"
 msgstr ""
 
-#: ../doc/monaca_debugger/debug.rst:11
-msgid ":ref:`by_debugger_ide`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:12
-msgid ":ref:`debugger_with_local_tools`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:15
-msgid "Before starting, please install Monaca Debugger on your device or emulator. Please refer to :ref:`How to Install Monaca Debugger <debugger_installation_index>` for more information."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:21
-msgid "Monaca Debugger with Monaca Cloud IDE"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:23
-msgid "There are 2 main debugging mechanism can be used to debug Monaca apps with Monaca Cloud IDE such as:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:25
-msgid ":ref:`debugger_debug_panel`: DOM inspection and console debugging."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:26
-msgid ":ref:`by_debugger_usb`: DOM inspection, console and JavaScript debugging."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:32
-msgid "Monaca Debug Panel"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:34
-msgid "A popular Web debugging tool, `Weinre (WEb INspector REmote) <https://people.apache.org/~pmuellr/weinre/docs/latest/>`_, is embedded in debug panel of Monaca Cloud IDE. This tool allows you to debug your app using console debugging and DOM inspection."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:40
-msgid "Debug Panel inside Monaca Cloud IDE"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:44
-msgid "In order to start debugging your app by using Monaca Debugger with Monaca Cloud IDE, please follow the following instruction:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:46
-msgid "Open a project in Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:48
-msgid "Run the project in Monaca Debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:50
-msgid "Make sure your device is connected with the IDE. For example, if your device appears in the debug panel, it is successfully connected to the IDE (see the screenshot below). Otherwise, please refresh the IDE or debugger until the connection is successfully made. After your device is connected to the IDE, you can start debugging your app."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:60
-msgid "Console Debugging"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:62
-msgid "Console API allows you to write/display message to the Console using Javascript."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:64
-msgid "Here are some common used Console APIs:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:66
-msgid "``console.log()``: displays a message to the console."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:68
-msgid "``console.debug()``: displays a message as debug level (you can see the message in the debug tab)."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:70
-msgid "``console.warn()``: displays a message with yellow warning icon."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:73
-msgid "For more information about Console APIs, please refer to `Console API references <https://developer.chrome.com/devtools/docs/console-api>`_."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:75
-msgid "Here is an example of using Console APIs:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:77
-msgid "Copy and paste the following code into the ``index.html`` file."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:107
-msgid "Save the code and connect Monaca Debugger with Monaca Cloud IDE. Run the project in Monaca Cloud IDE. Now you can see those messages in the debug panel in Monaca Cloud IDE and in the app log inside the Monaca Debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:113
-msgid "Debug Panel in Monaca Cloud IDE"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:119
-msgid "App Log in Monaca Debugger"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:123
-msgid "This debug panel also allows you to see the error log of your app as well."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:132
-msgid "DOM Inspection"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:134
-msgid "DOM (Document Object Model) Inspection allows you to:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:136
-msgid "view DOM structure of the currently active page."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:137
-msgid "modify the DOM structure as well as CSS of the page with live update."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:139
-msgid "For more information, please refer to `DOM Inspection and Style Editing <https://developer.chrome.com/devtools/docs/dom-and-styles>`_."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:145
-msgid "DOM Inspection inside Debug Panel"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:152
-#: ../doc/monaca_debugger/installation/debugger_android.rst:81
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:77
-msgid "USB Debugging"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:154
-msgid "With USB debugging, you can:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:156
-msgid "Console debugging: uses console to diplay messages and set debugging sessions."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:157
-msgid "DOM inspection: views and modifies DOM structures with live updates."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:158
-msgid "JavaScript debugging: profiles JavaScript performance, sets breakpoint and execution control."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:160
-msgid "There are two ways to implement USB debugging depends on what kind of device you use:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:162
-msgid "If you are using iOS device, you can use :ref:`Safari Remote Debugging <usb_debugging_ios>`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:163
-msgid "If you are using Android device, you can use :ref:`Chrome Remote Debugging <usb_debugging_android>`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:169
-msgid "Safari Remote Debugging (for iOS and Mac only)"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:171
-#: ../doc/monaca_debugger/debug.rst:200
-msgid "You are required to do some setups before using USB debugging with Monaca. Please refer to :ref:`pre_debug_app`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:173
-msgid "Connect your iOS device to your Mac via a USB cable."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:175
-msgid "Run your Monaca project in your Monaca custom built debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:177
-msgid "Open Safari app and go to :guilabel:`Develop` menu. Your iOS device's name should be shown in the list. Then, you can select each available page of Monaca app from a submenu belonged to your device's name."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:186
-msgid "Then, the Web Inspector window will appear. In this window, you can use timing HTTP requests, profiling JavaScript, manipulating the DOM tree, and more. In order to learn how to use Web Inspector, please refer to `Safari Web Inspector <https://developer.apple.com/library/ios/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874>`_."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:198
-msgid "Chrome Remote Debugging (for Android with Google Chrome Browser)"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:202
-msgid "Connect your Android device to your PC via a USB cable."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:204
-msgid "Run your Monaca project in Monaca Debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:206
-msgid "In Chrome address bar, enter ``chrome://inspect/``."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:208
-msgid "Then, the Devices page appears as shown below. Your connected Android device should be shown there. Click :guilabel:`inspect` belonged to your device."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:216
-msgid "Then, the Chrome Inspection page should be appeared. Now you can start debugging your Monaca app. For more information, please refer to `How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:228
-msgid "Monaca Debugger with Monaca Local Development Tools"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:230
-msgid "Monaca local development tools are Monaca CLI, Monaca Localkit and Monaca for Visual Studio."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:235
-msgid "Prerequisite for USB Debugging with Monaca"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:240
-msgid "*Platform*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:240
-msgid "iOS"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:240
-msgid "Android"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:242
-msgid "*Monaca Debugger*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:242
-msgid ":ref:`Custom built Monaca Debugger only <custom_debugger_ios>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:242
-msgid "Either store version or custom built :ref:`Monaca Debugger <debugger_on_android>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:245
-msgid "*Install Driver*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:245
-msgid "For Windows, please install iTunes to install the driver for iOS devices. For Mac OS X, necessary drivers should be already installed."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:245
-msgid "For Windows, you need to check the device manufacturer to find the appropriate driver for the device. For Mac OS X, the system will automatically find the device without any installation."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:249
-msgid "*Enable USB Debug*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:249
-msgid "Enable \"Web Inspector\" in iOS device:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:251
-msgid "Go to :menuselection:`Settings --> Safari`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:252
-msgid "Scroll down and select :guilabel:`Advanced`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:253
-msgid "Switch on :guilabel:`Web Inspector`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:249
-msgid "Enable \"USB debugging\" in Android device:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:251
-msgid "Go to :menuselection:`Settings --> More`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:252
-msgid "Select :guilabel:`Developer options`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:253
-msgid "Tick :guilabel:`USB Debugging`."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:255
-msgid "*Trust Connection*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:255
-#: ../doc/monaca_debugger/debug.rst:255
-msgid "The connected device should display if you trust the host computer. Please trust the computer in order to get connected."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:262
-msgid "USB Debugging with Monaca Local Development Tools"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:264
-msgid "In order to start this debugging, please do as follows:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:266
-msgid "Pair Monaca Debugger with the host PC (running Monaca local tool such as Monaca Localkit, Monaca CLI or Monaca for Visual Studio). You may want to refer to:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:268
-msgid ":ref:`Pairing in Monaca Localkit <localkit_pairing_debugging>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:269
-msgid ":ref:`Pairing in Monaca CLI <cli_pairing>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:270
-msgid ":ref:`Pairing in Monaca for Visual Studio <monaca_vs_pairing>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:272
-msgid "Choose a project to run."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:274
-msgid "Click on the debugger menu as shown below:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:282
-msgid "Click the Inspector button to start the USB debugging."
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:291
-msgid "The Chrome DevTools/Safari Web Inspector should be opened in the host PC; otherwise, please refer to :ref:`troubleshoot_inspector`. For more information, please refer to:"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:293
-msgid "`How to Use Safari Web Inspector <https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html>`_"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:294
-msgid "`How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:307
-#: ../doc/monaca_debugger/features.rst:198
-#: ../doc/monaca_debugger/installation/debugger_android.rst:156
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:106
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:139
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:170
-msgid "*See Also*"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:309
-#: ../doc/monaca_debugger/installation/debugger_android.rst:160
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:172
-msgid ":ref:`monaca_debugger_features`"
-msgstr ""
-
-#: ../doc/monaca_debugger/debug.rst:310
-#: ../doc/monaca_debugger/features.rst:200
-msgid ":ref:`debugger_installation_index`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:5
-msgid "Functionalities"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:15
-msgid "Debugger Functions"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:17
-msgid "Monaca Debugger provides useful functions for testing/debugging your apps. You can find Debugger Functions button when you run a project in Monaca Debugger. When you click on Debugger Functions button, you will see:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:19
-msgid "Back button"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:21
-msgid "Reload button"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:23
-msgid ":ref:`Screenshot button <screenshot>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:25
-msgid ":ref:`Chat button <chat>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:27
-msgid ":ref:`App Log button <app_log>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:29
-msgid ":ref:`Inspector button <debugger_inspector>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:46
-msgid "Screenshot"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:48
-msgid "While running your project on Monaca Debugger, you may want to send any specific screenshot of your project to Monaca Cloud IDE and share it with your team members."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:51
-msgid "In the screenshot screen, you can:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:53
-msgid "edit the screenshot."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:55
-msgid "upload to Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:57
-msgid "save to phone storage."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:68
-msgid "Chat"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:70
-msgid "Chat function allows you to share conversations with your team members of a shared project or between Monaca Debugger and Cloud IDE. The screenshot below shows a conversation between Monaca Debugger and Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:76
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:30
-msgid "Monaca Debugger"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:82
-msgid "Monaca Cloud IDE"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:90
-msgid "App Log"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:92
-msgid "Monaca Debugger allows you to see the log of the app which will show the progress and errors of the app while running."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:103
-msgid "Inspector"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:105
-msgid "Inspector function allows you to debug/inspect your project using `Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, you need to enable USB debugging on your device."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:113
-msgid "Inspector function is only available when you are using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. Please refer to :ref:`USB debugging with Monaca Localkit <localkit_debug_app>` or :ref:`USB debugging with Monaca CLI <cli_debug_app>`."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:119
-msgid "Debugger Menu"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:127
-msgid "Inside Debugger Menu, there are:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:129
-msgid "*All Projects*: shows a list of all Monaca projects which can be run on Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:131
-msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:132
-msgid "Local projects: projects created in :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored in your local PC. Local projects appear only when the debugger is paired with Monaca Localkit/CLI."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:139
-msgid "*Local Computers*: shows a list of all currently paired and available computers. Paired computers are local computers running Monaca Localkit/CLI and currently connected to the debugger. You may want to refer to the following pages:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:141
-msgid ":ref:`Pairing Monaca Debugger with Monaca Localkit <localkit_pairing_debugging>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:142
-msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:143
-msgid ":ref:`Pairing Monaca Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:150
-msgid "*Debugger Settings*: shows debugger's configurations such as allow device to sleep, show memory usage, show splash screen (Android only), restart after resume, restart after network connection recovery, clear synced files and clear storage data. Synced files are synced project files while storage data is previously stored data (local storage data) created by your projects on your device's memory."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:157
-msgid "*Debugger Information*: shows detailed information of the debugger such as version, platform, CLI version, WebView Engine (Android only) and available plugins."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:167
-msgid "Project Options"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:169
-msgid "From the project list inside Monaca Debugger, there is a Project Options button for each Monaca.io project."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:183
-msgid "Inside this Project Options button, you can:"
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:185
-msgid "favorite current project: moves it to the top of the project list."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:187
-msgid "lunch app: runs current project in the debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:189
-msgid "network install: installs a built app of the current project directly from Monaca debugger."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:191
-msgid "In order to use network install, you need to create a debug build of the project from Monaca Cloud IDE first. Please refer to :ref:`debug build for iOS <types_of_build_ios>` or :ref:`debug build for Android <types_of_build_android>`."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:193
-msgid "For iOS debugger, network install is only available for the :ref:`custom built debugger <custom_debugger_ios>`. The App store version doesn't have this function."
-msgstr ""
-
-#: ../doc/monaca_debugger/features.rst:201
-#: ../doc/monaca_debugger/installation/debugger_android.rst:161
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:173
-msgid ":ref:`debugging_monaca_app`"
-msgstr ""
-
-#: ../doc/monaca_debugger/index.rst:5
+#: ../doc/monaca_debugger/index.rst:3
 msgid "Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/index.rst:7
+#: ../doc/monaca_debugger/manual/debug.rst:5
+msgid "Usage"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:9
+msgid "In this page, we will describe how to use Monaca Debugger with Monaca Cloud IDE and other Monaca local development tools such as Monaca Localkit, Monaca CLI and Monaca for Visual Studio:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:11
+msgid ":ref:`by_debugger_ide`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:12
+msgid ":ref:`debugger_with_local_tools`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:15
+msgid "Before starting, please install Monaca Debugger on your device or emulator. Please refer to :ref:`How to Install Monaca Debugger <debugger_installation_index>` for more information."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:21
+msgid "Monaca Debugger with Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:23
+msgid "There are 2 main debugging mechanism can be used to debug Monaca apps with Monaca Cloud IDE such as:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:25
+msgid ":ref:`debugger_debug_panel`: DOM inspection and console debugging."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:26
+msgid ":ref:`by_debugger_usb`: DOM inspection, console and JavaScript debugging."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:32
+msgid "Monaca Debug Panel"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:34
+msgid "A popular Web debugging tool, `Weinre (WEb INspector REmote) <https://people.apache.org/~pmuellr/weinre/docs/latest/>`_, is embedded in debug panel of Monaca Cloud IDE. This tool allows you to debug your app using console debugging and DOM inspection."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:40
+msgid "Debug Panel inside Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:44
+msgid "In order to start debugging your app by using Monaca Debugger with Monaca Cloud IDE, please follow the following instruction:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:46
+msgid "Open a project in Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:48
+msgid "Run the project in Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:50
+msgid "Make sure your device is connected with the IDE. For example, if your device appears in the debug panel, it is successfully connected to the IDE (see the screenshot below). Otherwise, please refresh the IDE or debugger until the connection is successfully made. After your device is connected to the IDE, you can start debugging your app."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:60
+msgid "Console Debugging"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:62
+msgid "Console API allows you to write/display message to the Console using Javascript."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:64
+msgid "Here are some common used Console APIs:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:66
+msgid "``console.log()``: displays a message to the console."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:68
+msgid "``console.debug()``: displays a message as debug level (you can see the message in the debug tab)."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:70
+msgid "``console.warn()``: displays a message with yellow warning icon."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:73
+msgid "For more information about Console APIs, please refer to `Console API references <https://developer.chrome.com/devtools/docs/console-api>`_."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:75
+msgid "Here is an example of using Console APIs:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:77
+msgid "Copy and paste the following code into the ``index.html`` file."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:107
+msgid "Save the code and connect Monaca Debugger with Monaca Cloud IDE. Run the project in Monaca Cloud IDE. Now you can see those messages in the debug panel in Monaca Cloud IDE and in the app log inside the Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:113
+msgid "Debug Panel in Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:119
+msgid "App Log in Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:123
+msgid "This debug panel also allows you to see the error log of your app as well."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:132
+msgid "DOM Inspection"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:134
+msgid "DOM (Document Object Model) Inspection allows you to:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:136
+msgid "view DOM structure of the currently active page."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:137
+msgid "modify the DOM structure as well as CSS of the page with live update."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:139
+msgid "For more information, please refer to `DOM Inspection and Style Editing <https://developer.chrome.com/devtools/docs/dom-and-styles>`_."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:145
+msgid "DOM Inspection inside Debug Panel"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:152
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:81
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:77
+msgid "USB Debugging"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:154
+msgid "With USB debugging, you can:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:156
+msgid "Console debugging: uses console to diplay messages and set debugging sessions."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:157
+msgid "DOM inspection: views and modifies DOM structures with live updates."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:158
+msgid "JavaScript debugging: profiles JavaScript performance, sets breakpoint and execution control."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:160
+msgid "There are two ways to implement USB debugging depends on what kind of device you use:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:162
+msgid "If you are using iOS device, you can use :ref:`Safari Remote Debugging <usb_debugging_ios>`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:163
+msgid "If you are using Android device, you can use :ref:`Chrome Remote Debugging <usb_debugging_android>`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:169
+msgid "Safari Remote Debugging (for iOS and Mac only)"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:171
+#: ../doc/monaca_debugger/manual/debug.rst:200
+msgid "You are required to do some setups before using USB debugging with Monaca. Please refer to :ref:`pre_debug_app`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:173
+msgid "Connect your iOS device to your Mac via a USB cable."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:175
+msgid "Run your Monaca project in your Monaca custom built debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:177
+msgid "Open Safari app and go to :guilabel:`Develop` menu. Your iOS device's name should be shown in the list. Then, you can select each available page of Monaca app from a submenu belonged to your device's name."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:186
+msgid "Then, the Web Inspector window will appear. In this window, you can use timing HTTP requests, profiling JavaScript, manipulating the DOM tree, and more. In order to learn how to use Web Inspector, please refer to `Safari Web Inspector <https://developer.apple.com/library/ios/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874>`_."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:198
+msgid "Chrome Remote Debugging (for Android with Google Chrome Browser)"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:202
+msgid "Connect your Android device to your PC via a USB cable."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:204
+msgid "Run your Monaca project in Monaca Debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:206
+msgid "In Chrome address bar, enter ``chrome://inspect/``."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:208
+msgid "Then, the Devices page appears as shown below. Your connected Android device should be shown there. Click :guilabel:`inspect` belonged to your device."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:216
+msgid "Then, the Chrome Inspection page should be appeared. Now you can start debugging your Monaca app. For more information, please refer to `How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:228
+msgid "Monaca Debugger with Monaca Local Development Tools"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:230
+msgid "Monaca local development tools are Monaca CLI, Monaca Localkit and Monaca for Visual Studio."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:235
+msgid "Prerequisite for USB Debugging with Monaca"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:240
+msgid "*Platform*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:240
+msgid "iOS"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:240
+msgid "Android"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:242
+msgid "*Monaca Debugger*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:242
+msgid ":ref:`Custom built Monaca Debugger only <custom_debugger_ios>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:242
+msgid "Either store version or custom built :ref:`Monaca Debugger <debugger_on_android>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:245
+msgid "*Install Driver*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:245
+msgid "For Windows, please install iTunes to install the driver for iOS devices. For Mac OS X, necessary drivers should be already installed."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:245
+msgid "For Windows, you need to check the device manufacturer to find the appropriate driver for the device. For Mac OS X, the system will automatically find the device without any installation."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:249
+msgid "*Enable USB Debug*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:249
+msgid "Enable \"Web Inspector\" in iOS device:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:251
+msgid "Go to :menuselection:`Settings --> Safari`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:252
+msgid "Scroll down and select :guilabel:`Advanced`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:253
+msgid "Switch on :guilabel:`Web Inspector`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:249
+msgid "Enable \"USB debugging\" in Android device:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:251
+msgid "Go to :menuselection:`Settings --> More`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:252
+msgid "Select :guilabel:`Developer options`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:253
+msgid "Tick :guilabel:`USB Debugging`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:255
+msgid "*Trust Connection*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:255
+#: ../doc/monaca_debugger/manual/debug.rst:255
+msgid "The connected device should display if you trust the host computer. Please trust the computer in order to get connected."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:262
+msgid "USB Debugging with Monaca Local Development Tools"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:264
+msgid "In order to start this debugging, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:266
+msgid "Pair Monaca Debugger with the host PC (running Monaca local tool such as Monaca Localkit, Monaca CLI or Monaca for Visual Studio). You may want to refer to:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:268
+msgid ":ref:`Pairing in Monaca Localkit <localkit_pairing_debugging>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:269
+msgid ":ref:`Pairing in Monaca CLI <cli_pairing>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:270
+msgid ":ref:`Pairing in Monaca for Visual Studio <monaca_vs_pairing>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:272
+msgid "Choose a project to run."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:274
+msgid "Click on the debugger menu as shown below:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:282
+msgid "Click the Inspector button to start the USB debugging."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:291
+msgid "The Chrome DevTools/Safari Web Inspector should be opened in the host PC; otherwise, please refer to :ref:`troubleshoot_inspector`. For more information, please refer to:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:293
+msgid "`How to Use Safari Web Inspector <https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Introduction/Introduction.html>`_"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:294
+msgid "`How to Use Chrome DevTools <https://developer.chrome.com/devtools>`_"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:307
+#: ../doc/monaca_debugger/manual/features.rst:198
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:156
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:106
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:139
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:170
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:309
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:160
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:172
+msgid ":ref:`monaca_debugger_features`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/debug.rst:310
+#: ../doc/monaca_debugger/manual/features.rst:200
+msgid ":ref:`debugger_installation_index`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:5
+msgid "Functionalities"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:15
+msgid "Debugger Functions"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:17
+msgid "Monaca Debugger provides useful functions for testing/debugging your apps. You can find Debugger Functions button when you run a project in Monaca Debugger. When you click on Debugger Functions button, you will see:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:19
+msgid "Back button"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:21
+msgid "Reload button"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:23
+msgid ":ref:`Screenshot button <screenshot>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:25
+msgid ":ref:`Chat button <chat>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:27
+msgid ":ref:`App Log button <app_log>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:29
+msgid ":ref:`Inspector button <debugger_inspector>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:46
+msgid "Screenshot"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:48
+msgid "While running your project on Monaca Debugger, you may want to send any specific screenshot of your project to Monaca Cloud IDE and share it with your team members."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:51
+msgid "In the screenshot screen, you can:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:53
+msgid "edit the screenshot."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:55
+msgid "upload to Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:57
+msgid "save to phone storage."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:68
+msgid "Chat"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:70
+msgid "Chat function allows you to share conversations with your team members of a shared project or between Monaca Debugger and Cloud IDE. The screenshot below shows a conversation between Monaca Debugger and Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:76
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:30
+msgid "Monaca Debugger"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:82
+msgid "Monaca Cloud IDE"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:90
+msgid "App Log"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:92
+msgid "Monaca Debugger allows you to see the log of the app which will show the progress and errors of the app while running."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:103
+msgid "Inspector"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:105
+msgid "Inspector function allows you to debug/inspect your project using `Chrome Dev Tools <https://developer.chrome.com/devtools/index>`_. Before started, you need to enable USB debugging on your device."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:113
+msgid "Inspector function is only available when you are using :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>`. Please refer to :ref:`USB debugging with Monaca Localkit <localkit_debug_app>` or :ref:`USB debugging with Monaca CLI <cli_debug_app>`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:119
+msgid "Debugger Menu"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:127
+msgid "Inside Debugger Menu, there are:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:129
+msgid "*All Projects*: shows a list of all Monaca projects which can be run on Monaca Debugger. There are two types of projects in Monaca Debugger such as:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:131
+msgid "Monaca.io projects: projects created in Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:132
+msgid "Local projects: projects created in :ref:`Monaca Localkit <monaca_localkit_index>` or :ref:`Monaca CLI <monaca_cli_index>` and stored in your local PC. Local projects appear only when the debugger is paired with Monaca Localkit/CLI."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:139
+msgid "*Local Computers*: shows a list of all currently paired and available computers. Paired computers are local computers running Monaca Localkit/CLI and currently connected to the debugger. You may want to refer to the following pages:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:141
+msgid ":ref:`Pairing Monaca Debugger with Monaca Localkit <localkit_pairing_debugging>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:142
+msgid ":ref:`Pairing Monaca Debugger with Monaca CLI <connect_to_debugger>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:143
+msgid ":ref:`Pairing Monaca Debugger with Monaca for Visual Studio<monaca_vs_testing_debugging>`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:150
+msgid "*Debugger Settings*: shows debugger's configurations such as allow device to sleep, show memory usage, show splash screen (Android only), restart after resume, restart after network connection recovery, clear synced files and clear storage data. Synced files are synced project files while storage data is previously stored data (local storage data) created by your projects on your device's memory."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:157
+msgid "*Debugger Information*: shows detailed information of the debugger such as version, platform, CLI version, WebView Engine (Android only) and available plugins."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:167
+msgid "Project Options"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:169
+msgid "From the project list inside Monaca Debugger, there is a Project Options button for each Monaca.io project."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:183
+msgid "Inside this Project Options button, you can:"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:185
+msgid "favorite current project: moves it to the top of the project list."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:187
+msgid "lunch app: runs current project in the debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:189
+msgid "network install: installs a built app of the current project directly from Monaca debugger."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:191
+msgid "In order to use network install, you need to create a debug build of the project from Monaca Cloud IDE first. Please refer to :ref:`debug build for iOS <types_of_build_ios>` or :ref:`debug build for Android <types_of_build_android>`."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:193
+msgid "For iOS debugger, network install is only available for the :ref:`custom built debugger <custom_debugger_ios>`. The App store version doesn't have this function."
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/features.rst:201
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:161
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:173
+msgid ":ref:`debugging_monaca_app`"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/index.rst:5
+msgid "Manual"
+msgstr ""
+
+#: ../doc/monaca_debugger/manual/index.rst:7
 msgid "Monaca Debugger is a very useful tool in developing a Monaca application. By using Monaca Debugger, you can test the actual operations of the application on the device without building it."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:5
-#: ../doc/monaca_debugger/installation/debugger_android.rst:15
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:5
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:15
 msgid "Monaca Debugger for Android"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:20
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:20
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:20
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:20
 msgid "If the Cordova version of your project is lower than 5.2, it might not work properly with Monaca Debugger 5.X.X. There are two ways to fix this issue:"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:22
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:22
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:22
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:22
 msgid ":ref:`upgrade Cordova version <changing_cordova_version>` of your project."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:23
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:23
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_and>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:28
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:30
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:28
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:30
 msgid "Debugger Type"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:28
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:28
 msgid "Monaca Debugger (Store Version)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:28
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:30
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:28
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:30
 msgid "Custom Built Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:30
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:34
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:30
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:34
 msgid "Description"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:30
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:34
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:30
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:34
 msgid "Monaca Debugger available at the store."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:30
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:34
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:30
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:34
 msgid "Monaca Debugger built from Monaca Cloud IDE."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:32
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:14
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:32
-#: ../doc/monaca_debugger/installation/index.rst:5
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:14
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:32
+#: ../doc/monaca_debugger/manual/installation/index.rst:5
 msgid "Installation"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:32
 msgid "`Play Store`__"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:33
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:33
 msgid "`Amazon App Store`__"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:32
 msgid "Refer to :ref:`custom_debugger_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:35
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:35
 msgid ":ref:`cordova_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:35
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:36
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:35
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:36
 msgid "Core and some third-party Cordova plugins are automatically included."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:35
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:36
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:35
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:36
 msgid "In addition to core and third-party Cordova plugins, user submitted plugins (of the current project) are included."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:38
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:38
 msgid "App ID (Android:PackageName)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:38
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:39
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:38
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:39
 msgid "``mobi.monaca.debugger``"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:38
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:39
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:38
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:39
 msgid "App ID set by user"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:41
 msgid "Version Name (Android:versionName)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:41
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:41
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:44
 msgid "Fixed (currently 5.0.0)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:41
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:41
 msgid "Display version name set by user"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:44
 msgid "App Version (Android:versionCode)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:44
 msgid "Fixed (currently 50000)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:44
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:44
 msgid "Version set by user"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:47
 msgid ":ref:`usb_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:47
-#: ../doc/monaca_debugger/installation/debugger_android.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:47
 msgid "Available (Chrome Dev Tools)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:49
 msgid ":ref:`localkit_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:49
-#: ../doc/monaca_debugger/installation/debugger_android.rst:49
-#: ../doc/monaca_debugger/installation/debugger_android.rst:53
-#: ../doc/monaca_debugger/installation/debugger_android.rst:53
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:49
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:53
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:53
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:51
 msgid "Available"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:51
 msgid ":ref:`webview_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:51
-#: ../doc/monaca_debugger/installation/debugger_android.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:51
 msgid "Stock and Crosswalk"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:53
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:53
 msgid ":ref:`network_and`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:67
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:63
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:67
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:63
 msgid "Cordova Plugins"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:69
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:65
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:69
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:65
 msgid "In Monaca Debugger, core and third-party Cordova plugins are automatically included."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:71
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:67
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:71
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:67
 msgid "Monaca includes Core cordova plugins which are a minimal set of APIs such as Battery Status, Camera, Contacts, Device and so on. For a complete list of core Cordova plugins, please refer to :ref:`cordova_core_plugins`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:73
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:73
 msgid "Monaca also includes some third-party Cordova plugins such as Statusbar, DatePicker, BarcodeScanner and so on. For a complete list of currently included third-party Cordova plugins, please refer to :ref:`third_party_cordova_index`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:75
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:75
 msgid "While developing your project, you may need to add other third-party or :ref:`custom <custom_cordova_plugin>` Cordova plugins to your project. The standard Monaca Debugger (Store Version) doesn't have these newly added plugins. For this reason, your project might not run properly in the debugger. Therefore, you need to use Custom Built Monaca Debugger. Custom Built Monaca Debugger is a debugger which is built from a Monaca Project within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_and`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:83
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:83
 msgid "Monaca Debugger for Android supports USB debugging functions with Google Chrome browser such as:"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:85
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:81
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:85
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:81
 msgid "console debugging: using console to diplay message."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:86
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:82
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:86
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:82
 msgid "DOM inspection: viewing and modifying DOM structure with live updates."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:87
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:83
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:87
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:83
 msgid "JavaScript debugging: profiling JavaScript performance, setting breakpoint and execution control."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:89
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:89
 msgid "For more information, please refer to :ref:`USB Debugging with Monaca Debugger for Android Apps<usb_debugging_android>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:94
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:91
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:94
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:91
 msgid "Localkit Inspector Function"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:96
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:93
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:96
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:93
 msgid "Inspector can be used when developing either on Windows or Mac OS."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:101
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:101
 msgid "WebView"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:103
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:103
 msgid "Monaca Debugger for Android contains both stock and Crosswalk WebView engines. The WebView is switched automatically depending on the type of WebView is used in each application."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:108
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:99
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:108
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:99
 msgid "Network Install"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:110
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:110
 msgid "Network Install is a feature provided by Monaca Debugger for Android allowing you to install the built app (debug build only) using the debugger. For more information, please refer to :ref:`how to use Network Install feature<debugger_project_options>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:116
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:116
 msgid "Build and Install Custom Built Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:118
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:127
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:118
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:127
 msgid "From Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca Debugger`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:120
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:120
 msgid "Select :menuselection:`Debugger for Android --> Build and Install`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:128
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:128
 msgid "This may take sometimes until your building is completed. The following screen will appear after the build is successfully completed. Then, you can use the QR code to install the debugger on your device or download the built file to your PC."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:136
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:148
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:136
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:148
 msgid "After installing the debugger on your device, sign in with your Monaca account. Then, tick :guilabel:`I've installed Monaca Debugger and logged in` and click :guilabel:`Next`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:138
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:151
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:138
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:151
 msgid "Monaca Cloud IDE will then try looking for the debugger. Once it's found and connected, click :guilabel:`Run on Device` to start running the current app in your debugger right away."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:146
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:159
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:146
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:159
 msgid "By now your app should be running in your debugger. Try testing your app in the debugger and making some changes in the IDE. You will be able to see the changes reflected in the debugger once you save the changes."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:158
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:158
 msgid ":ref:`Debugger Installation on Emulator<debugger_on_emulator>`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_android.rst:159
+#: ../doc/monaca_debugger/manual/installation/debugger_android.rst:159
 msgid ":ref:`Debugger Installation on iOS<debugger_on_ios>`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:5
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:5
 msgid "Monaca Debugger for Chrome Apps"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:10
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:10
 msgid "Chrome Apps are web apps running by Chrome Engine. The installed Chrome Apps can also be used offline. All Chrome Apps are published in Chrome Web Store."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:16
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:16
 msgid "You can install Monaca debugger for Chrome Apps via `Chrome Web Store <https://chrome.google.com/webstore/detail/eampeimhpjmnimjbfajnbegjnafjadld>`_. Or from Monaca Cloud IDE menu, go to :menuselection:`Debug --> Setup Monaca Debugger --> Debugger for Chrome Apps`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:24
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:24
 msgid "Click on :guilabel:`ADD TO CHROME` button to add Monaca Debugger to your Chrome."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:32
 msgid "Then, a dialog will appear. Click :guilabel:`Add app` button to finalize the installation process."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:37
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:37
 msgid "Running Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:39
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:39
 msgid "From the bookmarks bar, click on :guilabel:`Apps` or go to :guilabel:`chrome://apps` from the address bar. A list of installed Chrome Apps will appear."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:47
 msgid "You can also use Chrome App Launcher to access all of your Chrome Apps right from your desktop. Chrome App Launcher installs automatically when you add a Chrome App for the first time."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:55
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:55
 msgid "After launching the app, log into Monaca with your Monaca account. Then, the list of your Monaca projects will be shown in the debugger."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:63
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:63
 msgid "You can now select a project to run in the debugger. If it's the first time you run that project, you will be asked to set a working directory representing a location to store your downloaded projects from the cloud."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:71
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:71
 msgid "Wait for the selected project to be downloaded. When the download is completed, the following screen will appear."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:79
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:79
 msgid "Open Chrome browser and go to :guilabel:`chrome://extensions` from the address bar. Then, go to the downloaded project folder. Then, drag and drop that folder into Chrome Extensions page."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:87
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:87
 msgid "Now your app is installed and ready to launch. Click :guilabel:`Launch` to run the app."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:95
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:95
 msgid "It can also be found in Chrome App Launcher."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:108
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:141
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:108
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:141
 msgid ":ref:`Debugger's Functionalities <monaca_debugger_features>`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_chrome.rst:109
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:142
+#: ../doc/monaca_debugger/manual/installation/debugger_chrome.rst:109
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:142
 msgid ":ref:`Debugger's Usage <debugging_monaca_app>`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:5
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:5
 msgid "Monaca Debugger for Android Emulator"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:10
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:10
 msgid "In this page, we will describe how Monaca Debugger works on AVD (Android Virtual Device) called Android Emulator. With this, you can simulate Android apps on a PC. Moreover, it is useful when you want to test your apps on more than one Android device."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:12
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:12
 msgid "In this page, the instruction is made on a Mac OS X. Internet is needed in order to run Monaca Debugger on emulator."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:15
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:15
 msgid "Step 1: Setting up an Android Virtual Device"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:17
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:17
 msgid "Download and install `Android Studio <http://developer.android.com/sdk/index.html>`_."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:19
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:19
 msgid "Run Android Studio."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:21
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:21
 msgid "Create a new project or open an existing one."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:23
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:23
 msgid "Click on :guilabel:`AVD Manager`. Then, Android Virtual Device Manager dialog will appear."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:31
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:31
 msgid "Click :guilabel:`+ Create Virtual Device`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:33
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:33
 msgid "Select an Android device and click :guilabel:`Next`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:41
 msgid "Select a system image (you may need to download it first) and click :guilabel:`Next`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:49
 msgid "Make the virtual device's configurations. Go to :guilabel:`Show Advanced Settings` for other settings such as Memory and Storage, Device Frame and Keyboard."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:62
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:62
 msgid "After completing the configurations, click :guilabel:`Finish`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:66
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:66
 msgid "Step 2: Installing Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:68
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:68
 msgid "Go to :guilabel:`AVD Manager` and launch the virtual device."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:76
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:76
 msgid "From your virtual device, open a browser and go to ``http://monaca.mobi/bin/MonacaDebugger.apk`` to download Monaca Debugger for emulator."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:84
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:84
 msgid "After the download is completed, click on the downloaded file to start installing the debugger."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:92
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:92
 msgid "Follow the installation wizard."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:100
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:100
 msgid "Once the installation is completed, you can find Monaca Debugger in your apps page."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:110
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:110
 msgid "Step 3: Running a Project on Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:112
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:112
 msgid "Open Monaca Debugger and sign in with your Monaca account."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:120
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:120
 msgid "Click on a project you want to run in Monaca Debugger."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_emulator.rst:128
+#: ../doc/monaca_debugger/manual/installation/debugger_emulator.rst:128
 msgid "Now, your project is running. You can start testing your project. Please refer to :ref:`monaca_debugger_features` and :ref:`debugging_monaca_app` on what you can do with Monaca Debugger in order to help enhancing your app development processes."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:5
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:15
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:5
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:15
 msgid "Monaca Debugger for iOS"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:23
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:23
 msgid "use :ref:`custom built Monaca Debugger <custom_debugger_ios>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:32
 msgid "`App Store`__"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:32
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:32
 msgid "Refer to :ref:`custom_debugger_ios`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:36
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:36
 msgid ":ref:`cordova_ios`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:39
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:39
 msgid "App ID (iOS:CFBundleIdentifier)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:41
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:41
 msgid "Version Name (iOS:CFBundleShortVersionString)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:44
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:44
 msgid "App Version (iOS:CFBundleVersion)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:47
 msgid ":ref:`usb_ios`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:47
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:49
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:51
 msgid "Not Available"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:47
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:47
 msgid "Available (Safari's Web Inspector)"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:49
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:49
 msgid ":ref:`localkit_ios`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:51
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:51
 msgid ":ref:`network_ios`"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:69
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:69
 msgid "Monaca also includes some third-party Cordova plugins such as Statusbar, DatePicker, BarcodeScanner, Bluetooth and so on. For a complete list of currently included third-party Cordova plugins, please refer to :ref:`third_party_cordova_index`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:71
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:71
 msgid "While developing your project, you may need to add other third-party or :ref:`custom <custom_cordova_plugin>` Cordova plugins to your project. The standard Monaca Debugger (Store Version) doesn't have these newly added plugins. For this reason, your project might not run properly in the debugger. Therefore, you need to use Custom Built Monaca Debugger. Custom Built Monaca Debugger is a debugger which is built from a Monaca Project within Monaca Cloud IDE. Please refer to :ref:`custom_debugger_ios`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:79
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:79
 msgid "Monaca Debugger for iOS supports USB debugging functions with Safari browser such as:"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:85
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:85
 msgid "For more information, please refer to :ref:`USB Debugging with Monaca Debugger for iOS Apps<usb_debugging_ios>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:101
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:101
 msgid "Network Install is a feature provided by custom built Monaca Debugger for iOS allowing you to install the built app (debug build only) using the debugger. For more information, please refer to :ref:`how to use Network Install feature<debugger_project_options>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:103
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:103
 msgid "This feature is not available for Monaca Debugger for iOS available at App Store."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:110
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:110
 msgid "How to Build Custom Built Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:114
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:114
 msgid "Preparation"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:116
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:116
 msgid "You are required to have:"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:118
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:118
 msgid "a valid private key"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:119
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:119
 msgid "Developer certificate"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:120
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:120
 msgid "Development provisioning profile"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:122
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:122
 msgid "Please refer to :ref:`building_for_ios` (Step 1 and Step 2) on how to get the above items and make necessary configurations before start building the custom debugger. After obtaining the above necessary files, start building with the following instruction:"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:125
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:125
 msgid "Start Building"
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:129
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:129
 msgid "Select :menuselection:`Debugger for iOS --> Build and Install`."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:138
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:138
 msgid "Upload the development provisioning profile and click :guilabel:`Next` button."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/debugger_ios.rst:140
+#: ../doc/monaca_debugger/manual/installation/debugger_ios.rst:140
 msgid "This may take sometimes until your building is completed. The following screen will appear after the build is successfully completed. Then, you can download the built file to your PC and install it to your iOS device using iTune."
 msgstr ""
 
-#: ../doc/monaca_debugger/installation/index.rst:7
+#: ../doc/monaca_debugger/manual/installation/index.rst:7
 msgid "Monaca Debugger can be installed in several platforms such as Android, Android Emulator, iOS and Chrome App."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:5
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:5
 msgid "Debugger Troubleshooting Guide"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:14
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:14
 msgid "Fail to Pair Monaca Debugger"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:16
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:16
 msgid "Several reasons can be considered when Monaca Debugger fails to pair with Monaca Localkit."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:18
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:18
 msgid "Monaca Debugger can see Monaca Localkit but fail to pair: this is most likely a firewall problem in the host PC. Localkit needs to accept TCP connection from the debugger. Port `8001` will be used, and you can change the server port in :ref:`Preferences dialog<localkit_preference>`. Please change the port or configure your firewall settings to try agian."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:20
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:20
 msgid "Monaca Debugger does not detect Monaca Localkit: please check and see if your device and the host PC are connected to the same network. If they are connected to the same network but Monaca Debugger still can't detect the host PC, please do a manual pairing."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:22
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:22
 msgid "You can manually pair Monaca Debugger with Monaca Localkit as follows:"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:24
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:24
 msgid "From Monaca Debugger, click on the toggle menu on the top-left corner and select :guilabel:`Local Computers` button."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:32
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:32
 msgid "Click :guilabel:`Pair the New Computer` button."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:34
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:34
 msgid "Input :ref:`the IP address of the host PC and port number<ip_port>`. Then, click :guilabel:`Pair` button."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:42
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:42
 msgid "Once the pairing is successfully completed, the host PC should appear under \"Paired computers\" as shown below:"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:50
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:50
 msgid "Some Wi-Fi access points (usually that is available for public access) don't allow the connected clients to communicate each other. In this case, please try pairing on another local network."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:54
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:54
 msgid "*IP Address and Port Number*"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:56
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:56
 msgid "IP address and port number are needed to establish the communication path between Monaca Debugger and Monaca Localkit. IP address represents the host PC and port number (set to 8001 by default) represents Monaca Localkit. Please note that the communication can't be established if the port number you use is not opened or is already used."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:59
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:59
 msgid "*OS*"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:59
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:59
 msgid "Mac"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:59
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:59
 msgid "Windows"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:61
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:61
 msgid "*IP Address*"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:61
-#: ../doc/monaca_debugger/troubleshooting.rst:61
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:61
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:61
 msgid "Find IP address:"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:63
-#: ../doc/monaca_debugger/troubleshooting.rst:68
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:63
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:68
 msgid "Open \"Terminal\" window."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:64
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:64
 msgid "Type ``ifconfig``."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:63
-#: ../doc/monaca_debugger/troubleshooting.rst:68
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:63
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:68
 msgid "Open \"Command Prompt\" window."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:64
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:64
 msgid "Type ``ipconfig``."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:66
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:66
 msgid "*Port Number*"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:66
-#: ../doc/monaca_debugger/troubleshooting.rst:66
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:66
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:66
 msgid "Check if a port number is available:"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:69
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:69
 msgid "Type ``lsof -i :PORT_NUMBER``."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:69
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:69
 msgid "type ``netstat``."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:75
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:75
 msgid "Inspector Isn't Loaded"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:77
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:77
 msgid "If the inspector does not open, please try the following actions:"
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:79
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:79
 msgid "verify if you have done all necessary setups described :ref:`here<localkit_debug_app>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:80
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:80
 msgid "verify that you are running the application on the debugger."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:81
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:81
 msgid "try plug off & in to see if the computer can find the device."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:82
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:82
 msgid "check if the device and the host PC are connected via USB cable."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:83
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:83
 msgid "check if you use the right Monaca Debugger. :ref:`Read more<localkit_debug_app>`."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:84
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:84
 msgid "kill all ``adb`` processes if multiple of them are running."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:85
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:85
 msgid "kill all ``iosWebKitDebugProxy`` processes if multiple of them are running."
 msgstr ""
 
-#: ../doc/monaca_debugger/troubleshooting.rst:86
+#: ../doc/monaca_debugger/manual/troubleshooting.rst:86
 msgid "restart the host PC."
+msgstr ""
+
+#: ../doc/monaca_debugger/tips/index.rst:5
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../doc/monaca_debugger/tutorials/index.rst:5
+msgid "Tutorial"
 msgstr ""
 

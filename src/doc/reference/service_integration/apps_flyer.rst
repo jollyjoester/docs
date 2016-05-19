@@ -9,9 +9,6 @@ AppsFlyer
 AppsFlyer allows users to monitor and track application installations, downloads, and conversions. The AppsFlyer API allows developers to access and integrate the functionality of AppsFlyer with other applications.
 
 
-.. note:: The AppsFlyer service integration is available for all Monaca users. However, if you want to use the latest AppsFlyer plugin via `Github <https://github.com/monaca-plugins/com.appsflyer.phonegap.plugins.appsflyer>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_. 
-
-
 Add AppsFlyer to Monaca
 =======================================
 
@@ -173,7 +170,7 @@ Accessing AppsFlyer Attribution/Conversion Data from the SDK (Deferred Deep-link
 
 AppsFlyer allows you to access the user attribution data in real time directly at the SDK level. It enables you to customize the landing page a user sees on the very first app open after a fresh app install. This is commonly referred to as “deferred” deeplinking. This is very common on the web, however there is a big challenge doing this in the mobile app ecosystem. Luckily, AppsFlyer provides support for all cases and platforms.
 
-Read more on `Accessing AppsFlyer Attribution or Conversion Data from the SDK for iOS <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_.
+Read more on `Accessing AppsFlyer Attribution or Conversion Data from the SDK for iOS and Android <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_.
 
 .. note:: AppsFlyer plugin will fire ``onInstallConversionDataLoaded`` event with attribution data. You must implement an event listener to receive the data.
 

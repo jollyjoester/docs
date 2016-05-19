@@ -17301,292 +17301,155 @@ msgstr ""
 msgid "AppsFlyer allows users to monitor and track application installations, downloads, and conversions. The AppsFlyer API allows developers to access and integrate the functionality of AppsFlyer with other applications."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:12
-msgid "The AppsFlyer service integration is available for all Monaca users. However, if you want to use the latest AppsFlyer plugin via `Github <https://github.com/monaca-plugins/com.appsflyer.phonegap.plugins.appsflyer>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/apps_flyer.rst:16
+#: ../doc/reference/service_integration/apps_flyer.rst:13
 msgid "Add AppsFlyer to Monaca"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:18
-#: ../doc/reference/service_integration/crittercism.rst:20
+#: ../doc/reference/service_integration/apps_flyer.rst:15
 #: ../doc/reference/service_integration/repro.rst:18
 msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` or go to :menuselection:`Build Settings --> Service Integration` for Monaca Localkit."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:20
+#: ../doc/reference/service_integration/apps_flyer.rst:17
 msgid "Click :guilabel:`See Details` button of AppsFlyer service."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:22
-#: ../doc/reference/service_integration/crittercism.rst:24
+#: ../doc/reference/service_integration/apps_flyer.rst:19
 #: ../doc/reference/service_integration/repro.rst:22
 msgid "Then, click :guilabel:`Install` button to add it into your project."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:30
-#: ../doc/reference/service_integration/crittercism.rst:26
+#: ../doc/reference/service_integration/apps_flyer.rst:27
 #: ../doc/reference/service_integration/repro.rst:30
 msgid "You will be asked to confirm the setup. Click :guilabel:`OK` to start the installation."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:34
+#: ../doc/reference/service_integration/apps_flyer.rst:31
 msgid "Configure AppsFlyer in Monaca"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:36
+#: ../doc/reference/service_integration/apps_flyer.rst:33
 msgid "After adding AppsFlyer to your Monaca project, you need to make some configurations before starting to use the plugin. Please follow the configuration below:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:39
+#: ../doc/reference/service_integration/apps_flyer.rst:36
 msgid "Add the following xml to your :file:`config.xml` in the root directory of your ``www`` folder:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:57
+#: ../doc/reference/service_integration/apps_flyer.rst:54
 msgid "For Android, add the following xml to your :file:`AndroidManifest.xml`:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:65
+#: ../doc/reference/service_integration/apps_flyer.rst:62
 msgid "Add new app on AppsFlyer dashboard. Make sure that the value in the manifest and the value entered in the dashboard are identical. If you want to track installations for Android-Out-Of-Store Applications, please take a look `here <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-Installs-for-Out-Of-Store-Applications>`_."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:68
+#: ../doc/reference/service_integration/apps_flyer.rst:65
 msgid "Add following lines to your code to initialize the tracking with your own AppsFlyer dev key:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:85
+#: ../doc/reference/service_integration/apps_flyer.rst:82
 msgid "Test your app for `Android <https://support.appsflyer.com/hc/en-us/articles/207032136-Testing-AppsFlyer-Android-SDK-Integration-Before-Submitting-to-Google-Play>`_/`iOS <https://support.appsflyer.com/hc/en-us/articles/207032046-Testing-AppsFlyer-iOS-SDK-Integration-Before-Submitting-to-the-App-Store->`_ before submitting to the Google Play/App Store."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:87
+#: ../doc/reference/service_integration/apps_flyer.rst:84
 msgid "For more information on how to use AppsFlyer, please refer to `AppsFlyer Documentation <https://support.appsflyer.com/hc/en-us>`_."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:91
-#: ../doc/reference/service_integration/crittercism.rst:64
+#: ../doc/reference/service_integration/apps_flyer.rst:88
 #: ../doc/reference/service_integration/repro.rst:76
 #: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
 #: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
 msgid "Usage"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:93
+#: ../doc/reference/service_integration/apps_flyer.rst:90
 msgid "Once, you have successfully configured AppsFlyer, the plugin is now ready to be used. In this section, we will briefly describe some AppsFly APIs."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:97
+#: ../doc/reference/service_integration/apps_flyer.rst:94
 msgid "Set Customer User ID (Advanced)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:99
+#: ../doc/reference/service_integration/apps_flyer.rst:96
 msgid "Setting your own custom ID will enable you to cross-reference your own unique ID with AppsFlyer’s user ID and the other devices’ IDs. This ID will be available at AppsFlyer CSV reports along with postbacks APIs for cross-referencing with you internal IDs."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:106
+#: ../doc/reference/service_integration/apps_flyer.rst:103
 msgid "The ID must be set during the first launch of the app at the SDK initialization. The best practice is to call to this API during deviceready event if possible."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:110
+#: ../doc/reference/service_integration/apps_flyer.rst:107
 msgid "Set Currency Code (Optional)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:112
+#: ../doc/reference/service_integration/apps_flyer.rst:109
 msgid "By default, the currency code is set to be ``USD``. You can change it by using the following API:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:120
+#: ../doc/reference/service_integration/apps_flyer.rst:117
 msgid "For all acceptable currency codes, please refer to `ISO 4217 Currency Codes <http://www.xe.com/iso4217.php>`_."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:124
+#: ../doc/reference/service_integration/apps_flyer.rst:121
 msgid "In-App Events Tracking API (optional)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:126
+#: ../doc/reference/service_integration/apps_flyer.rst:123
 msgid "In-app events help you track how loyal users discover your app, and attribute them to specific campaigns/media-sources. Please take time to define the event(s) you would like to measure to allow you to track ROI (Return on Investment) and LTV (Lifetime Value)."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:128
+#: ../doc/reference/service_integration/apps_flyer.rst:125
 msgid "The ``trackEvent`` method allows you to send in-app events to AppsFlyer analytics. This method allows you to add events dynamically by adding them directly to the application code."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:139
+#: ../doc/reference/service_integration/apps_flyer.rst:136
 msgid "Rich In-App Events Tracking API (optional)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:141
+#: ../doc/reference/service_integration/apps_flyer.rst:138
 msgid "AppsFlyer’s rich in­-app events provide advertisers with the ability to track any post­-install events and attribute them to a media source and campaign. An in­-app event is comprised of an event name and event parameters."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:151
+#: ../doc/reference/service_integration/apps_flyer.rst:148
 msgid "Get AppsFlyer’s Unique Device UID (Advanced)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:153
+#: ../doc/reference/service_integration/apps_flyer.rst:150
 msgid "This API is used to get AppsFlyer’s proprietary device ID. AppsFlyer device ID is the main ID used by AppsFlyer in the Reports and APIs."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:160
+#: ../doc/reference/service_integration/apps_flyer.rst:157
 msgid "Here is an example of how to use this API:"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:172
+#: ../doc/reference/service_integration/apps_flyer.rst:169
 msgid "Accessing AppsFlyer Attribution/Conversion Data from the SDK (Deferred Deep-linking)"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:174
+#: ../doc/reference/service_integration/apps_flyer.rst:171
 msgid "AppsFlyer allows you to access the user attribution data in real time directly at the SDK level. It enables you to customize the landing page a user sees on the very first app open after a fresh app install. This is commonly referred to as “deferred” deeplinking. This is very common on the web, however there is a big challenge doing this in the mobile app ecosystem. Luckily, AppsFlyer provides support for all cases and platforms."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:176
-msgid "Read more on `Accessing AppsFlyer Attribution or Conversion Data from the SDK for iOS <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_."
+#: ../doc/reference/service_integration/apps_flyer.rst:173
+msgid "Read more on `Accessing AppsFlyer Attribution or Conversion Data from the SDK for iOS and Android <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:178
+#: ../doc/reference/service_integration/apps_flyer.rst:175
 msgid "AppsFlyer plugin will fire ``onInstallConversionDataLoaded`` event with attribution data. You must implement an event listener to receive the data."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:189
+#: ../doc/reference/service_integration/apps_flyer.rst:186
 msgid "Remove AppsFlyer from Monaca"
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:191
-#: ../doc/reference/service_integration/crittercism.rst:32
+#: ../doc/reference/service_integration/apps_flyer.rst:188
 #: ../doc/reference/service_integration/repro.rst:36
 msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins` or go to :menuselection:`Build Settings --> Cordova Plugins` for Monaca Localkit."
 msgstr ""
 
-#: ../doc/reference/service_integration/apps_flyer.rst:193
+#: ../doc/reference/service_integration/apps_flyer.rst:190
 msgid "Under :guilabel:`Enabled Plugins` section, hover over AppsFlyer plugin and click :guilabel:`Remove` button."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:5
-msgid "Crittercism"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:11
-msgid "`Crittercism <http://www.crittercism.com/>`__ is used to monitor and provide detailed analysis of your app. This service is available for both iOS and Android."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:15
-msgid "Crittercism service integration is available for all Monaca users. However, if you want to use the latest Repro plugin via `Github <https://github.com/crittercism/PhoneGap>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:18
-msgid "Add Crittercism Service to Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:22
-msgid "Click :guilabel:`Detail` button of Crittercism service."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:30
-msgid "Remove Crittercism Service from Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:34
-msgid "Look for Crittercism plugin and click :guilabel:`Remove` button."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:37
-msgid "Configure Crittercism Service in Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:39
-msgid "You are required to have the Crittercism App ID in order to use Crittercism with Monaca. In order to get this App ID, please do as follows:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:41
-msgid "Register your app with Crittercism."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:43
-msgid "You can find Crittercism App ID by going to :guilabel:`App Settings` from Crittercism App Dashboard."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:52
-msgid "After you get the Crittercism App ID, go to :menuselection:`Config --> Manage Cordova Plugins` from Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:54
-msgid "Select Crittercism's :guilabel:`Settings` button and input the Crittercism App ID."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:61
-msgid "In Crittercism、Android & iOS platforms will be managed separately. However in Monaca, it is managed as one app; therefore, App ID has to be set differently. If users want to build only one platform, they can just set the App ID for that platform."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:66
-msgid "In order to use Crittercism's APIs, except ``setLogUnhandedExceptionAsCrash`` API, users need to subscribe to Professional Plus Plan in Crittercism. Please refer to `Crittercism Pricing <http://www.crittercism.com/plans/>`__."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:70
-msgid "JavaScript Error Crash"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:72
-msgid "Unhandled JavaScript exceptions are normally reported to the Handled Exceptions area of the Crittercism server because the app itself doesn’t crash. Use the ``setLogUnhandledExceptionAsCrash`` API to request Crittercism to report unhandled JavaScript exceptions to the Crash Reports area of the Crittercism server instead."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:82
-msgid "Handled Exception"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:84
-msgid "Use the ``logHandledException`` API to track error conditions that do not necessarily cause a crash. The argument ``e`` has ``name``, ``message`` and ``stack`` as its properties."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:96
-msgid "Transaction Logs"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:98
-msgid "Transactions allow companies to track key interactions or user flows in their app such as login, account registration, and in app purchase. If a crash occurs, all in-flight transactions will automatically be crashed and reported with the crash."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:100
-msgid "Here is an example of how to show the success or failed transaction logs:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:115
-msgid "Breadcrumb"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:117
-msgid "Use the ``leaveBreadcrumb`` API to write to a chronological log that is reported with crashes and handled exceptions. A breadcrumb is a developer-defined text string (up to 140 characters) that allows developers to capture app run-time information. Example breadcrumbs may include variable values, progress through the code, user actions, or low memory warnings."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:124
-msgid "Set username"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:126
-msgid "Setting a username will allow the ability to monitor app performance for each user. Once a username is set, the Crittercism portal’s “Search by User” feature may be used to lookup a list of crashes and errors a specific user has experienced. It is recommended to set a username to a value that can be tied back to your customer support system."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:133
-msgid "For more information on how to use Crittercism, please refer to `PhoneGap Integration Guide with Crittercism <http://docs.crittercism.com/development_platforms/phonegap.html/>`_."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:138
-msgid "Show Crash Reports"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:140
-msgid "In order to check the Crash Log of your app:"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:142
-msgid "Log into Crittercism."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:144
-msgid "Select on your app and click on :guilabel:`Crash Reports`."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:152
-msgid "For further information regarding the usage of Crittercism with Monaca, please contact us `here <http://www.asial.co.jp/en/contactus.php>`_."
 msgstr ""
 
 #: ../doc/reference/service_integration/index.rst:5

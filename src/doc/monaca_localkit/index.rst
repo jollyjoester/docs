@@ -1,1 +1,1 @@
-.. _monaca_localkit_index:===========================================Localkit===========================================.. toctree::  :glob:  :maxdepth: 2  ../../../quick_start/localkit/index  overview  pairing_debugging  build_publish  troubleshooting
+.. _monaca_localkit_index:===========================================Localkit===========================================.. toctree::  :glob:  :maxdepth: 2  tutorials/index  templates_samples/index  manual/index  tips/index  faq/index  ../reference/index

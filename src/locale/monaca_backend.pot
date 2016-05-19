@@ -15,859 +15,881 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../doc/monaca_backend/control_operations.rst:5
-msgid "Backend Operations"
+#: ../doc/monaca_backend/faq/index.rst:5
+msgid "F.A.Q"
 msgstr ""
 
-#: ../doc/monaca_backend/control_operations.rst:9
-msgid "Monaca Backend has 4 main operations which can be found at Backend Control Panel as follows:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:11
-msgid ":ref:`backend_control_panel_user_management`"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:12
-msgid ":ref:`backend_control_panel_collection_management`"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:13
-msgid ":ref:`backend_control_panel_mail_template_management`"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:14
-msgid ":ref:`Push Notification <push_notification_manual>`"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:19
-msgid "User Management"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:21
-msgid "In Backend Control Panel, you can manually manage users data."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:24
-msgid "Adding a New User"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:26
-msgid "From Backend Control Panel, go to :menuselection:`User --> Add user`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:34
-msgid "Entering the new user's information such as Username, Password, and Properties. Then, click on :guilabel:`Add` button."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:42
-#: ../doc/monaca_backend/control_operations.rst:172
-msgid "Properties must be written using correct JSON notation. If the properties are not written correctly, an error will occur."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:44
-msgid "Once, you successfully added the new user. The new user record should appear in the User tab."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:54
-msgid "Updating a User's Properties"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:56
-msgid "From the User tab, select on a user's record you want to edit. Then, the selected user record's dialog will appear."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:64
-msgid "Now you can update the user's properties by using correct JSON notation. In this example, the user's age is changed from 27 to 25 and a new property (job) is added."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:72
-msgid "The properties can only be added/updated but not deleted. System properties which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) cannot be modified, except ``\"_username\"``."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:76
-msgid "Deleting a User"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:78
-msgid "From the User tab, tick the checkbox of user's record(s) you want to delete."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:80
-msgid "Then, click :guilabel:`Delete users`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:89
-#: ../doc/monaca_backend/control_operations.rst:255
-msgid "Data cannot be recovered once deleted. Therefore, please be careful when deleting the data."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:95
-msgid "Collection Management"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:98
-msgid "A Collection refers to a group of data. You can manage the appropriate data used within an application based on permissions you granted to each user. User permissions you can grant to each user are *create*, *access*, *edit*, *delete* or *read-only*."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:100
-msgid "In this section, an example of how to manage a Collection is illustrated. In this example, *_id*, *name*, *color* and *taste* are used as fields of the properties. Each row of data (such as: lemon, yellow, sour) is called *collection item*. A unit comprising of all of these items is called a *Collection*. To put it as database terminology, a Collection is a table, and Collection Items are records."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:102
-msgid "Collection item has several system properties that start with an underscore (``_``). For example, ``_id`` is, one of system properties, unique ID of an item."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:105
-msgid "_id"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:105
-msgid "name"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:105
-msgid "color"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:105
-msgid "taste"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:107
-msgid "00001abc"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:107
-msgid "apple"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:107
-msgid "red"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:107
-msgid "sweet"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:109
-msgid "00002def"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:109
-#: ../doc/monaca_backend/control_operations.rst:109
-msgid "orange"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:109
-msgid "sour-sweet"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:111
-msgid "00003ghi"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:111
-msgid "lemon"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:111
-msgid "yellow"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:111
-msgid "sour"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:116
-msgid "Creating a New Collection"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:118
-msgid "From Backend Control Panel, click on :guilabel:`Options Menu` icon. Then, choose :guilabel:`New Collection...`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:127
-msgid "Then, New Collection dialog will appear. Fill in necessary information for your Collection. Then, click :guilabel:`Add` button."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:129
-msgid "Collection name: the name of the Collection."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:130
-msgid "Collection security: Check :guilabel:`Allow JavaScript API to insert data` to allow your application to insert data into this Collection."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:131
-msgid "Default permission of new item: check :guilabel:`read` and/or :guilabel:`write` to grant all users the read and/or write permission for the new item."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:141
-msgid "Deleting a Collection"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:143
-msgid "From Backend Control Panel, right-click on the Collection you want to delete and choose :guilabel:`Delete this Collection`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:151
-msgid "Click :guilabel:`Delete` and :guilabel:`Yes` to confirm the deletion."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:154
-msgid "Adding a New Collection Item"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:156
-msgid "From Backend Control Panel, select a Collection you want to add an item. Then, click :guilabel:`Add an item`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:164
-msgid "Entering the new Collection Item's information in JSON format. Then, click on :guilabel:`Add` button."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:174
-msgid "Once, you successfully added the new item. The new item should appear in the Collection tab."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:184
-msgid "Show/Hide Columns of Collection Items"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:186
-msgid "As shown in the above screenshot, the Collection items are displayed with default columns such as Oid, Owner user, Created At, Updated At and Permission. You can show/hide other columns as follows:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:188
-msgid "From the Collection tab, go to :menuselection:`Detail Menu --> Add a column`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:196
-msgid "Then, choose the column you want to show one by one."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:204
-msgid "After you add all the columns you want to show, move them to arrange the order as you wish."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:213
-msgid "When you want to hide a column, click on its dropdown icon and choose :guilabel:`Hide this column`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:223
-msgid "Updating a Collection Item"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:225
-msgid "From the Collection tab, select on an item's record you want to edit. Then, the selected item's dialog will appear."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:227
-msgid "Now you can update this item's properties by using correct JSON notation. In this example, the item's name and taste are changed from ``lemon`` to ``banana`` and from ``sour`` to ``sweet``, respectively."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:236
-msgid "The properties can only be added/updated but not deleted. System properties which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) cannot be modified."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:240
-msgid "Deleting a Collection Item"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:242
-msgid "From the Collection tab, tick the checkbox of item's record(s) you want to delete."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:244
-msgid "Then, click :guilabel:`Delete items`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:252
-msgid "Click :guilabel:`Yes` to confirm the deletion."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:259
-msgid "Changing User Permissions of a Collection Item"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:261
-msgid "You can change the permissions for each Collection item for specific users."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:263
-msgid "There are two type of users:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:265
-msgid "Owner refers to the user who create the Collection. Owner will always be granted read and write permissions."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:267
-msgid "2 Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:269
-msgid "In order to change the user's permission for each Collection Item, please do as follows:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:271
-msgid "From the Collection tab, click on :guilabel:`Permission` icon of an item."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:279
-msgid "The Permission dialog will appear. You can change the permissions for each Collection item for specific users. If your app has more than one user, a list of users will appear in the combo box for you to choose from. By ticking the checkbox of :guilabel:`read` or :guilabel:`write` , and clicking the :guilabel:`Add` button, these new permission settings will be added for the selected user."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:287
-msgid "Click :guilabel:`Save`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:293
-msgid "Mail Template Management"
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:296
-msgid "You can edit/create the template for emails sent to your app's users."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:298
-msgid "From Backend Control Panel, select :guilabel:`Mail Template`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:300
-msgid "Then, the mail template will apear. You can then edit/add mail template."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:309
-msgid "Click :guilabel:`Apply` after you finish editing/creating the template."
-msgstr ""
-
-#: ../doc/monaca_backend/control_operations.rst:311
-msgid "Mail templates can only be edited/created from the Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:5
-msgid "Backend Control Panel"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:9
-msgid "There is a growing need for mobile apps to have user management functions which allow users to register and keep their data in a database. Monaca Backend provides these functionalities in advance as a cloud-based service that can manage users without a need for server-side development on the client's part."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:11
-msgid "Specifically, the following functions can be implemented with Monaca Backend:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:13
-msgid "management of end user data on a server."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:14
-msgid "end user registration and authentication."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:16
-msgid "This manual will show user management from the Monaca Cloud IDE."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:21
-msgid "Getting Started with Monaca Backend"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:23
-msgid "From Monaca Cloud IDE, click on :guilabel:`Cloud` icon above the file tree menu to go to the Backend Control Panel. Then, click :guilabel:`Start Using Backend` button."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:31
-msgid "The following dialog will appear. You can create a new Backend, or select an existing one which is used in a different project. Then, click :guilabel:`Apply` to attach the Backend to your project."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:39
-msgid "After attaching the Backend, your Backend Control Panel will look similar to this:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:49
-msgid "Backend Configuration"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:52
-msgid "Switching the Backend"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:54
-msgid "From Backend Control Panel, click on the gear icon and choose :guilabel:`Select a Backend`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:62
-msgid "Backend dialog will appear. You can switch to another existing backend or a new one. Then, click :guilabel:`Apply`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:72
-msgid "Security Settings"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:74
-#: ../doc/monaca_backend/control_panel.rst:108
-msgid "From Backend Control Panel, click on the gear icon and choose :guilabel:`Backend Settings`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:82
-msgid "Backend Settings dialog will appear. In this page, you can:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:84
-msgid "enable or disable automatic login, and change the expiration period."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:85
-msgid "change the minimum character length required for password and username."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:86
-msgid "and set password reset token expiration period."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:94
-msgid "Then, click :guilabel:`Apply`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:100
-msgid "Backend Management API Key"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:103
-msgid "Backend Management API key is needed when you want to use Monaca Backend Management API. This API allows you to manage your Monaca Backend from your server rather than from Monaca Cloud IDE. For more information about this, please refer to :ref:`backend_management_api_index`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:106
-msgid "In order to get Backend Management API key, please follow the instruction below:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:116
-msgid "Backend Settings dialog will appear. In this page, go to :guilabel:`Management API` and click :guilabel:`Enable`."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:124
-msgid "In this page, there are two important information such as:"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:126
-msgid "Management API Endpoint URL: This URL looks like this ``\"https://cloud.monaca.mobi/manage/json-rpc/CLOUD_PROJECT_ID\"`` in which ``CLOUD_PROJECT_ID`` is your Monaca Backend ID. This URL will be used as *JSON-RPC Request URL* (See :ref:`backend_management_api_index`)."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:127
-msgid "IP Address Range: You can specify one API key for a particular range of IP addresses. Leaving it blank is not recommended."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:136
-msgid "Click :guilabel:`Create` button to generate the API key."
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:141
-#: ../doc/monaca_backend/push_notification/overview.rst:112
-msgid "*See Also*"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:143
-msgid ":ref:`backend_api_index`"
-msgstr ""
-
-#: ../doc/monaca_backend/control_panel.rst:144
-msgid ":ref:`backend_database_memo`"
+#: ../doc/monaca_backend/faq/index.rst:7
+#: ../doc/monaca_backend/tips/index.rst:7
+#: ../doc/monaca_backend/tutorials/index.rst:7
+msgid "[TBU]"
 msgstr ""
 
 #: ../doc/monaca_backend/index.rst:5
 msgid "Backend"
 msgstr ""
 
-#: ../doc/monaca_backend/index.rst:7
+#: ../doc/monaca_backend/manual/control_operations.rst:5
+msgid "Backend Operations"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:9
+msgid "Monaca Backend has 4 main operations which can be found at Backend Control Panel as follows:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:11
+msgid ":ref:`backend_control_panel_user_management`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:12
+msgid ":ref:`backend_control_panel_collection_management`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:13
+msgid ":ref:`backend_control_panel_mail_template_management`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:14
+msgid ":ref:`Push Notification <push_notification_manual>`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:19
+msgid "User Management"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:21
+msgid "In Backend Control Panel, you can manually manage users data."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:24
+msgid "Adding a New User"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:26
+msgid "From Backend Control Panel, go to :menuselection:`User --> Add user`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:34
+msgid "Entering the new user's information such as Username, Password, and Properties. Then, click on :guilabel:`Add` button."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:42
+#: ../doc/monaca_backend/manual/control_operations.rst:172
+msgid "Properties must be written using correct JSON notation. If the properties are not written correctly, an error will occur."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:44
+msgid "Once, you successfully added the new user. The new user record should appear in the User tab."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:54
+msgid "Updating a User's Properties"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:56
+msgid "From the User tab, select on a user's record you want to edit. Then, the selected user record's dialog will appear."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:64
+msgid "Now you can update the user's properties by using correct JSON notation. In this example, the user's age is changed from 27 to 25 and a new property (job) is added."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:72
+msgid "The properties can only be added/updated but not deleted. System properties which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) cannot be modified, except ``\"_username\"``."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:76
+msgid "Deleting a User"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:78
+msgid "From the User tab, tick the checkbox of user's record(s) you want to delete."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:80
+msgid "Then, click :guilabel:`Delete users`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:89
+#: ../doc/monaca_backend/manual/control_operations.rst:255
+msgid "Data cannot be recovered once deleted. Therefore, please be careful when deleting the data."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:95
+msgid "Collection Management"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:98
+msgid "A Collection refers to a group of data. You can manage the appropriate data used within an application based on permissions you granted to each user. User permissions you can grant to each user are *create*, *access*, *edit*, *delete* or *read-only*."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:100
+msgid "In this section, an example of how to manage a Collection is illustrated. In this example, *_id*, *name*, *color* and *taste* are used as fields of the properties. Each row of data (such as: lemon, yellow, sour) is called *collection item*. A unit comprising of all of these items is called a *Collection*. To put it as database terminology, a Collection is a table, and Collection Items are records."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:102
+msgid "Collection item has several system properties that start with an underscore (``_``). For example, ``_id`` is, one of system properties, unique ID of an item."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:105
+msgid "_id"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:105
+msgid "name"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:105
+msgid "color"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:105
+msgid "taste"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:107
+msgid "00001abc"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:107
+msgid "apple"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:107
+msgid "red"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:107
+msgid "sweet"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:109
+msgid "00002def"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:109
+#: ../doc/monaca_backend/manual/control_operations.rst:109
+msgid "orange"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:109
+msgid "sour-sweet"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:111
+msgid "00003ghi"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:111
+msgid "lemon"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:111
+msgid "yellow"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:111
+msgid "sour"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:116
+msgid "Creating a New Collection"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:118
+msgid "From Backend Control Panel, click on :guilabel:`Options Menu` icon. Then, choose :guilabel:`New Collection...`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:127
+msgid "Then, New Collection dialog will appear. Fill in necessary information for your Collection. Then, click :guilabel:`Add` button."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:129
+msgid "Collection name: the name of the Collection."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:130
+msgid "Collection security: Check :guilabel:`Allow JavaScript API to insert data` to allow your application to insert data into this Collection."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:131
+msgid "Default permission of new item: check :guilabel:`read` and/or :guilabel:`write` to grant all users the read and/or write permission for the new item."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:141
+msgid "Deleting a Collection"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:143
+msgid "From Backend Control Panel, right-click on the Collection you want to delete and choose :guilabel:`Delete this Collection`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:151
+msgid "Click :guilabel:`Delete` and :guilabel:`Yes` to confirm the deletion."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:154
+msgid "Adding a New Collection Item"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:156
+msgid "From Backend Control Panel, select a Collection you want to add an item. Then, click :guilabel:`Add an item`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:164
+msgid "Entering the new Collection Item's information in JSON format. Then, click on :guilabel:`Add` button."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:174
+msgid "Once, you successfully added the new item. The new item should appear in the Collection tab."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:184
+msgid "Show/Hide Columns of Collection Items"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:186
+msgid "As shown in the above screenshot, the Collection items are displayed with default columns such as Oid, Owner user, Created At, Updated At and Permission. You can show/hide other columns as follows:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:188
+msgid "From the Collection tab, go to :menuselection:`Detail Menu --> Add a column`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:196
+msgid "Then, choose the column you want to show one by one."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:204
+msgid "After you add all the columns you want to show, move them to arrange the order as you wish."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:213
+msgid "When you want to hide a column, click on its dropdown icon and choose :guilabel:`Hide this column`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:223
+msgid "Updating a Collection Item"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:225
+msgid "From the Collection tab, select on an item's record you want to edit. Then, the selected item's dialog will appear."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:227
+msgid "Now you can update this item's properties by using correct JSON notation. In this example, the item's name and taste are changed from ``lemon`` to ``banana`` and from ``sour`` to ``sweet``, respectively."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:236
+msgid "The properties can only be added/updated but not deleted. System properties which begin with ``\"_\"`` (such as ``\"_createdAt\"``, ``\"_id\"``, ...) cannot be modified."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:240
+msgid "Deleting a Collection Item"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:242
+msgid "From the Collection tab, tick the checkbox of item's record(s) you want to delete."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:244
+msgid "Then, click :guilabel:`Delete items`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:252
+msgid "Click :guilabel:`Yes` to confirm the deletion."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:259
+msgid "Changing User Permissions of a Collection Item"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:261
+msgid "You can change the permissions for each Collection item for specific users."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:263
+msgid "There are two type of users:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:265
+msgid "Owner refers to the user who create the Collection. Owner will always be granted read and write permissions."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:267
+msgid "2 Public refers to all users who are not logged in. By default, they are not granted the read or write permissions."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:269
+msgid "In order to change the user's permission for each Collection Item, please do as follows:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:271
+msgid "From the Collection tab, click on :guilabel:`Permission` icon of an item."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:279
+msgid "The Permission dialog will appear. You can change the permissions for each Collection item for specific users. If your app has more than one user, a list of users will appear in the combo box for you to choose from. By ticking the checkbox of :guilabel:`read` or :guilabel:`write` , and clicking the :guilabel:`Add` button, these new permission settings will be added for the selected user."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:287
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:293
+msgid "Mail Template Management"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:296
+msgid "You can edit/create the template for emails sent to your app's users."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:298
+msgid "From Backend Control Panel, select :guilabel:`Mail Template`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:300
+msgid "Then, the mail template will apear. You can then edit/add mail template."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:309
+msgid "Click :guilabel:`Apply` after you finish editing/creating the template."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_operations.rst:311
+msgid "Mail templates can only be edited/created from the Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:5
+msgid "Backend Control Panel"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:9
+msgid "There is a growing need for mobile apps to have user management functions which allow users to register and keep their data in a database. Monaca Backend provides these functionalities in advance as a cloud-based service that can manage users without a need for server-side development on the client's part."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:11
+msgid "Specifically, the following functions can be implemented with Monaca Backend:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:13
+msgid "management of end user data on a server."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:14
+msgid "end user registration and authentication."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:16
+msgid "This manual will show user management from the Monaca Cloud IDE."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:21
+msgid "Getting Started with Monaca Backend"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:23
+msgid "From Monaca Cloud IDE, click on :guilabel:`Cloud` icon above the file tree menu to go to the Backend Control Panel. Then, click :guilabel:`Start Using Backend` button."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:31
+msgid "The following dialog will appear. You can create a new Backend, or select an existing one which is used in a different project. Then, click :guilabel:`Apply` to attach the Backend to your project."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:39
+msgid "After attaching the Backend, your Backend Control Panel will look similar to this:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:49
+msgid "Backend Configuration"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:52
+msgid "Switching the Backend"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:54
+msgid "From Backend Control Panel, click on the gear icon and choose :guilabel:`Select a Backend`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:62
+msgid "Backend dialog will appear. You can switch to another existing backend or a new one. Then, click :guilabel:`Apply`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:72
+msgid "Security Settings"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:74
+#: ../doc/monaca_backend/manual/control_panel.rst:108
+msgid "From Backend Control Panel, click on the gear icon and choose :guilabel:`Backend Settings`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:82
+msgid "Backend Settings dialog will appear. In this page, you can:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:84
+msgid "enable or disable automatic login, and change the expiration period."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:85
+msgid "change the minimum character length required for password and username."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:86
+msgid "and set password reset token expiration period."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:94
+msgid "Then, click :guilabel:`Apply`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:100
+msgid "Backend Management API Key"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:103
+msgid "Backend Management API key is needed when you want to use Monaca Backend Management API. This API allows you to manage your Monaca Backend from your server rather than from Monaca Cloud IDE. For more information about this, please refer to :ref:`backend_management_api_index`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:106
+msgid "In order to get Backend Management API key, please follow the instruction below:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:116
+msgid "Backend Settings dialog will appear. In this page, go to :guilabel:`Management API` and click :guilabel:`Enable`."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:124
+msgid "In this page, there are two important information such as:"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:126
+msgid "Management API Endpoint URL: This URL looks like this ``\"https://cloud.monaca.mobi/manage/json-rpc/CLOUD_PROJECT_ID\"`` in which ``CLOUD_PROJECT_ID`` is your Monaca Backend ID. This URL will be used as *JSON-RPC Request URL* (See :ref:`backend_management_api_index`)."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:127
+msgid "IP Address Range: You can specify one API key for a particular range of IP addresses. Leaving it blank is not recommended."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:136
+msgid "Click :guilabel:`Create` button to generate the API key."
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:141
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:112
+msgid "*See Also*"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:143
+msgid ":ref:`backend_api_index`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/control_panel.rst:144
+msgid ":ref:`backend_database_memo`"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/index.rst:5
+msgid "Manual"
+msgstr ""
+
+#: ../doc/monaca_backend/manual/index.rst:7
 msgid "There is a growing need for mobile apps to have user management functions which allow users to register and keep their data in a database. Monaca Backend provides these functionality in advance as a cloud-based service that can manage users without a need for server-side development on the client part."
 msgstr ""
 
-#: ../doc/monaca_backend/index.rst:9
+#: ../doc/monaca_backend/manual/index.rst:9
 msgid "Monaca Backend sample app is described in :ref:`backend_database_memo`."
 msgstr ""
 
-#: ../doc/monaca_backend/index.rst:10
+#: ../doc/monaca_backend/manual/index.rst:10
 msgid "Monaca Backend API is listed in :ref:`backend_api_index`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:5
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:5
 msgid "iOS App Push Notification Settings"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:11
-#: ../doc/monaca_backend/push_notification/gcm.rst:10
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:11
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:10
 msgid "Overview"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:13
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:13
 msgid "APNs (Apple Push Notification Service) is a push notification mechanism created by Apple to use with iOS apps."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:15
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:15
 msgid "In this page, we will show what you need to do in order to enable push notifications service for iOS applications with Monaca."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:17
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:17
 msgid "There are two types of Push certificates:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:19
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:19
 msgid "Development Push Certificate: required for Debug build."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:20
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:20
 msgid "Production Push Certificate: required for either Ad Hoc or Release build."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:22
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:22
 msgid "Please refer to :ref:`types_of_build_ios`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:24
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:24
 msgid "In order to build iOS applications and send push notifications to them, it is necessary to join the `iOS Developer Program <https://developer.apple.com/programs/ios/>`_."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:28
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:28
 msgid "Step 1: Create a Request File in Monaca Cloud IDE"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:30
-#: ../doc/monaca_backend/push_notification/apns.rst:105
-#: ../doc/monaca_backend/push_notification/gcm.rst:100
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:30
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:105
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:100
 msgid "From the Backend Panel in Monaca Cloud IDE, go to :menuselection:`Push Notification --> Backend Settings --> Push Configuration`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:38
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:38
 msgid "Under iOS section, select :guilabel:`Generate Key and Make CSR` of Development or Production Push Certificate as you prefer."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:46
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:46
 msgid "Enter a name (for the key) and email address (the Apple ID you have registered with the iOS Dev Center) and click :guilabel:`Generate`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:54
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:54
 msgid "After the CSR has been created, download it."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:58
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:58
 msgid "Step 2: Create Push Certificates in iOS Dev Center"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:60
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:60
 msgid "There are two types of Push certificates which can be issued in iOS Dev Center:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:62
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:62
 msgid "Development SSL Certificate: required for Debug build"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:63
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:63
 msgid "Production SSL Certificate: required for either Ad Hoc or Release build."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:65
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:65
 msgid "From `Apple Developer page <https://developer.apple.com/>`_, go to :guilabel:`Member Center`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:67
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:67
 msgid "Sign in using Apple ID and password you used to enroll in the iOS Developer Program. If you haven’t enrolled in this program yet, please subscribe at `here <https://developer.apple.com/programs/ios/>`_."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:69
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:69
 msgid "Go to :guilabel:`Certificates, Identifiers & Profiles`. Then, the following page will appear."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:77
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:77
 msgid "Register your App ID as an Explicit App ID and enable Push Notifications service in iOS Dev Center. Please refer to :ref:`register_appID`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:79
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:79
 msgid "Push notification can't be used if your App ID is registered as Wildcard and Push Notifications service is not enable."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:81
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:81
 msgid "From the list of App IDs, Select on your explicit App ID and click :guilabel:`Edit`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:89
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:89
 msgid "Click :guilabel:`Create Certificate` button of the type of certificate you want to create. And click :guilabel:`Continue`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:97
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:97
 msgid "Browse the CSR file you downloaded from Monaca Cloud IDE earlier and click :guilabel:`Generate`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:99
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:99
 msgid "Once, your certificate is generated, please download it. You will need to upload this file to Monaca Cloud IDE later."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:103
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:103
 msgid "Step 3: Upload Push Certificates to Monaca Cloud IDE"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/apns.rst:113
+#: ../doc/monaca_backend/manual/push_notification/apns.rst:113
 msgid "Under iOS section, select :guilabel:`Upload Certificate` of Development or Production Push Certificate appropriately. After that, the push notificaton configuration for iOS app is now completed."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:5
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:5
 msgid "Android App Push Notification Settings"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:12
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:12
 msgid "Monaca sends push notifications via GCM (Google Cloud Messaging). GCM is a mechanism offered by Google to send push notifications to Android applications."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:14
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:14
 msgid "In this page, we will show what you need to do in order to enable push notifications service for Android applications with Monaca."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:17
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:17
 msgid "You are required to have a Google account for this configuration."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:21
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:21
 msgid "Step 1: Enable GCM in the Google API Console"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:23
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:23
 msgid "In this example, we assume that you haven't registered your application to Google Developer Console yet."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:25
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:25
 msgid "Go to `Google Developer Console <https://console.developers.google.com/project>`_."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:27
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:27
 msgid "Sign in using your Google account."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:29
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:29
 msgid "Click :guilabel:`Create Project`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:31
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:31
 msgid "Input the project's name and click :guilabel:`Create`. After the project is successfully created, the project dashboard page will appear."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:39
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:39
 msgid "From the left menu, go to :menuselection:`API & auth --> APIs --> Cloud Messaging for Android`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:47
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:47
 msgid "Click :guilabel:`Enable API`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:51
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:51
 msgid "Step 2: Obtain the Sender ID and Server API Key"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:54
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:54
 msgid "Find Sender ID"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:56
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:56
 msgid "Sender ID is the Project Number which can be found in the Project Dashboard page as shown below:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:66
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:66
 msgid "Find Server API Key"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:68
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:68
 msgid "From the Project Dashboard, go to :menuselection:`APIs & auth --> Credentials`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:70
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:70
 msgid "Click :guilabel:`add credentials` and choose :guilabel:`API key`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:78
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:78
 msgid "Select :guilabel:`Server key`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:80
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:80
 msgid "Name your Server key and click :guilabel:`Create`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:89
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:89
 msgid "Then, Server API key will be created and displayed as shown below. Copy it. You will need to use this key in Monaca Cloud IDE later."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:98
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:98
 msgid "Step 3: Configure GCM Parameters in Monaca"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/gcm.rst:108
+#: ../doc/monaca_backend/manual/push_notification/gcm.rst:108
 msgid "Under Android section, input the Sender ID and Server API Key and click :guilabel:`Save`. Then, the setup processes for Android app notifications are completed."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/index.rst:5
+#: ../doc/monaca_backend/manual/push_notification/index.rst:5
 msgid "Push Notification"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:5
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:5
 msgid "Introduction to Push Notification"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:11
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:11
 msgid "What is Push Notification?"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:13
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:13
 msgid "Push notification is a type of notification sent from a server to an application. The push notification function can send the following kinds of information to applications:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:15
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:15
 msgid "*Text*: It's simply a pure text sent to an application"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:16
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:16
 msgid "*Badge*: It's a round, red, numerical icon that appears on the top right corner of an application icon."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:17
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:17
 msgid "*Sound*: It's played to alert the user of a new notification."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:18
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:18
 msgid "*JSON Data*: It's data in JSON format used by applications."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:20
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:20
 msgid "The types of push notifications you can use with Monaca are text and badges. it is not possible to send sound notifications with Monaca."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:22
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:22
 msgid "The behavior of an application upon receiving a push notification differs depending on the operating system and whether the application is opened or closed. On Android devices, a text message is displayed in the upper portion of the screen in a notification bar. On iOS devices, the push notification is displayed in a pop-up dialogue box."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:25
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:25
 msgid "How to Send Push Notification Using Monaca"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:28
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:28
 msgid "In order to send push notifications from Monaca Cloud IDE, you need to have Monaca Backend first. If you don't have one yet, please refer to :ref:`Monaca Backend Tutorial <cloud_ide_adding_backend>` or :ref:`backend_control_panel_getting_started` on how to create a Monaca Backend."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:30
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:30
 msgid "In order to send push notifications from Monaca Cloud IDE, please do as follows:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:32
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:32
 msgid "From Monaca Cloud IDE, click on :guilabel:`Cloud` icon and select :guilabel:`Push Notification`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:34
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:34
 msgid "The Push Status & History tab will appear as shown below:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:43
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:43
 msgid "From the Push Status & History tab, click :guilabel:`Push to App`. Then the following screen will appear:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:52
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:52
 msgid "Choose the intended OS. When sending a push notification to an application, it is necessary to change the settings depending on whether the application is on an Android or iOS device. For information, please refer to :ref:`android_app_push_settings` and :ref:`ios_app_push_settings`."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:54
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:54
 msgid "Fill in necessary information regarding the push notification as shown below:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:57
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:57
 msgid "Field"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:57
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:57
 msgid "Description"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:59
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:59
 msgid "Title"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:59
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:59
 msgid "Only required on Android. It will be displayed in the title of the notification area."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:61
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:61
 msgid "Message"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:61
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:61
 msgid "Required on both platforms. It will be displayed as the main content of the notification."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:63
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:63
 msgid "Badge"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:63
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:63
 msgid "Only available on iOS. If you enable this function and set the field to an Integer of 1 or greater, it will be displayed in the top right corner of the app icon."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:66
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:66
 msgid "JSON Data"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:66
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:66
 msgid "Optional. It defines the data sent to the application once the user opens the notification."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:69
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:69
 msgid "Click :guilabel:`Add` button to send the push notification. The notification will be queued and then sent immediately."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:74
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:74
 msgid "Confirmation of Push Notification Delivery"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:76
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:76
 msgid "You can monitor your push notification activities in the Push Status & History page. In this page, you can see various information related to each push notification such as:"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:78
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:78
 msgid "Platform: The platform of the recipient."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:79
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:79
 msgid "Status: Status of the push notification which can be Queued or Finished."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:80
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:80
 msgid "Date: The date and time when sending the push notification."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:81
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:81
 msgid "Devices: It displays ``Successful Distribution Number/Total Number of Distribution`` in which Successful Distribution represents the number of successfully sent notification while the Total Number of Distribution is the total number of sent notifications. (See the example in the screenshot below.)"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:82
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:82
 msgid "Message: The content of the notification."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:92
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:92
 msgid "How to Receive JSON Data"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:94
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:94
 msgid "When sending a push notification, data can be sent from the application and received by a JavaScript program. You can receive JSON data by using ``monaca.cloud.Push.setHandler`` function. Please specify callback at the first parameter of the function, and the JSON data will be passed to the callback."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:96
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:96
 msgid "The callback function will be called after the page is loaded; However, there may be some time lag. Therefore, please be cautious about this."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:98
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:98
 msgid "An example of the data sent from an application after receiving a push notification is shown below."
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:114
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:114
 msgid ":ref:`Monaca Backend APIs for Push Notifications <push_notification_api>`"
 msgstr ""
 
-#: ../doc/monaca_backend/push_notification/overview.rst:115
+#: ../doc/monaca_backend/manual/push_notification/overview.rst:115
 msgid ":ref:`Monaca Backend Management APIs for Push Notifications <push_notification_for_backend_management_api>`"
+msgstr ""
+
+#: ../doc/monaca_backend/tips/index.rst:5
+msgid "Tips & Tricks"
+msgstr ""
+
+#: ../doc/monaca_backend/tutorials/index.rst:5
+msgid "Tutorial"
 msgstr ""
 

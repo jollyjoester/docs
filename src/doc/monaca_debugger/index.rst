@@ -1,1 +1,13 @@
-.. _monaca_debugger_index:===============================Debugger===============================Monaca Debugger is a very useful tool in developing a Monaca application. By using Monaca Debugger, you can test the actual operations of the application on the device without building it. .. toctree::  :maxdepth: 2    features  installation/index  debug  troubleshooting
+===============================
+Debugger
+===============================
+
+.. toctree::
+  :glob:
+  :maxdepth: 2
+
+  tutorials/index
+  manual/index
+  tips/index
+  faq/index
+  ../reference/index
