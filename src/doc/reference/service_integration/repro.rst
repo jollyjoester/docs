@@ -17,15 +17,15 @@ Add Repro Service to Monaca
 
 1. For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` or go to :menuselection:`Build Settings --> Service Integration` for Monaca Localkit.
 
-2. Click :guilabel:`Detail` button of Repro service.
-
-  .. image:: images/repro/1.png  
-         :width: 700px
+2. Click :guilabel:`See Details` button of Repro service.
 
 3. Then, click :guilabel:`Install` button to add it into your project.
 
-  .. image:: images/repro/2.png  
-         :width: 600px
+  .. figure:: images/repro/2.png  
+      :width: 600px
+      :align: left
+      
+  .. rst-class:: clear
 
 4. You will be asked to confirm the setup. Click :guilabel:`OK` to start the installation.
 
@@ -35,10 +35,13 @@ Remove Repro Service from Monaca
 
 1. For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins` or go to :menuselection:`Build Settings --> Cordova Plugins` for Monaca Localkit.
 
-2. Look for Repro plugin and click :guilabel:`Remove` button.
+2. Look for Repro plugin and click :guilabel:`Disable` button.
 
-  .. image:: images/repro/3.png  
-         :width: 600px
+  .. figure:: images/repro/3.png  
+      :width: 600px
+      :align: left
+
+  .. rst-class:: clear
 
 Configure Repro Service in Monaca
 ========================================
@@ -49,8 +52,11 @@ You are required to have the app's token in order to use Repro. In order to get 
 
 2. Find the app's token by going to :menuselection:`Settings --> Setup SDK`.
 
-  .. image:: images/repro/4.png  
-         :width: 700px
+  .. figure:: images/repro/4.png  
+      :width: 700px
+      :align: left
+
+  .. rst-class:: clear
 
 3. After you get the app's token, replace it in the following snippet of ``onDeviceReady`` function. Then, add this snippet to your project. 
 
@@ -78,7 +84,9 @@ Usage
 3. Start using your app for a few seconds, then press :guilabel:`Home` button. Then, the recorded video will be uploaded to Repro server after your app go to the background.
 
   .. figure:: images/repro/5.png  
-         :width: 250px
-         :align: center
+      :width: 250px
+      :align: left
+
+  .. rst-class:: clear
 
 4. Repro will send you an email with a link to the recorded video.

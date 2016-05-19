@@ -89,7 +89,7 @@ Supported Platforms
 -  Windows\*
 -  Browser
 
-\* *These platforms do not support ``FileReader.readAsArrayBuffer`` or ``FileWriter.write(blob)``.*
+\*These platforms do not support ``FileReader.readAsArrayBuffer`` or ``FileWriter.write(blob)``.
 
 API Reference
 =========================================

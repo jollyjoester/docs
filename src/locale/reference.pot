@@ -12480,7 +12480,7 @@ msgid "Windows\\*"
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file/index.rst:92
-msgid "\\* *These platforms do not support ``FileReader.readAsArrayBuffer`` or ``FileWriter.write(blob)``.*"
+msgid "\\*These platforms do not support ``FileReader.readAsArrayBuffer`` or ``FileWriter.write(blob)``."
 msgstr ""
 
 #: ../doc/reference/cordova_5.2/file/index.rst:103
@@ -17289,6 +17289,178 @@ msgstr ""
 msgid "The device is iOS device if the return value is *true*."
 msgstr ""
 
+#: ../doc/reference/service_integration/apps_flyer.rst:5
+msgid "AppsFlyer"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:7
+msgid "`AppsFlyer <https://www.appsflyer.com/overview/>`_ is the market leader in mobile advertising attribution and analytics, helping marketers to pinpoint their targeting, optimize their ad spend and boost their ROI (Return on Investment)."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:9
+msgid "AppsFlyer allows users to monitor and track application installations, downloads, and conversions. The AppsFlyer API allows developers to access and integrate the functionality of AppsFlyer with other applications."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:12
+msgid "The AppsFlyer service integration is available for all Monaca users. However, if you want to use the latest AppsFlyer plugin via `Github <https://github.com/monaca-plugins/com.appsflyer.phonegap.plugins.appsflyer>`_, you can :ref:`import <import_cordova_plugin>` it. In order to import this plugin, you need to subscribe to a valid plan. Please refer to `Pricing <https://monaca.mobi/en/pricing>`_."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:16
+msgid "Add AppsFlyer to Monaca"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:18
+#: ../doc/reference/service_integration/crittercism.rst:20
+#: ../doc/reference/service_integration/repro.rst:18
+msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` or go to :menuselection:`Build Settings --> Service Integration` for Monaca Localkit."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:20
+msgid "Click :guilabel:`See Details` button of AppsFlyer service."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:22
+#: ../doc/reference/service_integration/crittercism.rst:24
+#: ../doc/reference/service_integration/repro.rst:22
+msgid "Then, click :guilabel:`Install` button to add it into your project."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:30
+#: ../doc/reference/service_integration/crittercism.rst:26
+#: ../doc/reference/service_integration/repro.rst:30
+msgid "You will be asked to confirm the setup. Click :guilabel:`OK` to start the installation."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:34
+msgid "Configure AppsFlyer in Monaca"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:36
+msgid "After adding AppsFlyer to your Monaca project, you need to make some configurations before starting to use the plugin. Please follow the configuration below:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:39
+msgid "Add the following xml to your :file:`config.xml` in the root directory of your ``www`` folder:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:57
+msgid "For Android, add the following xml to your :file:`AndroidManifest.xml`:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:65
+msgid "Add new app on AppsFlyer dashboard. Make sure that the value in the manifest and the value entered in the dashboard are identical. If you want to track installations for Android-Out-Of-Store Applications, please take a look `here <https://support.appsflyer.com/hc/en-us/articles/207447023-Tracking-Installs-for-Out-Of-Store-Applications>`_."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:68
+msgid "Add following lines to your code to initialize the tracking with your own AppsFlyer dev key:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:85
+msgid "Test your app for `Android <https://support.appsflyer.com/hc/en-us/articles/207032136-Testing-AppsFlyer-Android-SDK-Integration-Before-Submitting-to-Google-Play>`_/`iOS <https://support.appsflyer.com/hc/en-us/articles/207032046-Testing-AppsFlyer-iOS-SDK-Integration-Before-Submitting-to-the-App-Store->`_ before submitting to the Google Play/App Store."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:87
+msgid "For more information on how to use AppsFlyer, please refer to `AppsFlyer Documentation <https://support.appsflyer.com/hc/en-us>`_."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:91
+#: ../doc/reference/service_integration/crittercism.rst:64
+#: ../doc/reference/service_integration/repro.rst:76
+#: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
+#: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
+msgid "Usage"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:93
+msgid "Once, you have successfully configured AppsFlyer, the plugin is now ready to be used. In this section, we will briefly describe some AppsFly APIs."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:97
+msgid "Set Customer User ID (Advanced)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:99
+msgid "Setting your own custom ID will enable you to cross-reference your own unique ID with AppsFlyer’s user ID and the other devices’ IDs. This ID will be available at AppsFlyer CSV reports along with postbacks APIs for cross-referencing with you internal IDs."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:106
+msgid "The ID must be set during the first launch of the app at the SDK initialization. The best practice is to call to this API during deviceready event if possible."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:110
+msgid "Set Currency Code (Optional)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:112
+msgid "By default, the currency code is set to be ``USD``. You can change it by using the following API:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:120
+msgid "For all acceptable currency codes, please refer to `ISO 4217 Currency Codes <http://www.xe.com/iso4217.php>`_."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:124
+msgid "In-App Events Tracking API (optional)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:126
+msgid "In-app events help you track how loyal users discover your app, and attribute them to specific campaigns/media-sources. Please take time to define the event(s) you would like to measure to allow you to track ROI (Return on Investment) and LTV (Lifetime Value)."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:128
+msgid "The ``trackEvent`` method allows you to send in-app events to AppsFlyer analytics. This method allows you to add events dynamically by adding them directly to the application code."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:139
+msgid "Rich In-App Events Tracking API (optional)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:141
+msgid "AppsFlyer’s rich in­-app events provide advertisers with the ability to track any post­-install events and attribute them to a media source and campaign. An in­-app event is comprised of an event name and event parameters."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:151
+msgid "Get AppsFlyer’s Unique Device UID (Advanced)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:153
+msgid "This API is used to get AppsFlyer’s proprietary device ID. AppsFlyer device ID is the main ID used by AppsFlyer in the Reports and APIs."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:160
+msgid "Here is an example of how to use this API:"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:172
+msgid "Accessing AppsFlyer Attribution/Conversion Data from the SDK (Deferred Deep-linking)"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:174
+msgid "AppsFlyer allows you to access the user attribution data in real time directly at the SDK level. It enables you to customize the landing page a user sees on the very first app open after a fresh app install. This is commonly referred to as “deferred” deeplinking. This is very common on the web, however there is a big challenge doing this in the mobile app ecosystem. Luckily, AppsFlyer provides support for all cases and platforms."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:176
+msgid "Read more on `Accessing AppsFlyer Attribution or Conversion Data from the SDK for iOS <https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-Deferred-Deeplinking->`_."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:178
+msgid "AppsFlyer plugin will fire ``onInstallConversionDataLoaded`` event with attribution data. You must implement an event listener to receive the data."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:189
+msgid "Remove AppsFlyer from Monaca"
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:191
+#: ../doc/reference/service_integration/crittercism.rst:32
+#: ../doc/reference/service_integration/repro.rst:36
+msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins` or go to :menuselection:`Build Settings --> Cordova Plugins` for Monaca Localkit."
+msgstr ""
+
+#: ../doc/reference/service_integration/apps_flyer.rst:193
+msgid "Under :guilabel:`Enabled Plugins` section, hover over AppsFlyer plugin and click :guilabel:`Remove` button."
+msgstr ""
+
 #: ../doc/reference/service_integration/crittercism.rst:5
 msgid "Crittercism"
 msgstr ""
@@ -17305,32 +17477,12 @@ msgstr ""
 msgid "Add Crittercism Service to Monaca"
 msgstr ""
 
-#: ../doc/reference/service_integration/crittercism.rst:20
-#: ../doc/reference/service_integration/repro.rst:18
-msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Service Integration` or go to :menuselection:`Build Settings --> Service Integration` for Monaca Localkit."
-msgstr ""
-
 #: ../doc/reference/service_integration/crittercism.rst:22
 msgid "Click :guilabel:`Detail` button of Crittercism service."
 msgstr ""
 
-#: ../doc/reference/service_integration/crittercism.rst:24
-#: ../doc/reference/service_integration/repro.rst:25
-msgid "Then, click :guilabel:`Install` button to add it into your project."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:26
-#: ../doc/reference/service_integration/repro.rst:30
-msgid "You will be asked to confirm the setup. Click :guilabel:`OK` to start the installation."
-msgstr ""
-
 #: ../doc/reference/service_integration/crittercism.rst:30
 msgid "Remove Crittercism Service from Monaca"
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:32
-#: ../doc/reference/service_integration/repro.rst:36
-msgid "For Monaca Cloud IDE, go to :menuselection:`Config --> Manage Cordova Plugins` or go to :menuselection:`Build Settings --> Cordova Plugins` for Monaca Localkit."
 msgstr ""
 
 #: ../doc/reference/service_integration/crittercism.rst:34
@@ -17363,13 +17515,6 @@ msgstr ""
 
 #: ../doc/reference/service_integration/crittercism.rst:61
 msgid "In Crittercism、Android & iOS platforms will be managed separately. However in Monaca, it is managed as one app; therefore, App ID has to be set differently. If users want to build only one platform, they can just set the App ID for that platform."
-msgstr ""
-
-#: ../doc/reference/service_integration/crittercism.rst:64
-#: ../doc/reference/service_integration/repro.rst:70
-#: ../doc/reference/third_party_phonegap/in-app_updater.rst:23
-#: ../doc/reference/third_party_phonegap/sqlcipher.rst:30
-msgid "Usage"
 msgstr ""
 
 #: ../doc/reference/service_integration/crittercism.rst:66
@@ -17469,7 +17614,7 @@ msgid "Add Repro Service to Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/repro.rst:20
-msgid "Click :guilabel:`Detail` button of Repro service."
+msgid "Click :guilabel:`See Details` button of Repro service."
 msgstr ""
 
 #: ../doc/reference/service_integration/repro.rst:34
@@ -17477,50 +17622,50 @@ msgid "Remove Repro Service from Monaca"
 msgstr ""
 
 #: ../doc/reference/service_integration/repro.rst:38
-msgid "Look for Repro plugin and click :guilabel:`Remove` button."
+msgid "Look for Repro plugin and click :guilabel:`Disable` button."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:44
+#: ../doc/reference/service_integration/repro.rst:47
 msgid "Configure Repro Service in Monaca"
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:46
+#: ../doc/reference/service_integration/repro.rst:49
 msgid "You are required to have the app's token in order to use Repro. In order to get the token, please do as follows:"
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:48
+#: ../doc/reference/service_integration/repro.rst:51
 msgid "Register your app with Repro."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:50
+#: ../doc/reference/service_integration/repro.rst:53
 msgid "Find the app's token by going to :menuselection:`Settings --> Setup SDK`."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:55
+#: ../doc/reference/service_integration/repro.rst:61
 msgid "After you get the app's token, replace it in the following snippet of ``onDeviceReady`` function. Then, add this snippet to your project."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:66
+#: ../doc/reference/service_integration/repro.rst:72
 msgid "For more information on how to use Repro, please refer to `Repro Documentation <http://doc.repro.io/>`__."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:72
+#: ../doc/reference/service_integration/repro.rst:78
 msgid "You need to run your application on a real device for Repro to record your action."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:74
+#: ../doc/reference/service_integration/repro.rst:80
 msgid "Build your Monaca app. Please refer to :ref:`building_monaca_for_ios`."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:76
+#: ../doc/reference/service_integration/repro.rst:82
 msgid "Install the built app on a real device."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:78
+#: ../doc/reference/service_integration/repro.rst:84
 msgid "Start using your app for a few seconds, then press :guilabel:`Home` button. Then, the recorded video will be uploaded to Repro server after your app go to the background."
 msgstr ""
 
-#: ../doc/reference/service_integration/repro.rst:84
+#: ../doc/reference/service_integration/repro.rst:92
 msgid "Repro will send you an email with a link to the recorded video."
 msgstr ""
 

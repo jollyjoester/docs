@@ -126,7 +126,7 @@ iOS Quirks
 
 -  iOS can't detect the type of cellular network connection.
 
--  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
+  -  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Windows Phone Quirks
 ~~~~~~~~~~~~~~~~~~~~
@@ -135,7 +135,7 @@ Windows Phone Quirks
 
 -  Windows Phone can't detect the type of cellular network connection.
 
--  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
+  -  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Windows Quirks
 ~~~~~~~~~~~~~~
@@ -147,14 +147,14 @@ Tizen Quirks
 
 -  Tizen can only detect a WiFi or cellular connection.
 
--  ``navigator.connection.type`` is set to ``Connection.CELL_2G`` for all cellular data.
+  -  ``navigator.connection.type`` is set to ``Connection.CELL_2G`` for all cellular data.
 
 Firefox OS Quirks
 ~~~~~~~~~~~~~~~~~
 
 -  Firefox OS can't detect the type of cellular network connection.
 
--  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
+  -  ``navigator.connection.type`` is set to ``Connection.CELL`` for all cellular data.
 
 Browser Quirks
 ~~~~~~~~~~~~~~

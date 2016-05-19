@@ -255,13 +255,13 @@ Adds a listener for an event from the ``InAppBrowser``.
 
 -  **eventname**: the event to listen for *(String)*
 
--  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
+  -  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
 
--  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
+  -  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
 
--  **loaderror**: event fires when the ``InAppBrowser`` encounters an error when loading a URL.
+  -  **loaderror**: event fires when the ``InAppBrowser`` encounters an error when loading a URL.
 
--  **exit**: event fires when the ``InAppBrowser`` window is closed.
+  -  **exit**: event fires when the ``InAppBrowser`` window is closed.
 
 -  **callback**: the function that executes when the event fires. The function is passed an ``InAppBrowserEvent`` object as a parameter.
 
@@ -312,13 +312,13 @@ removeEventListener
 
 -  **eventname**: the event to stop listening for. *(String)*
 
--  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
+  -  **loadstart**: event fires when the ``InAppBrowser`` starts to load a URL.
 
--  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
+  -  **loadstop**: event fires when the ``InAppBrowser`` finishes loading a URL.
 
--  **loaderror**: event fires when the ``InAppBrowser`` encounters an error loading a URL.
+  -  **loaderror**: event fires when the ``InAppBrowser`` encounters an error loading a URL.
 
--  **exit**: event fires when the ``InAppBrowser`` window is closed.
+  -  **exit**: event fires when the ``InAppBrowser`` window is closed.
 
 -  **callback**: the function to execute when the event fires. The function is passed an ``InAppBrowserEvent`` object.
 
@@ -414,9 +414,9 @@ Injects JavaScript code into the ``InAppBrowser`` window
 
 -  **injectDetails**: details of the script to run, specifying either a ``file`` or ``code`` key. *(Object)*
 
--  **file**: URL of the script to inject.
+  -  **file**: URL of the script to inject.
 
--  **code**: Text of the script to inject.
+  -  **code**: Text of the script to inject.
 
 -  **callback**: the function that executes after the JavaScript code is injected.
 
@@ -464,9 +464,9 @@ Injects CSS into the ``InAppBrowser`` window.
 
 -  **injectDetails**: details of the script to run, specifying either a ``file`` or ``code`` key. *(Object)*
 
--  **file**: URL of the stylesheet to inject.
+  -  **file**: URL of the stylesheet to inject.
 
--  **code**: Text of the stylesheet to inject.
+  -  **code**: Text of the stylesheet to inject.
 
 -  **callback**: the function that executes after the CSS is injected.
 
